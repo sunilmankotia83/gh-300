@@ -9,9 +9,9 @@ B. By eliminating the need to write or run tests altogether
 C. By deploying unfinished features directly to production environments  
 D. By authoring business documentation instead of tests  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-**Explanation:**  
+</details> **Explanation:**  
 In **test-driven development (TDD)**, you write tests first, then implement code to make them pass. Copilot can help by **drafting test templates and stubs ahead of the implementation**, based on a natural-language description of the desired behavior or on a partial interface. This supports the **red–green–refactor** loop by speeding up the creation of initial failing tests.
 
 **Tips and Tricks:**  
@@ -39,9 +39,9 @@ B. By removing the need to create or run any tests at all
 C. By guaranteeing that all tests always pass without failures  
 D. By automatically deploying test results and code changes to production  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot improves productivity in testing by **quickly suggesting boilerplate test structures** including test methods, setup/teardown, fixtures, and initial assertions. This allows developers to focus more on meaningful test scenarios and edge cases instead of hand-writing repetitive scaffolding.
 
 **Tips and Tricks:**  
@@ -69,9 +69,9 @@ B. Running payroll operations and financial processing
 C. Writing business contracts and legal agreements  
 D. Performing manual QA testing in staging environments  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot helps developers **quickly prototype ideas** by turning high-level descriptions into **small, runnable code drafts** for example, simple routes, handlers, UI components, or scripts. This lets teams explore design options and validate feasibility more quickly before investing in full production-quality implementations.
 
 **Tips and Tricks:**  
@@ -99,9 +99,9 @@ B. Drafting business proposals and product strategy documents
 C. Running HR payroll and back-office operations  
 D. Designing marketing ads and campaign slogans  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot boosts productivity in testing by **writing unit test templates and stubs** based on surrounding code, function signatures, or natural-language prompts. It can propose test method names, inputs, and basic assertions, reducing the manual effort needed to set up tests. Non-technical tasks like business proposals, HR, or marketing are outside Copilot’s role in this context.
 
 **Tips and Tricks:**  
@@ -131,9 +131,9 @@ B. Only performance and load tests for benchmarking
 C. **Unit tests and integration test scaffolding**  
 D. Legal compliance tests and regulatory assessments  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot can generate **unit tests** and provide **scaffolding for integration tests**, including setup/teardown, fixtures, and initial assertions, based on your code and prompts. It does not specialize in end-to-end automation, performance testing, or legal compliance testing; those areas depend on your existing tools and processes.
 
 **Tips and Tricks:**  
@@ -163,9 +163,9 @@ B. **Validate and refine the generated tests**
 C. Assume that Copilot has achieved 100% functional and edge-case coverage  
 D. Ignore the generated tests entirely and always rewrite them from scratch  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**  
 After Copilot generates test cases, developers should **validate and refine** them. This includes checking that assertions are meaningful, naming and structure follow project conventions, adding missing edge cases, and measuring coverage. Copilot’s tests are **starting points**, not guarantees of correctness or completeness.
 
 **Tips and Tricks:**  
@@ -195,9 +195,9 @@ B. Suggesting assertions and example inputs for tests
 C. **Running test frameworks automatically and reporting pass/fail status**  
 D. Assisting in TDD by helping you write tests before implementation  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot assists with testing by **generating test templates**, suggesting **assertions**, and supporting **TDD** workflows through test-first prompts. It does **not** run test frameworks or execute test suites; those responsibilities remain with your IDE, CLI, or CI system.
 
 **Tips and Tricks:**  
@@ -227,9 +227,9 @@ B. **By suggesting potential fixes or alternative implementations**
 C. By replacing QA teams and eliminating the need for testing  
 D. By automatically executing all test suites and deployment pipelines  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot can speed up debugging by using **Copilot Chat** to analyze error messages, stack traces, and problematic code, then suggesting **potential fixes or alternative implementations**. This reduces trial-and-error and gives you concrete options to explore. You still remain responsible for running tests and validating behavior.
 
 **Tips and Tricks:**  
@@ -258,9 +258,9 @@ B. **Generating code that follows best practices like input validation**
 C. Writing vague, incomplete, or ambiguous code with no validation  
 D. Bypassing established security libraries and controls  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot can support **secure coding practices** when you prompt it to include patterns such as **input validation, error handling, and safe secret management**. You can, for example, ask it to validate incoming data, use allowlists, and read secrets from environment variables or secret stores, rather than hard-coding them.
 
 **Tips and Tricks:**  
@@ -289,9 +289,9 @@ B. **By generating code suggestions across multiple files using workspace contex
 C. By running full project deployments and infrastructure changes  
 D. By replacing all human developers on the project  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**  
 On large projects, Copilot uses **workspace context** including open files, symbols, and comments to generate **coherent suggestions across multiple files**. It can reference related modules, reuse existing types and helpers, and keep you in flow as you work across different parts of the codebase.
 
 **Tips and Tricks:**  
