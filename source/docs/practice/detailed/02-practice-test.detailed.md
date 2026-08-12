@@ -1,845 +1,857 @@
-# Detailed Practice Test 01 - Answer Sheet & Explanation
+# Detailed Practice Test 02 - Answer Sheet & Explanation
 
-**Question:** [001]  
-Which Microsoft ethical AI principle is aimed at ensuring AI systems treat all people equally?
+**Question:** [031]  
+Which GitHub Copilot plan is available at no cost to verified students, teachers, and maintainers of popular open-source projects?
 
 **Options:**  
-A. Inclusiveness  
-B. Privacy and Security  
-C. Fairness  
-D. Reliability and Safety
+A. GitHub Copilot Free  
+B. GitHub Copilot Pro  
+C. GitHub Copilot Business  
+D. GitHub Copilot Enterprise
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
+
+**Explanation:**   
+GitHub states that **verified** **students**, **teachers**, and **open-source maintainers** can get **Copilot Pro** for free. This is documented on the Copilot plans and licensing pages and the “Get free access” how-to. **The no-cost benefit grants Copilot Pro after verification as a student, teacher, or eligible open-source maintainer; activation is done from Account, then Billing.** **Copilot Free** is a separate, limited tier and is **not** the education/maintainer benefit.
+
+**Tips and Tricks:**  
+- If **license** is needed for a **verified** **student/teacher/maintainer**, choose **Copilot Pro** (not **Free**). If the stem mentions **org controls**, **SSO**, or **audit logs**, that points to **Business/Enterprise**, not this question.  
+- When a question contrasts **Copilot Free** and **Copilot Pro**, remember the **verification** requirement aligns with **Pro at no cost**; without verification, users remain on **Free** with **limited features**.
+
+> [!IMPORTANT]  
+> GH-300 items often check whether you can separate **Copilot Pro’s free eligibility** from other plans. The free offer applies only to **verified** **students**, **teachers**, and **maintainers** of popular open-source projects. Confusing it with **Copilot Free** or organizational plans like **Business/Enterprise** is a common mistake.
+
+**Source:**  
+[Getting free access to GitHub Copilot Pro](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro) (GitHub Docs)  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Getting started with a Copilot plan](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan) (GitHub Docs)  
+[Use GitHub Copilot Free in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-free-plan) (Microsoft Learn)
+
+**Question:** [032]  
+Which GitHub Copilot plan is designed for organizations that require **license management**, **policy controls**, and **usage reporting** but do not need **enterprise integrations**?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
+
+**Explanation:**   
+The **GitHub Copilot Business** plan targets organizations that need **centralized license management**, **policy control**, and **usage reporting**. It is positioned below **Copilot Enterprise** for teams that do **not** require **enterprise integrations**. **Note:** Copilot **Business includes audit logs** for organizational visibility; “do not need enterprise integrations” refers to features beyond Business, not to the absence of audit logs.
+
+**Tips and Tricks:**  
+- Look for keywords like **organization**, **licenses**, **policies**, **usage reporting**  these align with **Copilot Business**.  
+- If the stem highlights **SSO**, **enterprise-wide integrations**, or **advanced governance** across multiple orgs, that indicates **Copilot Enterprise** instead.
+
+> [!IMPORTANT]  
+> **Copilot Business** provides **policy controls**, **content exclusion**, **usage reporting**, and **audit logs** for organizations. Choose **Enterprise** only when the scenario requires **enterprise-level integrations** and broader governance beyond an individual organization.
+
+**Source:**  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Reviewing audit logs for GitHub Copilot Business](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)  
+[GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies) (GitHub Docs)  
+[Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion) (GitHub Docs)
+
+**Question:** [033]  
+Which GitHub Copilot plan provides enterprise features like audit logs, SSO integration, and advanced compliance capabilities?
+
+**Options:**  
+A. GitHub Copilot Free  
+B. GitHub Copilot Pro  
+C. GitHub Copilot Business  
+D. GitHub Copilot Enterprise
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
+
+</details> 
+
+**Explanation:**   
+**GitHub Copilot Enterprise** includes **enterprise-grade integrations**, **SSO** via your organization’s or enterprise account’s identity provider, and **advanced policy and compliance controls** across organizations. **Copilot Business** also has **audit logs**, the Enterprise tier adds broader governance and enterprise-level capabilities.
+
+**Tips and Tricks:**  
+- If the stem highlights **SSO with an IdP**, **enterprise compliance reporting**, or **centralized enterprise policies**, choose **Copilot Enterprise**.  
+- If the stem focuses only on **license management**, **policy controls**, and **usage reporting** at the org level, that fits **Copilot Business**, not Enterprise.  
+- **SSO is a GitHub Enterprise or organization capability, not exclusive to any Copilot plan**, in exams, SSO plus enterprise-wide governance usually implies **Copilot Enterprise**, but SSO itself belongs to the GitHub Enterprise layer.
+
+> [!IMPORTANT]  
+> Pick **Copilot Enterprise** when the scenario requires **enterprise-wide identity integration (SSO)** and **advanced governance**. **Audit logs** exist in **Business** too, so look for **SSO** and **enterprise compliance** to distinguish **Enterprise** from **Business**.
+
+**Source:**  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choosing your enterprise's plan for GitHub Copilot](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[Managing policies and features for GitHub Copilot in your enterprise](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies) (GitHub Docs)  
+[About authentication with single sign-on](https://docs.github.com/en/enterprise-cloud%40latest/authentication/authenticating-with-single-sign-on/about-authentication-with-single-sign-on) (GitHub Docs)  
+[Reviewing audit logs for GitHub Copilot Business](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)
+
+**Question:** [034]  
+Which GitHub Copilot feature lets developers ask **natural-language** questions about code, get **explanations**, and generate suggestions directly within **supported IDEs**?
+
+**Options:**  
+A. GitHub Copilot Chat  
+B. GitHub Copilot coding agent  
+C. Context exclusions  
+D. GitHub Copilot Enterprise
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
+
+</details> 
+
+**Explanation:**   
+**GitHub Copilot Chat** is the conversational interface for **natural-language** Q&A about code, **explanations**, troubleshooting, and task guidance inside **supported IDEs** and on GitHub. It supports prompts such as **“explain this code,” “generate unit tests,” “why is this failing,”** and suggests relevant fixes and examples.
+
+**Tips and Tricks:**  
+- Prompts about **explaining code**, **writing tests**, or **fixing errors in the IDE** indicate **Copilot Chat**, not the **coding agent** which focuses on multi step task execution, not **Enterprise** which is a plan, and not **context exclusions** which are policy controls.  
+- Think surfaces, when interaction happens **in the IDE or on GitHub**, choose **Copilot Chat**.
+
+> [!IMPORTANT]  
+> **Copilot Chat** spans multiple surfaces including **VS Code**, **Visual Studio**, **JetBrains IDEs**, and **GitHub.com**. If the scenario is interactive Q&A about code in a developer environment, select **Copilot Chat**.
+
+**Source:**  
+[About GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/chat) (GitHub Docs)  
+[Ask GitHub Copilot questions in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide) (GitHub Docs)  
+[GitHub Copilot features](https://docs.github.com/en/copilot/get-started/features) (GitHub Docs)  
+[Introduction to GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/) (Microsoft Learn)
+
+**Question:** [035]  
+Which GitHub Copilot feature helps organizations prevent **sensitive data** such as **secrets**, **credentials**, or **proprietary code** from being used as context in AI suggestions, available on **Copilot Business** and **Copilot Enterprise**?
+
+**Options:**  
+A. GitHub Copilot Chat  
+B. Content exclusion  
+C. GitHub Copilot Pro  
+D. Coding agent
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**Content exclusion** lets administrators define files, repositories, or patterns that Copilot must not use as context during generation, protecting **secrets**, **credentials**, and **proprietary code**. It is available for **Copilot Business** and **Copilot Enterprise**.
+
+**Tips and Tricks:**  
+- Map **policy control that limits model context** to **Content exclusion**, not **Chat**, not **Pro**, not **coding agent**.  
+- If the stem emphasizes **preventing internal code or secrets from influencing suggestions**, choose **Content exclusion**.
+
+> [!IMPORTANT]  
+> **Content exclusion** controls **what Copilot can see**, not the general ability to generate code. Use it with **organization or enterprise policies** to reduce inadvertent data exposure.
+
+**Source:**  
+[Content exclusion for GitHub Copilot](https://docs.github.com/en/copilot/concepts/context/content-exclusion) (GitHub Docs)  
+[Configure content exclusion for your organization](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot) (GitHub Docs)  
+[GitHub Copilot policies to control availability of features and models](https://docs.github.com/en/copilot/concepts/policies) (GitHub Docs)  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)
+
+**Question:** [036]  
+Which GitHub Copilot plan is most suitable for enterprises that need centralized management, audit logs, SSO, and advanced compliance reporting?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
 </details> 
 
-**Explanation:**  
-**Fairness** requires AI systems to treat people equitably, avoid discriminatory outcomes, and minimize bias in data, modeling, and evaluation. Microsoft guidance stresses diverse datasets, bias measurement, mitigation techniques, and continuous monitoring to uphold **Fairness**.
+**Explanation:**   
+**GitHub Copilot Enterprise** is designed for organizations requiring enterprise-grade **compliance**, **governance**, and **security**. For **GitHub Enterprise Cloud** organizations with **SSO** configured, Copilot Enterprise **uses your org’s SSO** for access control, and surfaces **Copilot events in audit activity**, while adding **enterprise integrations** and **centralized management**. **Premium Support** with **SLAs** is a **separate, paid** offering for GitHub Enterprise customers, it is **not bundled** with Copilot Enterprise.
 
 **Tips and Tricks:**  
-- If the stem mentions **equal treatment**, **bias mitigation**, or **equitable outcomes**, choose **Fairness**.  
-- **Inclusiveness** focuses on accessible design, **Reliability and Safety** on dependable operation, **Privacy and Security** on protecting data.
+- **Business** includes **policy controls**, **usage reporting**, and **audit logs**, choose **Enterprise** when scenarios require **enterprise integrations**, **GitHub.com repository-aware chat**, or **organization-wide governance**.  
+- Treat **SSO** as a **GitHub Enterprise Cloud organization capability** that Copilot Enterprise **relies on**, not a Copilot-plan-exclusive feature.  
+- Remember that **Premium Support with SLAs** is **purchased separately** for Enterprise customers, not included in any Copilot plan.
 
 > [!IMPORTANT]  
-> **Fairness** addresses harms from **biased data** and **uneven model performance** across groups, use practices like **dataset balance checks**, **bias metrics** (for example, demographic parity, equal opportunity), and **mitigation** (for example, rebalancing, threshold tuning), combined with **human review** and ongoing **monitoring** in production.
+> Map cues like **enterprise integrations**, **SSO in an Enterprise Cloud org**, **advanced compliance and governance**, and **centralized enterprise control** to **Copilot Enterprise**. Distinguish tiers by noting that **audit logs exist in Business**, while **Enterprise** layers on **enterprise-only integrations** and **GitHub.com context features**.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Fairness in machine learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Reviewing audit logs for GitHub Copilot Business](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
 
-**Question:** [002]  
-Which types of prompts or code snippets might be flagged by the GitHub Copilot toxicity filter? (Choose two)
-
-**Options:**  
-A. Sexually explicit content  
-B. Code with logical errors  
-C. Hate speech or discriminatory language  
-D. Strong personal opinions in comments
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, C
-
-</details> 
-
-**Explanation:**  
-Copilot applies **content filters** to reduce harmful or inappropriate material. Prompts or completions containing **sexually explicit content** or **hate speech/discriminatory language** may be blocked, while **logical errors** and **personal opinions** are not toxicity categories.
-
-**Tips and Tricks:**  
-- Map **toxicity** to **sexual content** and **hate speech**, not to **code quality issues** or **opinions**.  
-- Filters apply to both **input** and **output**, they complement other governance controls.
-
-> [!IMPORTANT]  
-> Content filters focus on blocking **harmful language** categories, they are separate from **content exclusion**, code scanning, or license policy, and they do not correct **logic** or **style**.
-
-**Source:**  
-[Responsible use of GitHub Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion) (GitHub Docs)  
-[Responsible use of GitHub Copilot Chat in GitHub](https://docs.github.com/en/enterprise-cloud%40latest/copilot/responsible-use/chat-in-github) (GitHub Docs)  
-[How we evaluate models for GitHub Copilot](https://github.blog/ai-and-ml/generative-ai/how-we-evaluate-models-for-github-copilot/) (GitHub Blog)  
-[What is Responsible AI](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)
-
-**Question:** [003]  
-Which Responsible AI principle is focused on ensuring people remain accountable for the deployment and impact of AI systems?
+**Question:** [037]  
+Which GitHub Copilot plan allows organization administrators to manage **licenses**, configure **content (context) exclusion** policies, and view **usage reporting**?
 
 **Options:**  
-A. Transparency  
-B. Accountability  
-C. Inclusiveness  
-D. Reliability and Safety
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
 </details> 
 
-**Explanation:**  
-**Accountability** keeps **humans and organizations** responsible for AI outcomes, with **governance**, **oversight**, and **escalation** so people can intervene, correct errors, and own decisions rather than shifting responsibility to technology.
+**Explanation:**   
+**GitHub Copilot Business** provides **organization-level administration** including **license assignments**, **content exclusion** policies to control what Copilot can use as context, and **usage reporting** for visibility across the org. Relevant **Copilot events appear in the organization audit log**, and Business does **not** include Enterprise-only integrations such as **SSO configuration** (an Enterprise Cloud org capability that Copilot Enterprise uses).
 
 **Tips and Tricks:**  
-- If a stem mentions **governance**, **human oversight**, **escalation**, or **responsibility for outcomes**, choose **Accountability**.  
-- **Transparency** covers **explainability and disclosures**, **Reliability and Safety** covers **dependable operation**, **Inclusiveness** covers **accessible experiences**.
+- “**Org admin controls**,” “**license management**,” “**usage reporting**,” and “**content exclusion**” point to **Copilot Business**.  
+- **Audit logs** exist for **Business**; choose **Enterprise** when scenarios add **enterprise-only integrations** (for example, SSO used by Enterprise Cloud orgs) and **GitHub.com repository-aware Chat**.
 
 > [!IMPORTANT]  
-> Put **Accountability** into practice with **clear ownership**, **review boards**, **audit trails**, and **incident response** procedures that enable people to **override** or **roll back** harmful AI behavior.
+> Map **policy enforcement + org reporting** to **Business**. Escalate to **Enterprise** only when the stem requires **enterprise integrations** and **organization-level identity (SSO) usage** in **Enterprise Cloud**.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Reviewing audit logs for GitHub Copilot Business](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)  
+[Configure content exclusion for Copilot](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)
 
-**Question:** [004]  
-Which principle requires AI systems to be dependable, consistent, and work as intended under expected conditions?
+**Question:** [038]  
+Which GitHub Copilot plan provides enterprise-grade **integrations** and **compliance** capabilities, and can be paired with **GitHub Premium Support (SLAs) as a separate purchase**?
 
 **Options:**  
-A. Inclusiveness  
-B. Privacy and Security  
-C. Reliability and Safety  
-D. Fairness
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
 </details> 
 
-**Explanation:**  
-**Reliability and Safety** requires AI systems to **perform as intended**, be **dependable and consistent**, and **operate safely** under expected and challenging conditions. Microsoft guidance emphasizes **rigorous testing**, **validation**, **monitoring**, and **risk mitigation** to prevent harmful or unstable behavior.
+**Explanation:**   
+**GitHub Copilot Enterprise** adds **enterprise integrations**, **audit/compliance features**, and **organization-wide governance** for GitHub Enterprise Cloud orgs. Note that **GitHub Premium Support with SLAs is a separate, paid offering** that some enterprises purchase alongside Copilot Enterprise; it is **not bundled** with any Copilot plan.
 
 **Tips and Tricks:**  
-- If a stem highlights **robust performance**, **testing and validation**, or **safe operation**, choose **Reliability and Safety**.  
-- **Fairness** targets **bias**, **Privacy and Security** targets **data protection**, **Inclusiveness** targets **accessible experiences**.
+- Cues like **enterprise integrations**, **compliance**, **governance**, or **GitHub.com repo-aware Chat** point to **Copilot Enterprise**.  
+- **Business** covers **org controls, usage reporting, and audit logs**; **Pro** is **individual** only.
 
 > [!IMPORTANT]  
-> Operationalizing **Reliability and Safety** involves **evaluation before deployment**, **guardrails and fallback behaviors**, **live monitoring**, and **incident response** to handle failures without causing harm.
+> When you see **service commitments (SLAs)**, think **optional GitHub Premium Support** purchased by **Enterprise** customers, not a Copilot plan feature.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Reliability and safety guidance in Responsible AI](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#reliability-and-safety) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[GitHub Copilot licenses](https://docs.github.com/en/billing/concepts/product-billing/github-copilot-licenses) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
 
-**Question:** [005]  
-Which of the following is not a Microsoft Responsible AI principle?
-
-**Options:**  
-A. Fairness  
-B. Reliability and Safety  
-C. Transparency  
-D. Maximizing Profit
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-Microsoft’s framework centers on six principles, **Fairness**, **Reliability and Safety**, **Privacy and Security**, **Inclusiveness**, **Transparency**, and **Accountability**. **Maximizing Profit** is not part of the Responsible AI principles.
-
-**Tips and Tricks:**  
-- If an option lists a business goal like **Maximizing Profit**, it is not a Responsible AI principle.  
-- The six principles focus on **people**, **society**, and **trust**, not financial objectives.
-
-> [!IMPORTANT]  
-> Remember the six, **Fairness**, **Reliability and Safety**, **Privacy and Security**, **Inclusiveness**, **Transparency**, **Accountability**. Any answer outside these is incorrect.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai) (Microsoft Learn)
-
-**Question:** [006]  
-Which principle emphasizes protecting data, ensuring confidentiality, and maintaining security in AI systems?
+**Question:** [039]  
+Which GitHub Copilot plan provides **repository-level context awareness on GitHub.com**, allowing Copilot Chat to reference and understand repository files directly?
 
 **Options:**  
-A. Reliability and Safety  
-B. Privacy and Security  
-C. Fairness  
-D. Accountability
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
-
-</details> 
-
-**Explanation:**  
-**Privacy and Security** focuses on **protecting data**, **preserving confidentiality**, and **preventing unauthorized access or misuse**. Guidance includes **data minimization**, **access controls**, **encryption**, **secure development practices**, and compliance with relevant **privacy regulations**.
-
-**Tips and Tricks:**  
-- If the stem stresses **data protection**, **confidentiality**, **security controls**, or **regulatory compliance**, choose **Privacy and Security**.  
-- Contrast with **Reliability and Safety** (robust, safe operation) and **Fairness** (mitigating bias).
-
-> [!IMPORTANT]  
-> Operationalizing **Privacy and Security** typically involves **privacy-by-design**, **threat modeling**, **role-based access**, **key management and encryption in transit/at rest**, **logging and monitoring**, and **data retention/deletion policies**.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#privacy-and-security) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [007]  
-What is the primary goal of the **Inclusiveness** principle?
-
-**Options:**  
-A. Ensure AI systems are reliable under stress  
-B. Ensure AI systems are only used in enterprise settings  
-C. Ensure AI systems are accessible and usable by diverse groups of people  
-D. Ensure AI systems provide maximum profit
+A. GitHub Copilot Business  
+B. GitHub Copilot Pro  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
 </details> 
 
-**Explanation:**  
-**Inclusiveness** focuses on designing AI so that **people of diverse abilities, backgrounds, and cultures** can access and use it. Guidance emphasizes **accessible experiences**, **representative data**, and **feedback from diverse users**.
+**Explanation:**   
+**Copilot Enterprise** enables **repo-aware Chat on GitHub.com**, so it can **summarize, explain, and reference** your organization’s repository code and docs beyond IDE-only context.
 
 **Tips and Tricks:**  
-- If the stem mentions **accessibility**, **barrier reduction**, or **broad participation**, choose **Inclusiveness**.  
-- Contrast with **Fairness** which targets **equitable outcomes**, and **Reliability and Safety** which targets **dependable operation**.
+- Phrases like **“Chat with repository files on GitHub.com”** or **“org-level repo context”** map to **Enterprise**.  
+- **Pro** and **Business** focus on **IDE** surfaces without **GitHub.com repo-aware** context.
 
 > [!IMPORTANT]  
-> Operationalizing **Inclusiveness** typically involves **accessibility-by-design**, **inclusive user research**, and **localization** to support different contexts and needs.
+> **Repo-aware Copilot Chat** is an **Enterprise-only** differentiator, separate from administrative controls already present in **Business**.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#inclusiveness) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
 
-**Question:** [008]  
-What is a key responsibility under the **Transparency** principle?
-
-**Options:**  
-A. Allowing unrestricted public access to AI data  
-B. Making AI system operations understandable to people  
-C. Guaranteeing AI systems never malfunction  
-D. Ensuring AI systems produce open-source code
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
-
-</details> 
-
-**Explanation:**  
-**Transparency** means providing **clear, understandable information** about how an AI system works, the **data** it uses, and its **limitations and risks**, so stakeholders can assess appropriateness and trustworthiness.
-
-**Tips and Tricks:**  
-- Look for cues like **explanations**, **disclosures**, **model limits**, or **rationale** for outputs, these map to **Transparency**.  
-- Transparency **enables** accountability and oversight, it does not guarantee perfect performance.
-
-> [!IMPORTANT]  
-> Good practice includes **model cards or documentation**, **user-facing explanations**, and **disclosure** when users are interacting with AI.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#transparency) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [009]  
-Which principle addresses the risk of **biased or unrepresentative training data**?
+**Question:** [040]  
+Which GitHub Copilot plan includes enterprise-grade **integrations** and **compliance** capabilities, while **GitHub Premium Support with SLAs** can be purchased **separately** if needed?
 
 **Options:**  
-A. Accountability  
-B. Transparency  
-C. Reliability and Safety  
-D. Fairness
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-**Fairness** targets **bias in data and models**, requiring **representative datasets**, **bias measurement**, and **mitigation** to avoid discriminatory outcomes across groups.
-
-**Tips and Tricks:**  
-- If the stem stresses **bias**, **representativeness**, or **equitable outcomes**, select **Fairness**.  
-- **Reliability and Safety** concerns robustness, **Transparency** concerns explainability, **Accountability** concerns human responsibility.
-
-> [!IMPORTANT]  
-> Common practices include **dataset balance checks**, **fairness metrics** such as **equal opportunity**, **threshold tuning**, and **human review**.
-
-**Source:**  
-[Fairness in machine learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml) (Microsoft Learn)  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#fairness) (Microsoft Learn)
-
-**Question:** [010]  
-Why is **human oversight** critical under the **Accountability** principle?
-
-**Options:**  
-A. To maintain responsibility for outcomes and correct harmful results  
-B. To replace organizational governance with automated systems  
-C. To ensure AI systems run without any human involvement  
-D. To guarantee all AI code is bug-free
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Accountability** requires **people** to own outcomes and **intervene** when AI behaves harmfully or unexpectedly, using **governance**, **escalation**, and **remediation** processes.
-
-**Tips and Tricks:**  
-- Keywords like **oversight**, **escalation**, **ownership**, **auditability** point to **Accountability**.  
-- Accountability frameworks **complement** other principles by ensuring actions are taken when risks materialize.
-
-> [!IMPORTANT]  
-> Implement with **clear ownership**, **review boards**, **audit logs**, **incident response**, and **kill switches** to pause or roll back problematic behavior.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#accountability) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [011]  
-Which principle requires proactively informing users when AI systems are making decisions that affect them?
-
-**Options:**  
-A. Transparency  
-B. Inclusiveness  
-C. Accountability  
-D. Privacy and Security
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Transparency** requires that users are **informed** when AI influences decisions that affect them, and that they receive **clear information** about how the system works and its **limitations and risks**.
-
-**Tips and Tricks:**  
-- Clues like **disclosure**, **explanation**, **AI involvement**, **limitations** point to **Transparency**.  
-- Distinguish from **Accountability** which is about **human responsibility**, and **Privacy and Security** which is about **protecting data**.
-
-> [!IMPORTANT]  
-> Good practice includes **clear user notifications** when AI assists decisions, **plain language explanations**, and **routes to question or contest** outcomes.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, transparency](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#transparency) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [012]  
-A team wants to deploy GitHub Copilot but needs assurance that personal data will not be exposed in completions. Which principle directly addresses this concern?
-
-**Options:**  
-A. Transparency  
-B. Privacy and Security  
-C. Reliability and Safety  
-D. Accountability
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
-
-</details> 
-
-**Explanation:**  
-**Privacy and Security** focuses on **protecting personal and sensitive data**, including **confidentiality**, **access controls**, and **secure handling** to prevent exposure in AI outputs.
-
-**Tips and Tricks:**  
-- If the stem stresses **data protection**, **confidentiality**, **leak prevention**, choose **Privacy and Security**.  
-- Pair with practices like **data minimization**, **anonymization**, and **encryption**.
-
-> [!IMPORTANT]  
-> Implement **privacy-by-design**, **role-based access**, and **monitoring** to reduce risks of **data leakage** in generated content.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, privacy and security](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#privacy-and-security) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [013]  
-Which principle requires that AI systems clearly communicate their **limitations** and **potential risks**?
-
-**Options:**  
-A. Inclusiveness  
-B. Transparency  
-C. Reliability and Safety  
-D. Accountability
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
-
-</details> 
-
-**Explanation:**  
-**Transparency** includes explaining **how the AI works**, what **data** it uses, and its **limitations and risks**, so people can make informed decisions about reliance and additional **human verification**.
-
-**Tips and Tricks:**  
-- Phrases like **limitations**, **risks**, **explanations**, **disclosures** signal **Transparency**.  
-- **Reliability and Safety** is about **robust performance**, **Accountability** is about **human responsibility**.
-
-> [!IMPORTANT]  
-> Provide **user facing explanations**, **known failure modes**, and **uncertainty cues** to avoid overconfidence and enable **informed adoption**.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, transparency](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#transparency) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [014]  
-Which principle helps ensure AI solutions do not unintentionally exclude people with disabilities?
-
-**Options:**  
-A. Reliability and Safety  
-B. Privacy and Security  
-C. Accountability  
-D. Inclusiveness
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-**Inclusiveness** ensures AI technologies are designed to support **accessibility** and the needs of **people with disabilities**, using inclusive design, accessible interfaces, and feedback from diverse users.
-
-**Tips and Tricks:**  
-- If the stem mentions **accessibility**, **assistive needs**, or **barrier removal**, choose **Inclusiveness**.  
-- Contrast with **Fairness** which targets **bias** and equitable outcomes, while **Reliability and Safety** targets **dependable operation**.
-
-> [!IMPORTANT]  
-> Apply **accessibility-by-design**, **inclusive user research**, **alternative input and output methods**, and **WCAG-aligned** practices to reduce exclusion risk.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, inclusiveness](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#inclusiveness) (Microsoft Learn)  
-[Inclusive design, overview](https://learn.microsoft.com/en-us/windows/apps/design/accessibility/) (Microsoft Learn)
-
-**Question:** [015]  
-Which principle requires organizations to establish processes for identifying, assessing, and mitigating risks before AI deployment?
-
-**Options:**  
-A. Accountability  
-B. Privacy and Security  
-C. Fairness  
-D. Reliability and Safety
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-**Reliability and Safety** calls for **risk assessment**, **testing**, and **validation** prior to deployment to ensure safe, consistent performance and to minimize potential harm.
-
-**Tips and Tricks:**  
-- Words like **testing**, **validation**, **risk assessment**, **safe operation** map to **Reliability and Safety**.  
-- **Accountability** is about **ownership and oversight**, **Privacy and Security** is about **data protection**.
-
-> [!IMPORTANT]  
-> Use **pre-deployment evaluations**, **guardrails**, **fallback behaviors**, and **live monitoring** to mitigate risks across expected conditions.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Reliability and Safety guidance](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#reliability-and-safety) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [016]  
-Which Microsoft Responsible AI principle emphasizes that people, not machines, are ultimately answerable for AI outcomes?
-
-**Options:**  
-A. Transparency  
-B. Fairness  
-C. Accountability  
-D. Privacy and Security
+A. GitHub Copilot Business  
+B. GitHub Copilot Pro  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
 </details> 
 
-**Explanation:**  
-**Accountability** states that **people and organizations** remain responsible for AI outcomes, with governance, oversight, and escalation processes to correct issues and own decisions.
+**Explanation:**   
+**GitHub Copilot Enterprise** adds **enterprise integrations**, **audit/compliance features**, and **organization-wide governance** for GitHub Enterprise Cloud orgs. Note that **GitHub Premium Support with SLAs** is a **separate, paid** offering for Enterprise customers and is **not bundled** with any Copilot plan.
 
 **Tips and Tricks:**  
-- Cues like **ownership**, **governance**, **human oversight**, **escalation** indicate **Accountability**.  
-- **Transparency** focuses on **explanations and disclosures**, **Fairness** on **bias mitigation**.
+- Cues like **enterprise integrations**, **compliance**, **governance**, or **GitHub.com repo-aware Chat** point to **Copilot Enterprise**.  
+- **Business** covers **org controls, usage reporting, and audit logs**; **Pro** is **individual** only.
 
 > [!IMPORTANT]  
-> Put **Accountability** into practice with **clear ownership**, **review boards**, **audit logs**, **incident response**, and mechanisms to **pause or roll back** harmful behavior.
+> Treat **Premium Support (SLAs)** as an **org-level support purchase**, independent of Copilot plans. Use **Copilot Enterprise** for enterprise integrations and GitHub.com **repository-aware** Chat, and layer **Premium Support** only if your org requires SLA-backed response targets.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, accountability](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#accountability) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[GitHub Copilot licenses](https://docs.github.com/en/billing/concepts/product-billing/github-copilot-licenses) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
 
-**Question:** [017]  
-Which principle requires that AI systems are tested for **accuracy**, **security**, and **reliability** before widespread release?
-
-**Options:**  
-A. Transparency  
-B. Accountability  
-C. Reliability and Safety  
-D. Inclusiveness
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
-
-</details> 
-
-**Explanation:**  
-**Reliability and Safety** demands **pre-release testing**, **validation**, and **risk assessment** so systems perform **consistently and safely**, including **security** checks to reduce vulnerabilities.
-
-**Tips and Tricks:**  
-- Cues like **testing**, **validation**, **accuracy**, **security**, **safe operation** point to **Reliability and Safety**.  
-- **Transparency** is about **explanations and disclosures**, **Accountability** is about **human responsibility**.
-
-> [!IMPORTANT]  
-> Use **evaluation before deployment**, **guardrails**, **fallback behaviors**, and **live monitoring** to maintain dependable operation.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Reliability and Safety guidance](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#reliability-and-safety) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [018]  
-A development team wants to explain to users when **GitHub Copilot** is generating suggestions in their IDE. Which principle supports this communication?
+**Question:** [041]  
+Which GitHub Copilot plan provides **usage reporting** and **organizational policy controls** without enterprise-only integrations?
 
 **Options:**  
-A. Privacy and Security  
-B. Inclusiveness  
-C. Accountability  
-D. Transparency
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-**Transparency** requires **informing users** about when and how AI influences their work, including **disclosure** that **Copilot** is generating or assisting with suggestions.
-
-**Tips and Tricks:**  
-- Look for **AI involvement notices**, **disclosures**, **user-facing explanations**, these map to **Transparency**.  
-- **Privacy and Security** is about **protecting data**, not disclosure of AI usage.
-
-> [!IMPORTANT]  
-> Provide **clear prompts or indicators** in the IDE that suggestions are **AI-assisted**, and link to **explanations** of capabilities and limits.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, transparency](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#transparency) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [019]  
-Which principle focuses on preventing **discrimination** by ensuring AI systems are trained and evaluated with **representative datasets**?
-
-**Options:**  
-A. Transparency  
-B. Privacy and Security  
-C. Inclusiveness  
-D. Fairness
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-**Fairness** emphasizes **representative, diverse, and unbiased** training and evaluation data, plus **bias measurement** and **mitigation** to prevent discriminatory outcomes.
-
-**Tips and Tricks:**  
-- If the stem centers on **bias**, **representativeness**, **equitable outcomes**, choose **Fairness**.  
-- **Inclusiveness** focuses on **accessible experiences**, **Transparency** on **explainability**.
-
-> [!IMPORTANT]  
-> Practices include **dataset balance checks**, **fairness metrics** such as **equal opportunity**, **threshold tuning**, and **human review**.
-
-**Source:**  
-[Fairness in machine learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml) (Microsoft Learn)  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, fairness](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#fairness) (Microsoft Learn)
-
-**Question:** [020]  
-Which Responsible AI principle is **violated** if an AI system provides recommendations with **no way** for users to understand its decision-making process?
-
-**Options:**  
-A. Reliability and Safety  
-B. Privacy and Security  
-C. Fairness  
-D. Transparency
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
-
-</details> 
-
-**Explanation:**  
-**Transparency** is violated when users **cannot understand** how AI produces outputs, which undermines **trust**, **accountability**, and appropriate **reliance**.
-
-**Tips and Tricks:**  
-- Phrases like **no explanation**, **cannot understand**, **opaque decision-making** point to **Transparency**.  
-- Transparency enables **accountability** and **informed adoption**.
-
-> [!IMPORTANT]  
-> Provide **user-facing explanations**, disclose **limitations and risks**, and document **rationale** so users can evaluate and contest outcomes when needed.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, transparency](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#transparency) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [021]  
-A team notices two issues with their AI tools: GitHub Copilot suggestions work much better for **English** comments than for **non-English** ones, and an AI system that auto-assigns code reviews is **overloading a few developers** while others get very few. Which approach and principles best address both problems?
-
-**Options:**  
-A. Apply **Fairness** and **Inclusiveness** by expanding non-English training data, testing performance across languages, and adjusting the assignment logic so review workloads are more evenly distributed.  
-B. Focus only on **Transparency** by documenting that English and certain developers are favored.  
-C. Rely solely on **Reliability and Safety** by adding more automated tests, without changing data or assignment logic.  
-D. Use **Accountability** only, by asking managers to manually fix any unfair assignments when they notice them.
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Fairness** addresses performance gaps and uneven outcomes, and **Inclusiveness** ensures systems work for diverse languages and users. Expanding non-English examples, validating parity across languages, and rebalancing assignment logic reduce bias in functionality and workload distribution.
-
-**Tips and Tricks:**  
-- Look for **parity testing** across **languages** and **users**, plus **systemic fixes** like rebalancing logic, these map to **Fairness** and **Inclusiveness**.  
-- Documentation alone is **Transparency**, it does not correct **unequal outcomes**.
-
-> [!IMPORTANT]  
-> Use **group-wise evaluation**, **bias metrics**, **data augmentation** for under-served groups, and **algorithmic constraints** to avoid **workload skew**.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Fairness in machine learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml) (Microsoft Learn)  
-[Responsible AI in Azure workloads, inclusiveness](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#inclusiveness) (Microsoft Learn)
-
-**Question:** [022]  
-A team is building an internal **GitHub Copilot** extension. They want to publish **transparency documentation** for internal users and enable later **audits** to understand **data sources**, **model scope**, and **validation tests**. Which option best aligns with the **Transparency** principle?
-
-**Options:**  
-A. Providing a detailed **revenue forecast** and exact **run-costs** of the AI system.  
-B. Publishing how the AI system **works**, its **intended use**, **known limitations**, and high-level information about **data sources** and **validation methods**, while protecting sensitive or proprietary details.  
-C. Listing every user’s **personal data** and identifiers to be “fully transparent.”  
-D. Releasing all **source code** and **full training datasets**, even if this exposes private data or trade secrets.
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
 </details> 
 
-**Explanation:**  
-**Transparency** means clear information about **purpose**, **operation**, **limitations**, and high-level **data** and **testing** details that support trust and auditing, while **protecting sensitive data and IP**. It does not require exposing personal data or proprietary assets.
+**Explanation:**   
+**GitHub Copilot Business** offers **usage reporting**, **policy enforcement**, **license management**, and **audit logs** at the organization level, but **does not** include Enterprise-only integrations (for example, GitHub.com **repo-aware** Chat).
 
 **Tips and Tricks:**  
-- Keywords like **intended use**, **limitations**, **data sources**, **validation approach** point to **Transparency**.  
-- Transparency enables **Accountability** and audits, it does not require revealing **personal** or **proprietary** details.
+- Phrases like **admin controls**, **policy/usage governance**, **license assignments**, and **audit visibility** align with **Business**.  
+- Choose **Enterprise** when scenarios add **enterprise integrations** or **GitHub.com repository-aware** Chat.
 
 > [!IMPORTANT]  
-> Provide **user-facing docs**, **model card style summaries** of data and evaluation at a high level, and **change logs** for updates.
+> Use **Business** to standardize Copilot controls across teams (**policies, usage insights, audit events**) without introducing enterprise integration complexity. Reserve **Enterprise** for orgs that need **GitHub.com context features** and broader integration surfaces.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, transparency](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#transparency) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Reviewing audit logs for GitHub Copilot Business](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)  
+[GitHub Copilot licenses](https://docs.github.com/en/billing/concepts/product-billing/github-copilot-licenses) (GitHub Docs)
 
-**Question:** [023]  
-During a project, a developer uses **Copilot** and generated code accidentally includes **personal identifiers** from a public dataset, and later an audit reveals a custom Copilot extension was trained on **real customer data without consent**. Which actions best demonstrate **Accountability** while addressing the **Privacy and Security** violation? **Choose two.**
-
-**Options:**  
-A. Ignore the issues because the data was public or eventually anonymized.  
-B. **Remove personal identifiers** from the codebase, **report the incident**, and **document** technical and process changes to prevent recurrence.  
-C. Quietly **retrain** the model on a different dataset without recording what happened.  
-D. **Escalate** the misuse of customer data, **document transparently** what went wrong, **enforce or update policies** to require consent before using real customer data, and maintain an **auditable record**.
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, D
-
-</details> 
-
-**Explanation:**  
-**Accountability** requires owning outcomes, escalating incidents, and documenting corrective actions. **Privacy and Security** is violated when real customer data is used without consent, remediation includes removing sensitive data, reporting, and policy enforcement to prevent recurrence.
-
-**Tips and Tricks:**  
-- Combine **immediate remediation** with **policy-level fixes** such as consent requirements and audit trails.  
-- “Public” or “later anonymized” does not excuse **consent violations** in training.
-
-> [!IMPORTANT]  
-> Enforce **consent** and **data minimization** policies, maintain **incident logs**, and use **privacy-preserving** approaches for future training.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, privacy and security](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#privacy-and-security) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [024]  
-A Copilot for Business customer wants to ensure employees’ **private repositories**, **prompts**, and **completions** are **not used to train** the Copilot model. A developer proposes adding **sensitive user attributes** to training data to improve **fairness**, but this would exceed user **consent**. Which statement best reflects the correct Responsible AI priority and product behavior?
+**Question:** [042]  
+Which GitHub Copilot plan integrates with enterprise identity providers to support **Single Sign-On (SSO)**?
 
 **Options:**  
-A. **Privacy and Security** should take precedence, private repositories, prompts, and completions in **Copilot Business/Enterprise** are **not used** to retrain the base models, and fairness should be improved using **synthetic** or **privacy-preserving** methods that respect consent.  
-B. **Fairness** should take precedence, equal performance matters more than consent about data use.  
-C. **Transparency** is most important, documenting the data use is sufficient.  
-D. **Inclusiveness** should override privacy so more groups can be represented in training.
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Privacy and Security** requires using data only for **consented, legitimate** purposes and protecting confidentiality. With **Copilot Business/Enterprise**, **private code, prompts, and completions** are **not used** to train the base models, preserving IP and privacy. When privacy and fairness goals are in tension, pursue **fairness** via **privacy-preserving** techniques rather than expanding sensitive data without consent.
-
-**Tips and Tricks:**  
-- If the stem emphasizes **consent, data use limits, and confidentiality**, choose **Privacy and Security**.  
-- Improve fairness using **synthetic data**, **aggregation**, or **privacy-preserving learning**, not by violating **consent**.
-
-> [!IMPORTANT]  
-> Prioritize **consent** and **data minimization**, then address **fairness** with techniques that **do not** expand access to sensitive attributes.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, privacy and security](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#privacy-and-security) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)  
-[Responsible use of GitHub Copilot inline suggestions](https://docs.github.com/en/copilot/responsible-use/copilot-code-completion) (GitHub Docs)
-
-**Question:** [025]  
-A company adopts GitHub Copilot with two strict policies, all **Copilot-generated code** must pass **secure-coding review** and **validation tests** before merge, and developers must **fix accessibility** issues in generated UI code and **document** that they have done so. Which combination of principles is most clearly reflected?
-
-**Options:**  
-A. **Reliability and Safety**, **Inclusiveness**, and **Accountability**  
-B. **Fairness** only  
-C. **Privacy and Security** only  
-D. **Transparency** only
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Reliability and Safety**, secure-coding reviews and tests ensure robust, **safe** code before deployment. **Inclusiveness**, addressing **accessibility** ensures diverse users can use the UI. **Accountability**, developers are **responsible** for reviewing AI outputs, fixing issues, and **documenting** actions.
-
-**Tips and Tricks:**  
-- **Security tests** and **validation** map to **Reliability and Safety**.  
-- **Accessibility** cues map to **Inclusiveness**.  
-- **Explicit ownership** and **documentation** map to **Accountability**.
-
-> [!IMPORTANT]  
-> Treat AI outputs like third party code, require **review**, **security checks**, **accessibility conformance**, and **recorded sign off**.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, inclusiveness](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#inclusiveness) (Microsoft Learn)  
-[Reliability and safety guidance](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#reliability-and-safety) (Microsoft Learn)  
-[Inclusive design, overview](https://learn.microsoft.com/en-us/windows/apps/design/accessibility/) (Microsoft Learn)
-
-**Question:** [026]  
-Which principle requires systems to maintain **confidentiality** of personal information and **prevent misuse** of data?
-
-**Options:**  
-A. Privacy and Security  
-B. Fairness  
-C. Transparency  
-D. Accountability
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Privacy and Security** mandates strong protections for **personal and sensitive data**, including **secure storage**, **access controls**, and compliance with **privacy laws** to prevent exposure or misuse.
-
-**Tips and Tricks:**  
-- If the stem stresses **confidentiality**, **data protection**, or **misuse prevention**, choose **Privacy and Security**.  
-- Contrast with **Fairness** which targets **equity and bias**, **Transparency** which targets **explanations and disclosures**, **Accountability** which targets **human responsibility**.
-
-> [!IMPORTANT]  
-> Use **encryption**, **least privilege access**, **monitoring**, and **clear consent policies** to uphold **Privacy and Security** in AI systems.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, privacy and security](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#privacy-and-security) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [027]  
-An AI model generates **offensive or unsafe content** during testing. Which principle is most directly violated?
-
-**Options:**  
-A. Reliability and Safety  
-B. Transparency  
-C. Inclusiveness  
-D. Privacy and Security
-
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
-
-</details> 
-
-**Explanation:**  
-**Reliability and Safety** requires AI systems to **avoid harmful or unsafe outputs** and to behave **predictably** under expected conditions. Offensive or unsafe content indicates insufficient **safeguards**, **evaluation**, or **risk mitigation** before release.
-
-**Tips and Tricks:**  
-- Cues like **harmful outputs**, **unsafe behavior**, **robustness testing** point to **Reliability and Safety**.  
-- **Transparency** is about explanations, **Inclusiveness** about accessibility, **Privacy and Security** about data protection.
-
-> [!IMPORTANT]  
-> Address with **pre-deployment evaluations**, **safety guardrails**, **content filters**, and **live monitoring** to reduce risk in production.
-
-**Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Reliability and Safety guidance](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#reliability-and-safety) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
-
-**Question:** [028]  
-Why is **Inclusiveness** critical in AI adoption across **global teams**?
-
-**Options:**  
-A. It guarantees AI will never malfunction  
-B. It eliminates the need for transparency  
-C. It allows AI systems to serve people of different **cultures**, **abilities**, and **languages**  
-D. It ensures consistent profitability
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
 </details> 
 
-**Explanation:**  
-**Inclusiveness** ensures AI is **accessible and usable** by people with **diverse abilities, languages, and cultural contexts**, reducing exclusion and enabling broad adoption.
+**Explanation:**   
+**Copilot Enterprise** works with a **GitHub Enterprise Cloud** organization’s configured **IdP/SSO** for centralized access control and adds broader enterprise governance features.
 
 **Tips and Tricks:**  
-- Keywords like **accessibility**, **localization**, **barrier reduction** map to **Inclusiveness**.  
-- Distinguish from **Fairness** which targets **equitable outcomes** and **Reliability and Safety** which targets **dependable operation**.
+- **SSO + enterprise governance** → **Copilot Enterprise**.  
+- **Business** focuses on org controls and reporting for Team or Enterprise Cloud orgs; **Pro** is individual.
 
 > [!IMPORTANT]  
-> Implement with **accessibility-by-design**, **inclusive research**, **localized UX**, and **assistive technology support**.
+> Treat **SSO** as an **organization capability** of **Enterprise Cloud**. **Copilot Enterprise relies on your org’s SSO**, it does not “include” SSO as a Copilot plan feature. This distinction prevents over-attributing identity features to Copilot itself.
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Responsible AI in Azure workloads, inclusiveness](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#inclusiveness) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
 
-**Question:** [029]  
-A team discovers that **GitHub Copilot** occasionally generates **outdated or insecure code patterns**. Which Responsible AI principle should guide their response?
+**Question:** [043]  
+Which GitHub Copilot plan is best suited for **individual developers** who want AI-assisted coding features **without** organizational controls or policy management?
 
 **Options:**  
-A. Reliability and Safety  
-B. Fairness  
-C. Inclusiveness  
-D. Accountability
+A. GitHub Copilot Business  
+B. GitHub Copilot Enterprise  
+C. GitHub Copilot Pro  
+D. GitHub Copilot Free
 
-<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
 </details> 
 
-**Explanation:**  
-**Reliability and Safety** requires ensuring outputs are **safe and robust**. Teams should **validate Copilot suggestions**, enforce **secure-coding checks**, and **update review processes** to prevent unsafe recommendations.
+**Explanation:**   
+**GitHub Copilot Pro** is the **individual** plan, providing AI-assisted coding (including **Copilot Chat**) for a single user and **no** organization-level features like **policy controls**, **usage reporting**, or **license administration** (these exist in **Business/Enterprise**).
 
 **Tips and Tricks:**  
-- Words like **secure-coding**, **testing and validation**, **guardrails** point to **Reliability and Safety**.  
-- Pair with **code reviews**, **automation tests**, and **dependency vulnerability** checks.
+- Stems with **“single developer,” “personal subscription,” “no org controls”** → **Copilot Pro**.  
+- Any mention of **org policy**, **license management**, **SSO/audit integrations**, or **usage reporting** shifts the answer to **Business**/**Enterprise**.
 
 > [!IMPORTANT]  
-> Use **policy gates**, **security tooling**, and **fallback behaviors** to block unsafe patterns and maintain dependable operation.
+> Keep **plan scope** straight: **Pro** = powerful AI for one developer; **Business/Enterprise** = admin/governance for organizations (policies, reporting, identity, audit).
 
 **Source:**  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)  
-[Reliability and Safety guidance](https://learn.microsoft.com/en-us/azure/well-architected/ai/responsible-ai#reliability-and-safety) (Microsoft Learn)  
-[Apply responsible AI principles, module](https://learn.microsoft.com/en-us/training/modules/apply-responsible-ai-principles/) (Microsoft Learn)
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[GitHub Copilot licenses](https://docs.github.com/en/billing/concepts/product-billing/github-copilot-licenses) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)
 
-**Question:** [030]  
-An organization plans to store **encrypted API keys** used by its AI assistant. Which approach aligns best with **Privacy and Security**?
+**Question:** [044]  
+Which GitHub Copilot plan(s) provide **organization-level usage reporting**? *(Choose all that apply.)*
 
 **Options:**  
-A. Use a local text file accessible to all developers  
-B. Store keys in **Azure Key Vault** or **Managed HSMs** with controlled access  
-C. Share keys through email with the development team  
-D. Keep keys in plaintext within version control for easy access
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
+
+</details> 
+
+**Explanation:**   
+**Usage reporting** is an **organization** capability available with **Copilot Business** and **Copilot Enterprise**. **Pro** and **Free** do not expose org-wide metrics.
+
+**Tips and Tricks:**  
+- Cues like **“admin visibility,” “org metrics,” “reporting”** point to **Business/Enterprise**, not **Pro/Free**.  
+- Use reporting to monitor **adoption**, **policy impact**, and guide **enablement**.
+
+> [!IMPORTANT]  
+> **Org features live at org tiers.** Map **usage reporting** to **Business/Enterprise**; individuals won’t have admin dashboards.
+
+**Source:**  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[GitHub Copilot licenses](https://docs.github.com/en/billing/concepts/product-billing/github-copilot-licenses) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)
+
+**Question:** [045]  
+Which GitHub Copilot plan introduces **content (context) exclusion** policies for admins **without** requiring enterprise-only integrations?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
 </details> 
 
-**Explanation:**  
-**Privacy and Security** emphasizes protecting **sensitive credentials** with **encryption** and **least-privilege access**. **Azure Key Vault** and **Managed HSM** provide **key management**, **access policies**, and **auditability**.
+**Explanation:**   
+**Copilot Business** lets admins set **content/context exclusions** (for example, block specific repos or file paths from being used as context) and combines this with **policy** and **usage reporting**—all **without** enterprise-only integrations.
 
 **Tips and Tricks:**  
-- Look for **vaults or HSMs**, **RBAC**, **encryption at rest and in transit** as signals for **Privacy and Security**.  
-- Avoid **email**, **plaintext**, or **broad-access** storage.
+- Think **“policy controls + exclusions + reporting”** → **Business**.  
+- **Enterprise** also supports exclusions, but adds **enterprise integrations** and **GitHub.com repo-aware Chat**.
 
 > [!IMPORTANT]  
-> Enforce **role-based access**, **key rotation**, **secrets scanning**, and **monitoring** to prevent credential exposure.
+> Use exclusions to reduce **sensitive data exposure** in suggestions by constraining what Copilot can **see** during generation.
 
 **Source:**  
-[Azure Key Vault overview](https://learn.microsoft.com/en-us/azure/key-vault/general/overview) (Microsoft Learn)  
-[Azure Managed HSM overview](https://learn.microsoft.com/en-us/azure/key-vault/managed-hsm/overview) (Microsoft Learn)  
-[Responsible AI principles, overview](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai) (Microsoft Learn)
+[Configure content exclusion for Copilot](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot) (GitHub Docs)  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)
+
+**Question:** [046]  
+Your organization is on the **GitHub Team** plan and needs **license management**, **policy controls**, and **usage reporting**, but no enterprise integrations. Which Copilot plan fits?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**Copilot Business** is available to orgs on **GitHub Team** **and** **Enterprise Cloud**. It provides **license assignment**, **policy enforcement**, **content exclusions**, **usage reporting**, and **audit logs**—without the enterprise-only integrations of **Copilot Enterprise**.
+
+**Tips and Tricks:**  
+- **Team or Enterprise Cloud org + admin controls (no enterprise integrations)** → **Business**.  
+- If the stem mentions **GitHub.com repo-aware Chat** or **enterprise integrations**, move to **Enterprise**.
+
+> [!IMPORTANT]  
+> Match the **base org plan** first: **Team/Enterprise Cloud → Business**, **Enterprise Cloud with enterprise integrations → Enterprise**.
+
+**Source:**  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Reviewing audit logs for GitHub Copilot Business](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)
+
+**Question:** [047]  
+Which GitHub Copilot plan(s) provide **content/context exclusion** to prevent specific files or repositories from being used as suggestion context? *(Choose all that apply.)*
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
+
+</details> 
+
+**Explanation:**   
+**Content/context exclusion** is available at the **organization/enterprise** tiers—**Copilot Business** and **Copilot Enterprise**—to govern what Copilot can see when generating suggestions.
+
+**Tips and Tricks:**  
+- Think **data governance** features (exclusions, policies, audit) → **org/enterprise** tiers, not **individual**.  
+- Use exclusions to reduce **sensitive data exposure** by constraining model context.
+
+> [!IMPORTANT]  
+> Configure and **audit** exclusions centrally so changes are tracked in your org/enterprise logs.
+
+**Source:**  
+[Content exclusion for Copilot (availability)](https://docs.github.com/en/enterprise-cloud%40latest/copilot/concepts/context/content-exclusion) (GitHub Docs)  
+[Configure & audit content exclusion](https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/configure-content-exclusion) (GitHub Docs)  
+[Changelog: content exclusion GA for Business/Enterprise](https://github.blog/changelog/2024-11-12-content-exclusion-ga/) (GitHub Blog)
+
+**Question:** [048]  
+Which statement about **support SLAs** and Copilot plans is **accurate**?
+
+**Options:**  
+A. Copilot Enterprise **includes** Premium Support SLAs by default  
+B. **GitHub Premium Support (with SLAs) is a separate, paid offering** for Enterprise customers and can be paired with Copilot Enterprise  
+C. Copilot Business includes 24/7 SLA-backed support by default  
+D. Copilot Pro includes SLA-backed support for individuals
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**Premium Support with SLAs** is **not bundled** with any Copilot plan; it is a **separate, paid** support tier for GitHub Enterprise customers that can be added alongside Copilot Enterprise.
+
+**Tips and Tricks:**  
+- When stems mention **SLA targets/response times**, think **Premium Support add-on**, not a Copilot plan feature.  
+- Keep **plan features** (Copilot) distinct from **support entitlements** (Premium Support).
+
+> [!IMPORTANT]  
+> Align **enterprise governance** needs with **Copilot Enterprise**, and add **Premium Support SLAs** only if your operational model requires contractual response times.
+
+**Source:**  
+[**About GitHub Premium Support** (paid add-on)](https://docs.github.com/en/enterprise-cloud%40latest/support/learning-about-github-support/about-github-premium-support) (GitHub Docs)  
+[GitHub Support tiers overview](https://docs.github.com/en/enterprise-cloud%40latest/support) (GitHub Docs)  
+[Premium Support offering page](https://github.com/enterprise/premium-support) (GitHub)
+
+**Question:** [049]  
+Which statement about **SSO** and Copilot plans is **correct**?
+
+**Options:**  
+A. SSO is **bundled** with Copilot Enterprise as a plan feature  
+B. **SSO is an Enterprise Cloud organization capability; Copilot Enterprise uses your org’s SSO if configured**  
+C. Copilot Business enables SSO for **GitHub Team** orgs  
+D. Copilot Pro enables SSO for individuals
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**SSO** is configured at the **GitHub Enterprise Cloud organization/enterprise** level. **Copilot Enterprise relies on the org’s existing SSO**, it doesn’t include SSO as a Copilot-specific feature.
+
+**Tips and Tricks:**  
+- Evaluate **identity** at the **org/enterprise** layer first; then choose the Copilot plan.  
+- This avoids over-attributing **identity features** to Copilot itself.
+
+> [!IMPORTANT]  
+> Use Copilot Enterprise **with** your org’s SAML/IdP setup; configure SSO in **Enterprise Cloud** (not within Copilot plan settings).
+
+**Source:**  
+[Managing SAML SSO for your organization (Enterprise Cloud)](https://docs.github.com/en/enterprise-cloud%40latest/organizations/managing-saml-single-sign-on-for-your-organization) (GitHub Docs)  
+[About SAML for enterprise IAM](https://docs.github.com/en/enterprise-cloud%40latest/admin/managing-iam/understanding-iam-for-enterprises/about-saml-for-enterprise-iam) (GitHub Docs)  
+[Choosing your enterprise’s Copilot plan](https://docs.github.com/copilot/get-started/choosing-your-enterprises-plan-for-github-copilot) (GitHub Docs)
+
+**Question:** [050]  
+When you start a **free 30-day trial of GitHub Enterprise Cloud**, which GitHub Copilot plan is **included with the trial**?
+
+**Options:**  
+A. GitHub Copilot Free  
+B. GitHub Copilot Pro  
+C. GitHub Copilot Business  
+D. GitHub Copilot Enterprise  
+E. None, Copilot always requires a separate purchase
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
+
+</details> 
+
+**Explanation:**   
+The **GitHub Enterprise Cloud trial includes GitHub Copilot Business** so enterprises can evaluate **org-level controls**, **policies**, and **reporting** during the trial period.
+
+**Tips and Tricks:**  
+- “**Trial includes**” maps to **Copilot Business**, not Pro, not Enterprise.  
+- After the trial, ongoing Copilot usage requires **paid licensing**.
+
+> [!IMPORTANT]  
+> During the trial you can enable **Copilot Business**. GitHub notes you may need to **add a card**, but **no charge occurs during the trial**. **Copilot Enterprise** is available to Enterprise Cloud orgs, but **not included by default**.
+
+**Source:**  
+[Subscribing to GitHub Copilot for your enterprise](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-plan/subscribe) (GitHub Docs)  
+[Setting up a trial of GitHub Enterprise Cloud](https://docs.github.com/en/enterprise-cloud%40latest/enterprise-onboarding/getting-started-with-your-enterprise/setting-up-a-trial-of-github-enterprise) (GitHub Docs)  
+[Plans for GitHub Copilot](https://docs.github.com/en/enterprise-cloud%40latest/copilot/get-started/plans) (GitHub Docs)
+
+**Question:** [051]  
+Who can **manage** (create or edit) **content exclusion** settings for GitHub Copilot? *(Choose all that apply.)*
+
+**Options:**  
+A. Repository administrators  
+B. Organization owners  
+C. Enterprise owners  
+D. People with the **Maintain** role for a repository  
+E. Outside collaborators
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, B, C
+
+</details> 
+
+**Explanation:**   
+**Repository administrators**, **organization owners**, and **enterprise owners** can **configure content exclusion**. **Maintain** can **view** but **not edit**. **Outside collaborators** cannot manage exclusions.
+
+**Tips and Tricks:**  
+- **Manage** is not **view**, **Maintain = view only**.  
+- Content exclusion is available for **Copilot Business** and **Copilot Enterprise** orgs.
+
+> [!IMPORTANT]  
+> **Content exclusion** controls **what Copilot can see**. It is distinct from **duplication detection or code referencing**, which governs **what Copilot may suggest or show**.
+
+**Source:**  
+[Excluding content from GitHub Copilot](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot) (GitHub Docs)  
+[Content exclusion, concept and roles](https://docs.github.com/en/copilot/concepts/context/content-exclusion) (GitHub Docs)
+
+**Question:** [052]  
+What is the purpose of GitHub Copilot’s **duplication detection or code-referencing controls**?
+
+**Options:**  
+A. To compress prompts for faster latency  
+B. To block or identify suggestions that **match public code** on GitHub  
+C. To disable Copilot Chat history  
+D. To auto-attribute licenses in your repository
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+Copilot can **check a suggestion** (including about **~150 surrounding characters**) against **public GitHub code**. You can **block** matching suggestions or **allow with references** that show the **origin repository and license**.
+
+**Tips and Tricks:**  
+- **Block** suppresses the suggestion. **Allow with references** shows the source for legal or engineering review.  
+- Configure at **organization** or **individual** level, depending on plan and surface.
+
+> [!IMPORTANT]  
+> Pair **code referencing** with **content exclusion**. Exclusion limits **context visibility**, referencing limits or labels **suggested output**. Together they reduce **IP and license risk**.
+
+**Source:**  
+[Finding public code that matches suggestions](https://docs.github.com/en/copilot/how-tos/get-code-suggestions/find-matching-code) (GitHub Docs)  
+[Copilot code referencing, concept](https://github.blog/news-insights/product-news/introducing-code-referencing-for-github-copilot/) (GitHub Blog)
+
+**Question:** [053]  
+Which GitHub Copilot plan is available to enterprises using **GitHub Enterprise Cloud**, providing **advanced compliance**, **audit**, and **identity** features?
+
+**Options:**  
+A. GitHub Copilot Business  
+B. GitHub Copilot Enterprise  
+C. GitHub Copilot Pro  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**GitHub Copilot Enterprise** is available to **GitHub Enterprise Cloud** organizations and adds **enterprise-grade governance** (for example, **audit visibility**, **enterprise integrations**, and **GitHub.com repository-aware Copilot Chat**). Identity such as **SSO** is configured at the **Enterprise Cloud organization** level; Copilot Enterprise **uses your org’s SSO** rather than bundling SSO in the plan.
+
+**Tips and Tricks:**  
+- Mentions of **Enterprise Cloud**, **enterprise integrations**, **advanced compliance/audit**, or **GitHub.com repo-aware Chat** point to **Copilot Enterprise**.  
+- **Copilot Business** gives org-level controls (policies, usage, **audit logs**) for **Team** and **Enterprise Cloud** orgs, but not the **Enterprise-only** GitHub.com context features.
+
+> [!IMPORTANT]  
+> Treat **SSO** as an **Enterprise Cloud organization capability** that **Copilot Enterprise relies on**. Distinguish **Business (admin controls + audit logs)** from **Enterprise (adds enterprise-only integrations and GitHub.com context)**.
+
+**Source:**  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
+
+**Question:** [054]  
+Which GitHub Copilot plan provides **enterprise proxy support** and **advanced compliance** features, and can be paired with **GitHub Premium Support (SLAs) as a separate purchase**?
+
+**Options:**  
+A. GitHub Copilot Business  
+B. GitHub Copilot Enterprise  
+C. GitHub Copilot Pro  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**GitHub Copilot Enterprise** supports **enterprise network/proxy configurations** and provides **enterprise-grade compliance and audit capabilities** for **GitHub Enterprise Cloud** organizations. If SLA-backed response targets are required, **GitHub Premium Support** can be purchased **separately** (it is **not bundled** with any Copilot plan).
+
+**Tips and Tricks:**  
+- **Proxy/network controls + enterprise compliance/audit** are strong signals for **Copilot Enterprise**.  
+- Keep **support entitlements** (for example, **Premium Support with SLAs**) **separate** from **Copilot plan features**.
+
+> [!IMPORTANT]  
+> Treat **identity (SSO)** and **network/proxy** as **Enterprise Cloud org capabilities** that **Copilot Enterprise relies on**. Use **Copilot Enterprise** for **enterprise integrations**, **GitHub.com repository-aware Chat**, and **governance**; add **Premium Support** only if your operations require SLA-backed response times.
+
+**Source:**  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[About GitHub Premium Support](https://docs.github.com/en/enterprise-cloud%40latest/support/learning-about-github-support/about-github-premium-support) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
+
+**Question:** [055]  
+Which GitHub Copilot plan enables **organization administrators** to define and enforce **policy settings** for how code suggestions are generated?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
+
+</details> 
+
+**Explanation:**   
+**GitHub Copilot Business** provides **org-level policy controls** (for example, enabling or disabling features and models, **public code filtering**, and **content/context exclusions**) so administrators can govern how suggestions are generated across the organization. Enterprise Cloud customers can also manage these policies at the **enterprise** scope.
+
+**Tips and Tricks:**  
+- Cues like **admin policies**, **model/feature availability**, **exclusions**, **public code filtering** map to **Business**.  
+- **Pro** and **Free** have **no** org governance; **Enterprise** orchestrates policies at enterprise scope but the controls originate at the org tier.
+
+> [!IMPORTANT]  
+> Standardize Copilot behavior with **central policies** first, then extend to the **enterprise level** if you operate multiple orgs under Enterprise Cloud.
+
+**Source:**  
+[Managing policies for Copilot in your organization](https://docs.github.com/copilot/how-tos/administer/organizations/managing-policies-for-copilot-in-your-organization) (GitHub Docs)  
+[Copilot policies, concepts](https://docs.github.com/en/copilot/concepts/policies) (GitHub Docs)  
+[Manage enterprise policies for Copilot](https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-enterprise-policies) (GitHub Docs)
+
+**Question:** [056]  
+Which GitHub Copilot plan provides **organization administrators** with **usage metrics and reports** for members’ Copilot activity?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
+
+</details> 
+
+**Explanation:**   
+Both **Business** and **Enterprise** expose **usage reporting** so admins can monitor **adoption**, **entitlements**, and **usage trends** (including downloadable activity reports) across teams and organizations.
+
+**Tips and Tricks:**  
+- Phrases like **org usage**, **metrics**, **reporting**, **activity report** point to **Business/Enterprise**.  
+- **Pro** is individual only; **Free** has no org reporting.
+
+> [!IMPORTANT]  
+> Pair **usage reports** with **policy controls** to drive enablement, governance, and cost oversight.
+
+**Source:**  
+[Review user activity data (organization)](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-user-activity-data) (GitHub Docs)  
+[Download Copilot activity report](https://docs.github.com/en/copilot/how-tos/administer-copilot/download-activity-report) (GitHub Docs)  
+[Monitor usage and entitlements](https://docs.github.com/en/copilot/how-tos/manage-and-track-spending/monitor-premium-requests) (GitHub Docs)
+
+**Question:** [057]  
+Which GitHub Copilot plan provides **advanced governance** for enterprise-scale organizations (for example, **enterprise integrations** and **GitHub.com repository-aware Copilot Chat**) alongside **audit visibility** and compliance support?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
+
+</details> 
+
+**Explanation:**   
+**Copilot Enterprise** adds **enterprise-only integrations** and **GitHub.com repo-aware Copilot Chat** for Enterprise Cloud orgs, on top of org admin features (including **audit logs**) available in Business. This combination supports **enterprise governance** and compliance workflows.
+
+**Tips and Tricks:**  
+- “**Enterprise integrations**,” “**GitHub.com repo-aware Chat**,” or “**enterprise governance**” point to **Enterprise**.  
+- Remember: **Business also has audit logs**; Enterprise distinguishes itself with **GitHub.com context** and broader integration surfaces.
+
+> [!IMPORTANT]  
+> Treat **audit visibility** as an **org capability** present in both Business and Enterprise; choose **Enterprise** when scenarios explicitly require **GitHub.com context** or **enterprise integrations**.
+
+**Source:**  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[Copilot features overview](https://docs.github.com/en/enterprise-cloud%40latest/copilot/get-started/features) (GitHub Docs)  
+[Review audit logs for Copilot (Business/Enterprise)](https://docs.github.com/en/enterprise-cloud%40latest/copilot/how-tos/administer-copilot/manage-for-organization/review-activity/review-audit-logs) (GitHub Docs)
+
+**Question:** [058]  
+Which GitHub Copilot plan offers **enterprise-grade integrations** with systems such as **audit visibility**, **SSO (org-configured)**, and **compliance** features?
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
+
+</details> 
+
+**Explanation:**   
+**GitHub Copilot Enterprise** adds **enterprise integrations** and **GitHub.com repository-aware Copilot Chat** for **Enterprise Cloud** orgs, on top of org-level admin features. **SSO** is configured at the **Enterprise Cloud organization** level; Copilot Enterprise **uses your org’s SSO** rather than bundling SSO in the plan.
+
+**Tips and Tricks:**  
+- If you see **enterprise integrations**, **GitHub.com repo-aware Chat**, or **enterprise governance**, select **Copilot Enterprise**.  
+- **Business** includes **policy controls**, **usage reporting**, and **audit logs**; **Enterprise** extends this with **enterprise-only integrations** and **GitHub.com context**.
+
+> [!IMPORTANT]  
+> Treat **identity (SSO)** as an **Enterprise Cloud org capability**. Distinguish **Business** (admin controls + audit logs) from **Enterprise** (adds **enterprise integrations** and **repo-aware Chat** on GitHub.com).
+
+**Source:**  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)  
+[Choose a Copilot plan for your enterprise](https://docs.github.com/en/copilot/get-started/choose-enterprise-plan) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)  
+[GitHub Copilot Enterprise is now generally available](https://github.blog/news-insights/product-news/github-copilot-enterprise-is-now-generally-available/) (GitHub Blog)
+
+**Question:** [059]  
+In which environments is **GitHub Copilot Chat** available today? *(Choose all that apply.)*
+
+**Options:**  
+A. GitHub.com  
+B. Visual Studio Code  
+C. Visual Studio  
+D. JetBrains IDEs  
+E. GitHub Desktop
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, B, C, D
+
+</details> 
+
+**Explanation:**   
+**Copilot Chat** is supported on **GitHub.com** and inside major IDEs including **VS Code**, **Visual Studio**, and **JetBrains IDEs**. **GitHub Desktop** is **not** a supported Copilot Chat surface.
+
+**Tips and Tricks:**  
+- “Chatting about code in the **browser (GitHub.com)** or in **VS Code / Visual Studio / JetBrains**” means **Copilot Chat**.  
+- References to **GitHub Desktop** are distractors.
+
+> [!IMPORTANT]  
+> Know the supported **surfaces**: **GitHub.com** and **IDE integrations**. This is a frequent exam discriminator.
+
+**Source:**  
+[About GitHub Copilot Chat](https://docs.github.com/en/copilot/concepts/chat) (GitHub Docs)  
+[Chat with GitHub Copilot in your IDE](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide) (GitHub Docs)  
+[What is GitHub Copilot?](https://docs.github.com/en/copilot/get-started/what-is-github-copilot) (GitHub Docs)
+
+**Question:** [060]  
+Which GitHub Copilot plan(s) support **centralized seat (license) assignment and management** at the **organization** level? *(Choose all that apply.)*
+
+**Options:**  
+A. GitHub Copilot Pro  
+B. GitHub Copilot Business  
+C. GitHub Copilot Enterprise  
+D. GitHub Copilot Free  
+E. GitHub Team (non-Copilot plan)
+
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
+
+</details> 
+
+**Explanation:**   
+**Copilot Business** and **Copilot Enterprise** are **organization-managed** plans that allow admins to **assign and manage seats**. **Pro** is an **individual** subscription and **cannot** be centrally managed. **Free** has no org licensing.
+
+**Tips and Tricks:**  
+- Any mention of **org seat assignment**, **centralized licensing**, or **admin-managed provisioning** means **Business** or **Enterprise**.  
+- **GitHub Team** is a base org plan, **not** a Copilot plan.
+
+> [!IMPORTANT]  
+> Seat management is an **org capability** that starts at **Copilot Business** and continues in **Copilot Enterprise**.
+
+**Source:**  
+[GitHub Copilot licenses](https://docs.github.com/en/billing/concepts/product-billing/github-copilot-licenses) (GitHub Docs)  
+[Plans for GitHub Copilot](https://docs.github.com/en/copilot/get-started/plans) (GitHub Docs)
