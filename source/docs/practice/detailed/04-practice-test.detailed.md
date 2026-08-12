@@ -9,9 +9,9 @@ B. **Output panel / Extensions logs folder for Copilot; Developer Tools for Elec
 C. Git → Show Git Output (only)  
 D. Copilot Chat → /logs command  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 VS Code writes Copilot/extension diagnostics to the **Output** view and the **Extensions logs folder**. You can open logs via **View → Output → “GitHub Copilot”**, and open the extension log files using the Command Palette command **“Developer: Open Extension Logs Folder”**. Platform-level details live under **Developer: Toggle Developer Tools → Console** (Electron DevTools). Use these alongside **“GitHub Copilot: Collect Diagnostics”** for complete troubleshooting artifacts.
 
 **Tips and Tricks:**  
@@ -36,9 +36,9 @@ B. View → Explorer → Diagnostics
 C. **Ctrl/Cmd+Shift+P → type “Collect Diagnostics” → select “GitHub Copilot: Collect Diagnostics”**  
 D. F1 → “Open Logs” (only)
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**   
 Use the **Command Palette** (Windows/Linux **Ctrl+Shift+P**, macOS **Cmd+Shift+P**) and run **“GitHub Copilot: Collect Diagnostics.”** From the Command Palette, type **“Diagnostics”** or **“Collect Diagnostics”**, then select **“GitHub Copilot: Collect Diagnostics”**. The command packages Copilot logs, environment details, versions, and connectivity information into an editor tab that you can inspect or share with support to help identify **connectivity/extension issues**.
 
 **Tips and Tricks:**  
@@ -63,9 +63,9 @@ B. **GitHub.com, VS Code, Visual Studio, JetBrains IDEs, Eclipse, Xcode, GitHub 
 C. Only GitHub.com  
 D. Only IDEs (no browser or mobile)
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**   
 GitHub lists **multiple surfaces** for Copilot Chat, including **GitHub.com**, major **IDEs** (**Visual Studio Code**, **Visual Studio**, **JetBrains IDEs**, **Eclipse**, **Xcode**), **GitHub Mobile**, and **Windows Terminal**. Core chat behavior is similar across these environments, but effective availability still depends on your **plan** and **organization/enterprise policy**.
 
 **Tips and Tricks:**  
@@ -90,9 +90,9 @@ B. **Edit = user-driven targeted edits; Agent = autonomous multi-step changes (c
 C. Edit = chat only; Agent = inline only  
 D. Edit = repository-aware; Agent = IDE-only  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 **Edit mode** keeps you in control: you pick files, preview diffs, and accept changes incrementally. It is a **user-driven, targeted edit experience** where you select the scope, review suggested diffs, and apply or reject changes. **Agent mode** lets the **Copilot coding agent** decide which files and commands to run and **perform autonomous multi-step work** across files and tools, often **creating or updating pull requests** that you then review and merge.
 
 **Tips and Tricks:**  
@@ -117,9 +117,9 @@ B. **AI review suggestions and natural-language summaries of changes**
 C. License scanning  
 D. Static code analysis only  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 On GitHub.com, Copilot can generate **review suggestions** and **summaries** to accelerate PR understanding. **Copilot code review** can analyze pull requests and offer **inline review comments and suggested changes**, while **Copilot PR summaries** generate **natural-language overviews of the changes** so reviewers can quickly understand scope and intent. These aids do **not** replace mandatory reviews or testing; they help reviewers focus on high-risk areas by condensing diffs and spotting potential issues.
 
 **Tips and Tricks:**  
@@ -144,9 +144,9 @@ B. Pro is only for organizations
 C. Business is required for single developers  
 D. Enterprise includes Pro seats for free  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-**Explanation:**  
+</details> **Explanation:**   
 **Copilot Free** targets individuals getting started with a **personal-use, limited-quota** plan. **Copilot Pro** (and **Pro+**) are paid individual subscriptions and **Copilot Pro** can be **free** for **verified students, teachers, and maintainers of popular open-source projects**. You do **not** need **Business** or **Enterprise** plans for a single developer using a personal GitHub account.
 
 **Tips and Tricks:**  
@@ -171,9 +171,9 @@ B. **Org owners purchase/assign Business; Enterprise owners manage Enterprise su
 C. Repository admins purchase both  
 D. Students purchase Enterprise  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 For **Copilot Business**, **organization owners** subscribe at the **organization level**, purchase **Copilot seats**, and assign them to organization members. For **Copilot Enterprise** (or Business managed at the enterprise level), **enterprise owners** subscribe at the **enterprise layer** and centrally manage **plans and seat assignment across organizations**, delegating as needed while respecting organization boundaries.
 
 **Tips and Tricks:**  
@@ -198,9 +198,9 @@ B. **Free / Pro (individual), Pro+ (individual), Business (org), Enterprise (org
 C. Pro, Business, Enterprise only  
 D. Free, Team, Enterprise Server  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 GitHub’s current plan taxonomy distinguishes **individual** plans (**Copilot Free, Copilot Pro, Copilot Pro+**) and **organization/enterprise** plans (**Copilot Business, Copilot Enterprise**). As you move up tiers, you gain **governance and policy controls** (such as usage reporting and content exclusion) and then **enterprise capabilities** (for example, **SSO integrations, audit logs, repo-aware chat, and advanced data controls**).
 
 **Tips and Tricks:**  
@@ -225,9 +225,9 @@ B. Both are automatically applied without user action
 C. Only chat can generate code; inline cannot  
 D. Inline runs in the browser; chat runs only in IDEs  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-**Explanation:**  
+</details> **Explanation:**   
 **Inline** is a lightweight completion experience that appears as ghost text near the cursor and is accepted via keys such as **Tab/Enter**. **Chat** is invoked by opening a chat view or inline chat, then typing prompts that can use **selected code or files as context**. Both experiences run in supported IDEs, while **Copilot Chat** is also available on **GitHub.com** and **Windows Terminal**.
 
 **Tips and Tricks:**  
@@ -252,9 +252,9 @@ B. **Yes, use Copilot Chat or context prompts to generate tests for selected cod
 C. Only on Enterprise plans  
 D. Only in JetBrains IDEs  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Copilot Chat and prompt patterns support **test generation** for selected code. In supported IDEs you can **select a function or file and ask Copilot to generate unit (or integration) tests**, and Copilot will propose **test cases, scaffolds, and assertions** based on the surrounding context. Guides such as **“Writing tests with GitHub Copilot”** also describe using prompts or commands (for example, **/tests**) to generate tests.
 
 **Tips and Tricks:**  
@@ -279,9 +279,9 @@ B. **Yes, Windows Terminal is listed among supported Copilot Chat surfaces**
 C. Yes, but only on GHES  
 D. Only if you disable inline suggestions  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 GitHub includes **Windows Terminal** among the supported surfaces for Copilot Chat. With **Terminal Chat** in **Windows Terminal**, you can ask Copilot for **command suggestions, explanations, and one-off shell scripts** directly in the terminal, alongside GitHub.com, IDEs, and GitHub Mobile.
 
 **Tips and Tricks:**  
@@ -306,9 +306,9 @@ B. **Use Copilot Chat and selection-based prompts to draft docstrings, comments,
 C. Docs are generated automatically on every commit  
 D. Only Enterprise plans can generate documentation  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Copilot supports **documentation workflows**. You can select code and ask Copilot Chat to **“write docstrings,” “explain this function,” or “draft a README section”**, and include **style constraints** such as tone, audience, and format. Inline suggestions also surface comment completions near the cursor. Copilot can iteratively refine these drafts based on follow up prompts, for example “shorter,” “more beginner friendly,” or “add examples.”
 
 **Tips and Tricks:**  
@@ -333,9 +333,9 @@ B. **Use Copilot Chat to explain error messages/stack traces and propose fixes o
 C. Errors must be fixed manually; Copilot doesn’t help  
 D. Only Enterprise users can use Chat for debugging  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Copilot Chat can analyze **error messages, stack traces, and selected code**, then propose **root cause hypotheses**, **fixes**, and **refactors**. You can paste error messages or stack traces into Chat, or invoke Copilot from debugging contexts, and ask it to **explain the error, identify likely causes, and propose code changes**. You remain in control, review the rationale, apply suggested changes via inline edits or Copilot Edits, and retest.
 
 **Tips and Tricks:**  
@@ -360,9 +360,9 @@ B. **By generating test scaffolds/cases from selections and then helping refacto
 C. By disabling tests during development  
 D. By replacing the need for assertions  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Use Copilot Chat to **generate tests** from a selected function or acceptance criteria for the **red** stage, where tests initially fail. Then iterate on the implementation with inline suggestions or Copilot Edits until the tests pass, the **green** stage. After that, ask Copilot to **propose refactors** that preserve behavior while tests guard against regressions, the **refactor** stage. You control acceptance at each step and decide what to test, when to stop, and how far to refactor.
 
 **Tips and Tricks:**  
@@ -387,9 +387,9 @@ B. **The suggestion is inserted into your editor; you decide whether to keep, ed
 C. The change is merged to main if CI passes  
 D. An audit log entry is always generated  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Inline suggestions appear **near the cursor** as ghost text and are accepted via **Tab/Enter** or editor-specific key bindings. When you accept an inline suggestion, the **ghost text becomes real code in your editor buffer**, just as if you had typed it yourself. The code is **not automatically staged, committed, or pushed**, and there is no auto-merge. You retain full control over further edits, staging, commits, and pushes through your normal Git workflow.
 
 **Tips and Tricks:**  
@@ -414,9 +414,9 @@ B. **Use selection/file prompts in Copilot Chat to summarize purpose, dependenci
 C. Only repository-aware chat in Enterprise can explain files  
 D. You must upload files to a third-party site  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 In supported IDEs, you can **select a file or key regions of code** and ask Copilot Chat to **summarize the purpose**, **describe dependencies**, and **highlight potential risks or edge cases**. On GitHub.com, you can open a file or repository and use Copilot to **explain what the component does** and how it fits into the project. You can chain prompts such as “explain this module,” then “list external dependencies and side effects,” then “suggest tests for critical paths” to move from a high-level overview to deeper analysis.
 
 **Tips and Tricks:**  
@@ -441,9 +441,9 @@ B. **Write a Python function to reverse a string using slicing**
 C. Function in code  
 D. Suggest some code  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Effective prompts specify **language**, **task**, and **method/constraints**. Stating **“Python”** + **“reverse a string”** + **“using slicing”** removes ambiguity and guides the model to the intended pattern. A well-crafted prompt usually names the **language**, the **action**, the **object**, and any **key constraint** in a single concise sentence, so Copilot does less guessing and more targeted completion.
 
 **Tips and Tricks:**  
@@ -469,9 +469,9 @@ B. **Provide more context and details**
 C. Avoid specifying language  
 D. Retry without changes  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Ambiguous prompts force the model to guess. Adding **specific context** (file or selection, domain facts), **clear intent** (what to build or change), and **constraints** (language, framework, format, performance or style requirements) reliably improves accuracy. Define **inputs/outputs** and minimal **acceptance criteria** so the model follows instead of guessing, matching the guidance to **avoid ambiguity by adding project context, clear goals, and specific requirements**.
 
 **Tips and Tricks:**  
@@ -497,9 +497,9 @@ B. **Use detailed instructions with examples**
 C. Avoid comments in code  
 D. Skip specifying input or output  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Combining **explicit instructions** with **small, concrete examples** anchors the format, tone, and structure the model should match, reducing guesswork. The prompt-engineering guidance explicitly encourages **“give examples”** so Copilot can see the pattern you want and apply it to new cases, instead of inventing style and structure on its own.
 
 **Tips and Tricks:**  
@@ -525,9 +525,9 @@ B. **They align output with the desired style/pattern**
 C. They reduce Copilot’s ability to generate code  
 D. They slow completions  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Short **few-shot examples** show the model the **shape** you want (naming, layout, docstrings, tests), so generated output conforms to your pattern. Examples effectively **“show, not tell”** the desired **style, structure, and tone**, which is why prompt-engineering guidance recommends **“give examples”** so Copilot can generalize from patterns instead of guessing.
 
 **Tips and Tricks:**  
@@ -553,9 +553,9 @@ B. **It helps Copilot generate relevant and accurate suggestions**
 C. It prevents completions  
 D. It reduces security  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Copilot conditions on the **surrounding code, the current file, and your prompt**. Because Copilot does **prediction, not execution**, the closer and richer the context around the prompt, the more **relevant and accurate** the suggestions. Prompts that reference the right file/selection, types, interfaces, and data shapes give Copilot a much clearer target than generic, repo-agnostic requests.
 
 **Tips and Tricks:**  
@@ -581,9 +581,9 @@ B. **Refine or rephrase the prompt with more context**
 C. Use shorter prompts  
 D. Disable duplication detection  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Irrelevance usually means **missing or misaligned signals**. Instead of giving up or just retrying, you improve quality by **refining the prompt with more context and clearer intent**: add a selection/file, specify **inputs/outputs**, name the **language/tooling**, and set **constraints** so Copilot has less room to guess.
 
 **Tips and Tricks:**  
@@ -609,9 +609,9 @@ B. **Add snippets and style examples**
 C. Use vague instructions  
 D. Skip output format  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Supplying **style exemplars** (naming, error handling, test layout, docstrings) guides Copilot to mirror your project’s conventions. Prompt-engineering guidance explicitly recommends providing **project-idiomatic examples** so Copilot can follow your patterns instead of inventing its own style.
 
 **Tips and Tricks:**  
@@ -637,9 +637,9 @@ B. **Your prompts, file contents, and surrounding code context**
 C. Web searches via Bing  
 D. Pre-stored templates  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Copilot performs **contextual prediction**, not execution. It uses your **prompt**, the **current file and surrounding code**, and other allowed context (for example, chat history or repo index) to generate suggestions. It does **not** run your program or call external web search at inference time; quality depends on how good the **available context** is.
 
 **Tips and Tricks:**  
@@ -665,9 +665,9 @@ B. **Prevent specified repos/paths/file types/patterns from being used as input 
 C. Disable Copilot entirely  
 D. Publish private code  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 **Content exclusion** lets organizations with **Copilot Business or Enterprise** define what **input context** Copilot can see. Admins can exclude specific **repositories, directories/paths, file types, or pattern-based rules**, preventing that content from being used as context for suggestions in IDEs and on GitHub.com, even if users prompt near it. This keeps secrets and sensitive code out of Copilot’s prompt context.
 
 **Tips and Tricks:**  
@@ -693,9 +693,9 @@ B. **Business and Enterprise**
 C. Individual only  
 D. Free only  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 **Content exclusion** is an **organization-level** control available on **Copilot Business** and **Copilot Enterprise**. It lets org and enterprise admins define which **repositories, directories/paths, file types, or patterns** Copilot can use as **input context** in IDEs and on GitHub.com. Individual plans do **not** expose these admin governance features.
 
 **Tips and Tricks:**  
@@ -721,9 +721,9 @@ B. **“Summarize this function in 3 bullets for junior devs; include inputs, ou
 C. “Explain code.”  
 D. “Write notes.”  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Stating the **audience**, **length/structure**, and **must-include items** creates a concrete target. A prompt like “summarize this function in 3 bullets for junior devs; include inputs, outputs, and one caveat” defines **format (bullets)**, **length (3)**, **audience (junior devs)**, and **required content (inputs/outputs/caveat)**, so Copilot has a very clear output shape and less room to guess.
 
 **Tips and Tricks:**  
@@ -749,9 +749,9 @@ B. **“Refactor to pure functions; no side effects; keep same public API; add d
 C. “Make it cleaner.”  
 D. “Rewrite completely.”  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Refactor prompts work best when constraints are explicit: **style** (pure functions, no side effects), **compatibility** (keep the same public API and behavior), **non-functional requirements** (add docstrings), and **guardrails** (return early on invalid input). This matches refactoring guidance that structure should change but **observable behavior must remain the same** and tests should continue to pass.
 
 **Tips and Tricks:**  
@@ -777,9 +777,9 @@ B. **“Use Foo API v3; only endpoints /users/{id}, /users/search; TypeScript; f
 C. “Write users code.”  
 D. “Guess the latest endpoints.”  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Hallucinations drop when you **fix the API version**, **restrict which endpoints can be used**, and **specify language and tooling**. A prompt like “Use Foo API v3; only endpoints /users/{id}, /users/search; TypeScript; fetch; no undocumented fields; include error handling for 4xx/5xx” defines a **constrained, testable contract** instead of an open-ended request, and “no undocumented fields” explicitly discourages Copilot from inventing properties or methods.
 
 **Tips and Tricks:**  
@@ -805,9 +805,9 @@ B. **“Generate table-driven tests in Go for Parse(), covering empty, invalid, 
 C. “Test everything.”  
 D. “Add some asserts.”  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-**Explanation:**  
+</details> **Explanation:**   
 Specifying **language** (Go), **test style** (“table-driven tests”), the **target function** (`Parse()`), and **cases/fields** (“covering empty, invalid, edge lengths; include names and wantErr”) gives Copilot a concrete, idiomatic template to expand. This matches common Go patterns where tests use a `[]struct{ name string; input …; want …; wantErr bool }` table and iterate over named cases.
 
 **Tips and Tricks:**  
