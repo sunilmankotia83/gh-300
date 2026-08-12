@@ -9,7 +9,9 @@ B. Content exclusion hides Copilot’s suggestions that look similar to excluded
 C. Both features block any suggestion that looks similar to either private or public code, acting as identical output filters.  
 D. They’re identical governance controls with different names and UIs, and are always configured together.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 **Content exclusion** is an **input-side control**: it prevents specified repositories, paths, file types, or patterns from being used as context by Copilot. **Code referencing / matching public code** is an **output-side control**: it helps identify or restrict suggestions that match public code. These are related governance features, but they solve different problems and operate at different points in the Copilot workflow.  
@@ -41,7 +43,9 @@ B. **Activity and feature-usage signals (e.g., suggestions, chat, agents) with d
 C. Private repository file contents that are fed directly into model training pipelines for Copilot.  
 D. Full copies of your source files and diffs, stored indefinitely for auditing and replay of developer activity.  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
 
 **Explanation:**  
 GitHub documents **Copilot usage metrics** as structured data about **adoption, engagement, activity, code generation, and pull request lifecycle trends** across Copilot features. These metrics are exposed through dashboards and APIs using defined fields and retention windows. They are **not** described as raw dumps of repository source code or indefinite storage of full file contents.  
@@ -72,7 +76,9 @@ B. **By drafting test stubs/cases from a selection or spec, then assisting with 
 C. Use Copilot to automatically comment out or disable failing tests during development to keep the suite green.  
 D. Ask Copilot to skip or remove assertions to speed up development cycles, adding them back later if needed.  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
 
 **Explanation:**  
 Copilot can support TDD by helping you **draft failing tests first**, based on a selected function, requirement, or lightweight spec, and then assisting with the code changes needed to make those tests pass. This fits the normal **red → green → refactor** rhythm. GitHub’s testing guidance positions Copilot as a productivity aid for generating tests and iterating on code, not as a replacement for review or as a justification to weaken assertions.  
@@ -103,7 +109,9 @@ B. Temporarily disable branch protections so you can merge faster without runnin
 C. Delete all generated tests and always rewrite them entirely by hand.  
 D. **Review assertions/fixtures, add missing edge cases, and run the suite to measure coverage**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 Copilot-generated tests are a **starting point**, not a guarantee of correctness or completeness. After generation, you should **review the assertions, setup/fixtures, mocking strategy, and edge-case coverage**, then run the tests and assess coverage and behavior. This ensures the tests actually validate the intended behavior instead of simply looking plausible.  
@@ -134,7 +142,9 @@ B. Assist with test refactors, naming, and organizing fixtures to improve readab
 C. Generate test templates, scaffolds, and suggested assertions for functions and classes.  
 D. **Run your test framework automatically in CI**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 Copilot can help you **draft and refine tests**, including parameterized tests, assertions, and fixture organization. However, **running your CI pipeline or test framework automatically in CI** is not itself a general capability of Copilot as a testing assistant. CI execution is handled by your build and automation platform, such as GitHub Actions, not by Copilot simply by virtue of generating tests.  
@@ -165,7 +175,9 @@ B. Disable required reviewers or branch protections when its confidence in the c
 C. Rewrite commit history and amend commits to enforce style and format rules.  
 D. **Generates natural-language PR summaries and review suggestions to speed understanding**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 On GitHub.com, Copilot can assist reviewers by generating **pull request summaries** and **review suggestions/comments** that help people understand the intent, scope, and possible risks in a change set. These features are designed to accelerate understanding and discussion, not to replace branch protection rules, human approvals, or repository governance.  
@@ -196,7 +208,9 @@ B. Accept Copilot’s suggestions, skip tests entirely, and merge to maximize sp
 C. Accept suggestions and rely only on duplication filters to catch any issues before merging.  
 D. **Accept suggestions → run tests/coverage in CI → code review with PR summaries → (optionally) code scanning → merge**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 The safest workflow for Copilot-generated changes preserves normal engineering controls: **tests and coverage in CI**, **human code review**, and where appropriate **security scanning/code scanning** before merge. Copilot can accelerate drafting and reviewing, but it should sit inside your existing quality gates rather than replacing them.  
@@ -227,7 +241,9 @@ B. Ask Copilot to “write tests” with no further details about the code under
 C. **Select the target function and ask for “parameterized/table-driven tests” in your framework (e.g., pytest parametrize/JUnit @MethodSource)**  
 D. Rely on duplication filters alone to expand a single example into multiple parameterized cases automatically.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 Copilot performs best when you give it **clear local context** and specify the **framework and test style** you want. For parameterized or table-driven tests, that means selecting the function or class under test and explicitly asking for the cases in the conventions of your framework, such as `pytest.mark.parametrize`, JUnit parameter sources, or equivalent patterns.  
@@ -258,7 +274,9 @@ B. **Developers must measure coverage and strengthen assertions; Copilot provide
 C. Copilot guarantees 100% test coverage whenever you ask it to “cover all cases,” so manual coverage measurement is unnecessary.  
 D. Copilot automatically runs mutation testing tools in your CI pipeline and tunes assertions accordingly.  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
 
 **Explanation:**  
 Copilot can accelerate creation of test code, but developers still need to **measure coverage**, inspect what is and is not being exercised, and improve **assertion quality** and scenario depth. Copilot is useful for scaffolding and iteration, but it does not guarantee comprehensive coverage or automatically validate the meaningfulness of every assertion.  
@@ -289,7 +307,9 @@ B. Disable flaky tests so CI stays green and rely on manual testing in productio
 C. **Stabilize by isolating external dependencies (mocks/fakes), add deterministic fixtures, and minimize timing sensitivity**  
 D. Rerun the CI job repeatedly until it passes once, then merge and mark the issue as resolved.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 Flaky tests usually signal problems such as dependency on external systems, nondeterministic timing, shared mutable state, or weak setup/teardown isolation. The right response is to make the tests **deterministic and isolated**, for example by using **mocks/fakes**, stable fixtures, and less timing-sensitive assertions. Copilot can help refactor tests, but the goal is reliability, not hiding the instability.  
@@ -320,7 +340,9 @@ B. Content exclusion automatically detects and quarantines flaky tests so they a
 C. **Content exclusion restricts what Copilot can read as input (including test files); code referencing governs output similarity to public code**  
 D. Both features only apply to application source files; test files are always fully visible to Copilot and exempt from governance controls.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 The same governance concepts apply to **test files** as to other code. **Content exclusion** can limit whether Copilot may use certain repositories, paths, or file patterns as context, which can include tests. **Code referencing / matching public code** remains concerned with public-code similarity in outputs. Neither feature is specifically a test runner or flaky-test management tool.  
@@ -351,7 +373,9 @@ B. Rely on PR summaries alone to auto-generate tests after the feature is implem
 C. Write all production code first so Copilot can only infer tests from existing implementations, then ask it to add tests afterward.  
 D. Ask Copilot to implement the feature and explicitly skip test creation to save time.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 Copilot works well when given a **clear behavioral spec** and a target framework. If you want Given/When/Then-style tests before implementation, provide the behavior in that structure and ask Copilot to scaffold the failing tests. This fits a specification-first or TDD-oriented workflow, and makes the intended behavior explicit before code is written.  
@@ -382,7 +406,9 @@ B. Ask Copilot to autonomously run terminal commands, update multiple files, and
 C. Use Copilot to coordinate edits across many files, update tests and configs, and run commands as part of a multi-step workflow.  
 D. **When you want targeted, reviewable diffs on a small, well-scoped change**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 **Edit mode** is best for **small, specific, reviewable changes** where you know the files and want direct control over the resulting diffs. **Agent mode** is better suited for larger, multi-step tasks that may span files, involve commands, or require more autonomy. For a well-scoped change, Edit mode gives you tighter control with less overhead.  
@@ -412,7 +438,9 @@ B. **Run multi-step workflows (e.g., edit across files, run commands) and open a
 C. Merge directly to the default branch, ignoring status checks and branch protection rules.  
 D. Let Copilot bypass required reviews and merge directly when it thinks changes are safe.  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
 
 **Explanation:**  
 Agent mode is designed for **broader workflows** that can involve **editing multiple files, running commands or tools, iterating to fix issues, and creating a pull request**. Edit mode focuses on proposing code diffs in selected files. Agent mode adds orchestration and autonomy, but it still operates inside the repository’s normal governance rules.  
@@ -443,7 +471,9 @@ B. Use the coding agent only to write code, while Copilot Chat runs terminal com
 C. Let Copilot Chat run tests and open PRs while the coding agent focuses only on drafting test code.  
 D. **Chat: draft tests/config; Agent: run commands, iterate, open PR**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 A practical division of labor is to use **Chat** for drafting or refining code and configuration ideas, then use **Agent mode / coding agent** for the broader execution flow that includes **running commands, iterating on failures, and opening a PR**. This matches the strengths of each capability: Chat for targeted assistance, Agent for orchestrated task completion.  
@@ -474,7 +504,9 @@ B. Temporarily disable required checks and protections so the agent can land cha
 C. Run the coding agent directly on the default branch to avoid branch management and potential conflicts.  
 D. Skip running tests to save time, relying on the agent’s confidence instead.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 The safest pattern is to keep the agent inside a normal **branch + PR + validation** workflow: work on a **feature branch**, keep changes **small and reviewable**, run tests, and make sure you have a clear **rollback path** if needed. This preserves the repository’s safety mechanisms and makes iterative work easier to understand and undo.  
@@ -505,7 +537,9 @@ B. **As helpful input that does not replace required reviews or protections**
 C. Use Copilot summaries as automatic passes for required status checks so PRs can merge without tests.  
 D. Treat Copilot PR summaries and review suggestions as authoritative approvals that replace human reviewers.  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
 
 **Explanation:**  
 Copilot PR summaries and review suggestions are meant to **help humans understand and review changes faster**. They are not equivalent to an approval, they do not satisfy required reviewer rules, and they do not replace status checks or branch protections. They should be treated as **assistive inputs** within your normal review workflow.  
@@ -536,7 +570,9 @@ B. You want the tool to bypass required reviews and branch protections so change
 C. **You need to rename a parameter and update one docstring in a single file.**  
 D. You need to regenerate a lockfile and re-run a multi-step build or test workflow in CI.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 Agent mode is best reserved for **larger, multi-step tasks** that may involve multiple files, commands, or PR workflows. A tiny, localized change like renaming a parameter and updating one docstring is usually better handled with **Edit mode, inline suggestions, or Chat**, because the task is too small to benefit from the extra autonomy and orchestration of Agent mode.  
@@ -566,7 +602,9 @@ B. Allow force-pushes to the main branch so the agent can rewrite history as nee
 C. Run the coding agent directly on the default branch with protections disabled so it can land changes faster.  
 D. Skip tests to reduce noise in PRs and rely on manual spot-checking instead.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 A strong boundary pattern keeps the agent inside **protected, reviewable workflows**: use a **feature branch**, preserve **required checks**, prefer **small commits or small reviewable increments**, and be prepared to **revert** if the change set turns out to be wrong. This makes command execution safer and easier to audit.  
@@ -597,7 +635,9 @@ B. Copilot can merge a pull request whenever CI is green, even if no human has a
 C. Copilot suggestions automatically count as approving reviews and satisfy required reviewers.  
 D. Copilot can dismiss CODEOWNERS and other required reviewers to speed up merges.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 Branch protection rules continue to apply normally even when Copilot review features are in use. If a branch requires **approving reviews**, **status checks**, or **CODEOWNER review**, those requirements remain in force. Copilot review suggestions are comments and guidance; they do not replace or override merge protections.  
@@ -628,7 +668,9 @@ B. Merge immediately after applying a suggestion if the code compiles locally.
 C. **Apply suggestions to the PR branch, rerun checks, and request required reviewers to re-review**  
 D. Remove or relax CODEOWNERS to avoid delays from expert review.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 When Copilot suggests a change during review, the safe pattern is to apply it on the **PR branch**, then **rerun checks** and involve the **required reviewers** again if the change affects reviewed areas. This keeps the PR inside the standard validation loop and ensures reviewers see the actual final state before merge.  
@@ -659,7 +701,9 @@ B. Configure repository secrets so merges are blocked unless experts leave a com
 C. Copilot PR summaries alone to automatically route reviews and decide who must approve.  
 D. The coding agent to infer the right reviewers from file names and assign them dynamically.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 GitHub’s **CODEOWNERS** feature is the standard mechanism for associating specific paths with designated owners. When combined with branch protection rules that require review from code owners, it ensures that changes touching those paths trigger the right expert review requirements. This is a repository governance feature, not something delegated to Copilot inference.  
@@ -690,7 +734,9 @@ B. Rely only on inline completions at the cursor and manage tests, snapshots, an
 C. **Copilot coding agent (Agent mode) orchestrating edits + commands + PR creation**  
 D. Skip reviews because CI will catch issues, letting changes merge without human sign-off.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 This is a classic **multi-step workflow**: several files, tests, snapshot updates, docs changes, and PR creation. That fits **Copilot coding agent / Agent mode**, which is designed to coordinate broader tasks, run commands, and work toward a pull request. Edit mode or inline completions are less suitable because the workflow spans multiple steps beyond direct text edits.  
@@ -721,7 +767,9 @@ B. Agent-created PRs ignore CODEOWNERS rules and only require a maintainer to cl
 C. Agent-created PRs automatically merge whenever required checks are green, regardless of review settings.  
 D. Agent-created PRs always have admin bypass and can merge even if protections would normally block them.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 PRs opened by the coding agent are still just **pull requests in your repository**, so normal governance remains in force: **branch protections**, **required checks**, **review requirements**, and **CODEOWNERS** rules continue to apply. The agent can propose changes, but it does not receive special authority to bypass standard controls.  
@@ -752,7 +800,9 @@ B. Disable tests to speed up iterations even if multiple packages are affected.
 C. Force-push directly to main to avoid branch drift when the agent changes many packages.  
 D. Let the agent freely modify the entire monorepo and plan to clean up any unwanted changes later.  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 In a monorepo, good results depend heavily on **clear scoping**. You should specify the **package(s), path(s), or modules** the agent should work in, and prefer **small, reviewable diffs** instead of allowing open-ended changes across the entire repository. This reduces accidental cross-package edits and makes review much easier.  
@@ -782,7 +832,9 @@ B. Use Copilot Chat only to explain a single error message in one file, without 
 C. Ask Copilot to generate a one-off helper function inline in your editor.  
 D. **Run tests, fix lint issues across modules, update config, and push a branch with a draft PR**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 The coding agent is most valuable when the task requires **multi-step execution**, such as running tests, fixing issues in multiple places, updating configuration, and creating a branch/PR for review. Chat alone is better suited for explanations, drafting, and smaller localized assistance.  
@@ -813,7 +865,9 @@ B. Work directly on the default branch so rollback is just another commit on mai
 C. Force-push over history to remove bad states created by the agent.  
 D. **Use a feature branch, keep commits small, and revert the PR if needed**  
 
-**Correct Answer(s):** D  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
+
+</details> 
 
 **Explanation:**  
 A safe rollback pattern emphasizes **containment and reversibility**. Use a **feature branch**, keep the agent’s changes **small and reviewable**, and if needed **revert the PR** rather than rewriting protected history. This preserves traceability and avoids turning rollback into a second risky operation.  
@@ -843,7 +897,9 @@ B. Let it edit anywhere in the repo until CI turns green, without regard for sco
 C. **It should run tests, propose minimal code changes with diffs, and push to a branch for PR review**  
 D. Expect the agent to bypass branch protections, commit hotfixes directly on main, and merge without review.  
 
-**Correct Answer(s):** C  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
+
+</details> 
 
 **Explanation:**  
 The safe expectation is that the agent will work in a **branch-based, reviewable workflow**: run the tests, make **minimal changes needed** to address the failures, and push those changes to a branch for **pull request review**. The goal is controlled remediation, not broad uncontrolled edits or automatic merging.  
@@ -874,7 +930,9 @@ B. They guarantee no semantic diff errors
 C. They auto-approve PRs when short enough  
 D. They replace CODEOWNERS requirements  
 
-**Correct Answer(s):** A  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
+
+</details> 
 
 **Explanation:**  
 The main value of Copilot PR summaries is that they **accelerate understanding**: they explain what changed, what files are affected, and what reviewers may want to focus on. They help reviewers orient themselves faster, especially in larger or less familiar changes, but they do not replace testing, review, or ownership requirements.  
@@ -905,7 +963,9 @@ B. **Treat as advisory; apply on a branch, run required checks, and get owner re
 C. Trust them if CI passes  
 D. Disable CODEOWNERS for AI-authored changes  
 
-**Correct Answer(s):** B  
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
+
+</details> 
 
 **Explanation:**  
 In a security-sensitive repository, Copilot review suggestions should be treated as **advisory input** only. Apply them on a **branch**, rerun the required tests and security checks, and make sure the appropriate **owners or subject-matter reviewers** review the resulting changes. Security-sensitive work requires layered safeguards, not shortcutting governance because an AI suggested the edit.  
