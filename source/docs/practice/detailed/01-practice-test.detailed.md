@@ -9,9 +9,9 @@ B. Privacy and Security
 C. Fairness  
 D. Reliability and Safety
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**  
 **Fairness** requires AI systems to treat people equitably, avoid discriminatory outcomes, and minimize bias in data, modeling, and evaluation. Microsoft guidance stresses diverse datasets, bias measurement, mitigation techniques, and continuous monitoring to uphold **Fairness**.
 
 **Tips and Tricks:**  
@@ -35,9 +35,9 @@ B. Code with logical errors
 C. Hate speech or discriminatory language  
 D. Strong personal opinions in comments
 
-**Correct Answer(s):** A, C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, C
 
-**Explanation:**  
+</details> **Explanation:**  
 Copilot applies **content filters** to reduce harmful or inappropriate material. Prompts or completions containing **sexually explicit content** or **hate speech/discriminatory language** may be blocked, while **logical errors** and **personal opinions** are not toxicity categories.
 
 **Tips and Tricks:**  
@@ -62,9 +62,9 @@ B. Accountability
 C. Inclusiveness  
 D. Reliability and Safety
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Accountability** keeps **humans and organizations** responsible for AI outcomes, with **governance**, **oversight**, and **escalation** so people can intervene, correct errors, and own decisions rather than shifting responsibility to technology.
 
 **Tips and Tricks:**  
@@ -88,9 +88,9 @@ B. Privacy and Security
 C. Reliability and Safety  
 D. Fairness
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**  
 **Reliability and Safety** requires AI systems to **perform as intended**, be **dependable and consistent**, and **operate safely** under expected and challenging conditions. Microsoft guidance emphasizes **rigorous testing**, **validation**, **monitoring**, and **risk mitigation** to prevent harmful or unstable behavior.
 
 **Tips and Tricks:**  
@@ -114,9 +114,9 @@ B. Reliability and Safety
 C. Transparency  
 D. Maximizing Profit
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 Microsoft’s framework centers on six principles, **Fairness**, **Reliability and Safety**, **Privacy and Security**, **Inclusiveness**, **Transparency**, and **Accountability**. **Maximizing Profit** is not part of the Responsible AI principles.
 
 **Tips and Tricks:**  
@@ -140,9 +140,9 @@ B. Privacy and Security
 C. Fairness  
 D. Accountability
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Privacy and Security** focuses on **protecting data**, **preserving confidentiality**, and **preventing unauthorized access or misuse**. Guidance includes **data minimization**, **access controls**, **encryption**, **secure development practices**, and compliance with relevant **privacy regulations**.
 
 **Tips and Tricks:**  
@@ -166,9 +166,9 @@ B. Ensure AI systems are only used in enterprise settings
 C. Ensure AI systems are accessible and usable by diverse groups of people  
 D. Ensure AI systems provide maximum profit
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**  
 **Inclusiveness** focuses on designing AI so that **people of diverse abilities, backgrounds, and cultures** can access and use it. Guidance emphasizes **accessible experiences**, **representative data**, and **feedback from diverse users**.
 
 **Tips and Tricks:**  
@@ -192,9 +192,9 @@ B. Making AI system operations understandable to people
 C. Guaranteeing AI systems never malfunction  
 D. Ensuring AI systems produce open-source code
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Transparency** means providing **clear, understandable information** about how an AI system works, the **data** it uses, and its **limitations and risks**, so stakeholders can assess appropriateness and trustworthiness.
 
 **Tips and Tricks:**  
@@ -218,9 +218,9 @@ B. Transparency
 C. Reliability and Safety  
 D. Fairness
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Fairness** targets **bias in data and models**, requiring **representative datasets**, **bias measurement**, and **mitigation** to avoid discriminatory outcomes across groups.
 
 **Tips and Tricks:**  
@@ -244,9 +244,9 @@ B. To replace organizational governance with automated systems
 C. To ensure AI systems run without any human involvement  
 D. To guarantee all AI code is bug-free
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Accountability** requires **people** to own outcomes and **intervene** when AI behaves harmfully or unexpectedly, using **governance**, **escalation**, and **remediation** processes.
 
 **Tips and Tricks:**  
@@ -270,9 +270,9 @@ B. Inclusiveness
 C. Accountability  
 D. Privacy and Security
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Transparency** requires that users are **informed** when AI influences decisions that affect them, and that they receive **clear information** about how the system works and its **limitations and risks**.
 
 **Tips and Tricks:**  
@@ -296,9 +296,9 @@ B. Privacy and Security
 C. Reliability and Safety  
 D. Accountability
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Privacy and Security** focuses on **protecting personal and sensitive data**, including **confidentiality**, **access controls**, and **secure handling** to prevent exposure in AI outputs.
 
 **Tips and Tricks:**  
@@ -322,9 +322,9 @@ B. Transparency
 C. Reliability and Safety  
 D. Accountability
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Transparency** includes explaining **how the AI works**, what **data** it uses, and its **limitations and risks**, so people can make informed decisions about reliance and additional **human verification**.
 
 **Tips and Tricks:**  
@@ -348,9 +348,9 @@ B. Privacy and Security
 C. Accountability  
 D. Inclusiveness
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Inclusiveness** ensures AI technologies are designed to support **accessibility** and the needs of **people with disabilities**, using inclusive design, accessible interfaces, and feedback from diverse users.
 
 **Tips and Tricks:**  
@@ -374,9 +374,9 @@ B. Privacy and Security
 C. Fairness  
 D. Reliability and Safety
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Reliability and Safety** calls for **risk assessment**, **testing**, and **validation** prior to deployment to ensure safe, consistent performance and to minimize potential harm.
 
 **Tips and Tricks:**  
@@ -400,9 +400,9 @@ B. Fairness
 C. Accountability  
 D. Privacy and Security
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**  
 **Accountability** states that **people and organizations** remain responsible for AI outcomes, with governance, oversight, and escalation processes to correct issues and own decisions.
 
 **Tips and Tricks:**  
@@ -426,9 +426,9 @@ B. Accountability
 C. Reliability and Safety  
 D. Inclusiveness
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**  
 **Reliability and Safety** demands **pre-release testing**, **validation**, and **risk assessment** so systems perform **consistently and safely**, including **security** checks to reduce vulnerabilities.
 
 **Tips and Tricks:**  
@@ -452,9 +452,9 @@ B. Inclusiveness
 C. Accountability  
 D. Transparency
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Transparency** requires **informing users** about when and how AI influences their work, including **disclosure** that **Copilot** is generating or assisting with suggestions.
 
 **Tips and Tricks:**  
@@ -478,9 +478,9 @@ B. Privacy and Security
 C. Inclusiveness  
 D. Fairness
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Fairness** emphasizes **representative, diverse, and unbiased** training and evaluation data, plus **bias measurement** and **mitigation** to prevent discriminatory outcomes.
 
 **Tips and Tricks:**  
@@ -504,9 +504,9 @@ B. Privacy and Security
 C. Fairness  
 D. Transparency
 
-**Correct Answer(s):** D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Transparency** is violated when users **cannot understand** how AI produces outputs, which undermines **trust**, **accountability**, and appropriate **reliance**.
 
 **Tips and Tricks:**  
@@ -530,9 +530,9 @@ B. Focus only on **Transparency** by documenting that English and certain develo
 C. Rely solely on **Reliability and Safety** by adding more automated tests, without changing data or assignment logic.  
 D. Use **Accountability** only, by asking managers to manually fix any unfair assignments when they notice them.
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Fairness** addresses performance gaps and uneven outcomes, and **Inclusiveness** ensures systems work for diverse languages and users. Expanding non-English examples, validating parity across languages, and rebalancing assignment logic reduce bias in functionality and workload distribution.
 
 **Tips and Tricks:**  
@@ -556,9 +556,9 @@ B. Publishing how the AI system **works**, its **intended use**, **known limitat
 C. Listing every user’s **personal data** and identifiers to be “fully transparent.”  
 D. Releasing all **source code** and **full training datasets**, even if this exposes private data or trade secrets.
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Transparency** means clear information about **purpose**, **operation**, **limitations**, and high-level **data** and **testing** details that support trust and auditing, while **protecting sensitive data and IP**. It does not require exposing personal data or proprietary assets.
 
 **Tips and Tricks:**  
@@ -582,9 +582,9 @@ B. **Remove personal identifiers** from the codebase, **report the incident**, a
 C. Quietly **retrain** the model on a different dataset without recording what happened.  
 D. **Escalate** the misuse of customer data, **document transparently** what went wrong, **enforce or update policies** to require consent before using real customer data, and maintain an **auditable record**.
 
-**Correct Answer(s):** B, D
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, D
 
-**Explanation:**  
+</details> **Explanation:**  
 **Accountability** requires owning outcomes, escalating incidents, and documenting corrective actions. **Privacy and Security** is violated when real customer data is used without consent, remediation includes removing sensitive data, reporting, and policy enforcement to prevent recurrence.
 
 **Tips and Tricks:**  
@@ -608,9 +608,9 @@ B. **Fairness** should take precedence, equal performance matters more than cons
 C. **Transparency** is most important, documenting the data use is sufficient.  
 D. **Inclusiveness** should override privacy so more groups can be represented in training.
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Privacy and Security** requires using data only for **consented, legitimate** purposes and protecting confidentiality. With **Copilot Business/Enterprise**, **private code, prompts, and completions** are **not used** to train the base models, preserving IP and privacy. When privacy and fairness goals are in tension, pursue **fairness** via **privacy-preserving** techniques rather than expanding sensitive data without consent.
 
 **Tips and Tricks:**  
@@ -635,9 +635,9 @@ B. **Fairness** only
 C. **Privacy and Security** only  
 D. **Transparency** only
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Reliability and Safety**, secure-coding reviews and tests ensure robust, **safe** code before deployment. **Inclusiveness**, addressing **accessibility** ensures diverse users can use the UI. **Accountability**, developers are **responsible** for reviewing AI outputs, fixing issues, and **documenting** actions.
 
 **Tips and Tricks:**  
@@ -663,9 +663,9 @@ B. Fairness
 C. Transparency  
 D. Accountability
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Privacy and Security** mandates strong protections for **personal and sensitive data**, including **secure storage**, **access controls**, and compliance with **privacy laws** to prevent exposure or misuse.
 
 **Tips and Tricks:**  
@@ -689,9 +689,9 @@ B. Transparency
 C. Inclusiveness  
 D. Privacy and Security
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Reliability and Safety** requires AI systems to **avoid harmful or unsafe outputs** and to behave **predictably** under expected conditions. Offensive or unsafe content indicates insufficient **safeguards**, **evaluation**, or **risk mitigation** before release.
 
 **Tips and Tricks:**  
@@ -715,9 +715,9 @@ B. It eliminates the need for transparency
 C. It allows AI systems to serve people of different **cultures**, **abilities**, and **languages**  
 D. It ensures consistent profitability
 
-**Correct Answer(s):** C
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-**Explanation:**  
+</details> **Explanation:**  
 **Inclusiveness** ensures AI is **accessible and usable** by people with **diverse abilities, languages, and cultural contexts**, reducing exclusion and enabling broad adoption.
 
 **Tips and Tricks:**  
@@ -741,9 +741,9 @@ B. Fairness
 C. Inclusiveness  
 D. Accountability
 
-**Correct Answer(s):** A
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-**Explanation:**  
+</details> **Explanation:**  
 **Reliability and Safety** requires ensuring outputs are **safe and robust**. Teams should **validate Copilot suggestions**, enforce **secure-coding checks**, and **update review processes** to prevent unsafe recommendations.
 
 **Tips and Tricks:**  
@@ -767,9 +767,9 @@ B. Store keys in **Azure Key Vault** or **Managed HSMs** with controlled access
 C. Share keys through email with the development team  
 D. Keep keys in plaintext within version control for easy access
 
-**Correct Answer(s):** B
+<details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-**Explanation:**  
+</details> **Explanation:**  
 **Privacy and Security** emphasizes protecting **sensitive credentials** with **encryption** and **least-privilege access**. **Azure Key Vault** and **Managed HSM** provide **key management**, **access policies**, and **auditability**.
 
 **Tips and Tricks:**  
