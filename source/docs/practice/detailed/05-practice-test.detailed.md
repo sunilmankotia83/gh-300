@@ -11,7 +11,9 @@ D. **“PostgreSQL 14; given schema (tables/columns below); return top 5 custome
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Pinning **dialect/version**, **schema**, **time window**, and **required columns** steers Copilot away from generic or wrong SQL and toward a verifiable, project-ready query. High-quality SQL prompts should explicitly name the **SQL dialect and version**, provide the **relevant tables/columns**, describe the **business question and filters**, and specify the **output shape and ordering**, so Copilot generates syntactically correct, planner-friendly SQL for that engine instead of generic guesses.
 
 **Tips and Tricks:**  
@@ -42,7 +44,9 @@ D. “Store the API key in a configuration file checked into the repo; document 
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Security-sensitive prompts should **forbid hardcoding**, require **environment-based or secret-manager configuration**, and mandate **safe logging** and **fail-fast** behavior if configuration is missing. A prompt like “read API key from env var; do not hardcode; fail fast if missing; log-safe (no secrets in logs)” turns security rules into explicit constraints so Copilot proposes patterns that align with secure coding practices instead of convenient but unsafe shortcuts.
 
 **Tips and Tricks:**  
@@ -73,7 +77,9 @@ D. **“Explain this file for a new backend hire: purpose, key data flows, exter
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Defining the **audience**, **sections**, and **length** focuses the explanation on onboarding value rather than arbitrary detail. A prompt like “explain this file for a new backend hire: purpose, key data flows, external dependencies, risks; 5 bullets max” tells Copilot who the explanation is for, which topics to cover, and how concise to be, so the result is structured, skimmable, and useful for ramp-up.
 
 **Tips and Tricks:**  
@@ -104,7 +110,9 @@ D. “Write a JSON parser in any language; prioritize performance and document h
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Performance prompts must specify **language/runtime**, **space/time constraints**, **workload size**, and **mechanisms** (for example, streaming and backpressure) to avoid naive, all-in-memory solutions. A prompt like “Write a streaming JSON parser in Node.js; O(1) extra space; handle 10MB+ inputs; backpressure with streams; include benchmarks stub” fixes the runtime, sets **memory/complexity goals**, describes the **input size**, and names **streaming/backpressure** so Copilot is pushed toward an implementation that can realistically handle large payloads.
 
 **Tips and Tricks:**  
@@ -135,7 +143,9 @@ D. “Output a human-readable report of failing tests, grouped by file, suitable
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Specifying a **serialization format**, the **schema** (field names), and **forbidding extra prose** yields machine-consumable output that CI/CD can parse without post-processing. A prompt like “Output JSON array of failing tests with fields: name, file, line, message no prose” defines the format (**JSON array**), the **fields**, and the constraint **“no prose”**, so you can drop the result directly into a script or pipeline.
 
 **Tips and Tricks:**  
@@ -166,7 +176,9 @@ D. “Provide FastAPI code that replicates the current Flask service’s behavio
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Requesting a **short, ordered plan** with **risks** and **backward-compatibility** constraints clarifies the path and surfaces blockers before coding. A prompt like “Create a 5-step plan to migrate Flask → FastAPI; list risks, roll-back steps, and how to keep routes backward-compatible” separates **planning** from **implementation**, forces prioritization (5 steps), and ensures you consider **risk and rollback** before touching code.
 
 **Tips and Tricks:**  
@@ -197,7 +209,9 @@ D. **“Modify only function `parseHeader`; keep public behavior; add bounds che
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Limiting the **edit scope** to a **named function**, maintaining **behavioral contracts**, and listing **specific changes** helps prevent Copilot from refactoring unrelated parts of a large file. This aligns with refactoring guidance, where the goal is to **change structure without changing behavior**: a prompt like “modify only function `parseHeader`; keep public behavior; add bounds checks; return detailed errors” tells Copilot *where* to work, *what must not change* (public behavior), and *what to improve* (validation and error reporting).
 
 **Tips and Tricks:**  
@@ -228,7 +242,9 @@ D. “Call the API with HTTPS but skip strict certificate validation to avoid co
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Security and reliability require explicit **protocol and validation** (**HTTPS** and **TLS cert validation**), **timeouts and retry/backoff behavior**, and **safe logging** that avoids exposing secrets. A prompt like “Use HTTPS; validate TLS certs; set timeouts and retries; redact secrets in logs; handle 429/5xx with backoff” turns these into concrete requirements so Copilot generates code that is both safer and more resilient than a simple “call the API” or “fetch data fast” request.
 
 **Tips and Tricks:**  
@@ -259,7 +275,9 @@ D. **“Python 3.11; redis-py v5 only; use `Redis.from_url`; no deprecated APIs;
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Pinning the **runtime** (Python 3.11), **library and version** (**redis-py v5**), and **allowed constructor** (`Redis.from_url`), plus disallowing deprecated APIs and requiring **timeouts/health checks**, reduces the chance that Copilot will suggest methods that don’t exist or have changed in your chosen version. This turns a vague “use Redis” request into a **version-locked, verifiable stub** that should compile cleanly against your dependency set.
 
 **Tips and Tricks:**  
@@ -290,7 +308,9 @@ D. “Set up a simple command-line entry point without worrying about validation
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Specifying **language/library** (`argparse`), **flags and types**, **validation rules**, and **exit codes**, plus asking for **usage examples**, turns a vague “write a CLI” request into a concrete UX and behavior spec that Copilot can implement consistently. The prompt locks in **Python + `argparse`**, enumerates flags and allowed values, requires validation, and defines exit codes and examples, matching guidance to treat **CLI UX and behavior as part of the prompt spec**, not something Copilot invents.
 
 **Tips and Tricks:**  
@@ -321,7 +341,9 @@ D. “Redesign the schema to better model status and deploy the changes during a
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Migrations need **exact DDL**, **backfill rules**, an **online strategy** (no downtime), and a clear **rollback** path so changes can ship safely without blocking deploys or corrupting data. A prompt like “Add column `status` (ENUM) with default ‘new’; backfill from `state`; online migration (no downtime); include rollback SQL” describes the schema change, how to derive values from existing data, and how to **roll back** if needed.
 
 **Tips and Tricks:**  
@@ -352,7 +374,9 @@ D. “Enable verbose logging across the service, capturing all available fields 
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Privacy-aware logging specifies **structure**, **fields**, and **redaction rules** so logs stay machine-parsable and do not leak secrets or PII. A prompt like “Add structured JSON logs: level, event, requestId; no PII; redact tokens; include error stack; single line per event” defines the log **schema**, **correlation IDs**, **redaction behavior**, and **one-event-per-line** constraint.
 
 **Tips and Tricks:**  
@@ -383,7 +407,9 @@ D. Copilot Business, with org-level license management and policies but not full
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Enterprise** is the **enterprise-tier** plan for GitHub Enterprise Cloud organizations. It includes all **Copilot Business** capabilities (centralized management, org policies, content exclusion, Copilot audit logs) and adds **enterprise-grade features** such as deeper integration with **enterprise identity and governance**, **advanced compliance support**, and enterprise-level network controls like subscription-based routing and **proxy/allowlisting** configuration at the enterprise scope.
 
 **Tips and Tricks:**  
@@ -413,7 +439,9 @@ D. Copilot Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Business** is the first **organization-level** Copilot plan that introduces **admin controls** such as **content exclusion** and **usage visibility/reporting**. Org and enterprise admins on Business can configure content exclusion to prevent Copilot from accessing specific repositories or paths, and they can review activity and usage data for members who have Business seats. **Copilot Enterprise** includes all Copilot Business capabilities (so it also has these controls) but adds extra enterprise-grade features; however, when an exam question asks which plan includes **org-level controls like content exclusion and usage visibility**, the intended “nearest” answer is the **Business** plan, not Free or Individual.  
 
 **Tips and Tricks:**  
@@ -445,7 +473,9 @@ D. **Copilot Enterprise**
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Enterprise** is designed for **GitHub Enterprise Cloud** customers who need **advanced compliance and governance** on top of org-level controls. It includes all **Copilot Business** capabilities (centralized license management, policies, content exclusion, and Copilot audit logs) and adds **enterprise-grade features** such as deeper integration with **enterprise identity and governance**, **advanced compliance support**, and **enterprise-level network controls** like proxy/allowlisting and network routing.
 
 **Tips and Tricks:**  
@@ -477,7 +507,9 @@ D. Edit reads the repo; Agent can’t
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 With **Copilot Edits – Edit mode**, you keep tight control: you pick which files Copilot may change, review the proposed diffs, and apply them incrementally. With **Agent mode**, Copilot can **plan and execute a multi-step workflow**—it can inspect the broader project, choose relevant files, run tools or commands, and iterate until the task is complete. The practical difference is **scope and autonomy**: Edit mode is **user-scoped diffs**, while Agent mode is **autonomous orchestration** across files and tools, which in practice often feeds into changes that eventually end up in a pull request for review.
 
 **Tips and Tricks:**  
@@ -508,7 +540,9 @@ D. 1,000 characters
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 Copilot’s duplication-detection behavior (surfaced through **“suggestions matching public code”** and code referencing) uses a window of about **150 characters** of surrounding code to detect matches against public GitHub repositories. When suggestions of roughly **150 characters or more** match public code and blocking is enabled, Copilot can suppress those suggestions instead of showing them. This threshold helps avoid generating long verbatim sequences while still allowing shorter or more original suggestions.
 
 **Tips and Tricks:**  
@@ -539,7 +573,9 @@ D. Copilot Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Business** is the first plan that provides **organization-level license management and usage reporting**, along with policy controls such as content exclusion. Organization and enterprise owners on Business can assign Copilot seats, download detailed **activity and usage reports**, and configure policies for their members. **Copilot Enterprise** includes all of these capabilities and adds deeper **enterprise-grade integrations** for identity, compliance, and governance. For exam purposes, when a stem asks for organizational license management and usage reporting **without** the full set of enterprise compliance and identity integrations, **Copilot Business** is the intended answer.
 
 **Tips and Tricks:**  
@@ -570,7 +606,9 @@ D. Managing calendar invites, meeting rooms, and company-wide scheduling
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 GitHub Copilot and Copilot Chat are designed to act as an **AI pair programmer**, helping you understand and use **new APIs and libraries** by generating example calls, scaffolding common patterns, and explaining code and errors in natural language. When working with an unfamiliar SDK or framework, you can ask Copilot Chat to propose usage examples, explain parameters, and even generate tests, turning exploration of new APIs into an iterative, guided workflow.
 
 **Tips and Tricks:**  
@@ -601,7 +639,9 @@ D. Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Business** is the first **organization-level** Copilot plan that enables **centralized license management**, **usage visibility**, and **content exclusion**. Organization owners can assign Copilot seats, download activity and usage reports, and configure content exclusion rules so Copilot cannot use specific repositories, paths, file types, or patterns as context. **Copilot Enterprise** also includes these capabilities, but adds further enterprise-level identity, compliance, and network controls. For stems that mention **license management and content exclusion for organizations**, **Business** is the closest fit beyond Free or Individual.
 
 **Tips and Tricks:**  
@@ -632,7 +672,9 @@ D. Usage reporting
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Code referencing** is the mechanism Copilot uses when you allow suggestions that **match or resemble public code**. The policy for suggestions that match public code can be set to **block** these suggestions entirely, or **allow them and show references**, in which case Copilot surfaces links to the public repositories where similar code was found. This setting governs how Copilot handles **similar-but-not-exact** public-code matches, whereas long exact matches are controlled by duplication-detection filters, and content exclusion only controls which inputs Copilot can see.
 
 **Tips and Tricks:**  
@@ -663,7 +705,9 @@ D. Content exclusion is ignored
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 When **code referencing** is configured to **“Allow + show references”**, Copilot can surface suggestions that **match or resemble public code** and attach **references to public repositories** where similar code appears. This lets developers review the origin of the code and make informed decisions about attribution and licensing before accepting the suggestion. The **duplication-detection filter** still applies to long exact matches, and **content exclusion** still controls which repositories and paths Copilot can use as context.
 
 **Tips and Tricks:**  
@@ -694,7 +738,9 @@ D. Only IDE settings
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Code referencing** and related **“suggestions matching public code”** behavior are controlled by **policies at multiple scopes**. As an individual, you can configure whether to **block** suggestions that match public code or **allow + show references**, unless your setting is overridden by your **organization or enterprise**. Organization and enterprise owners can define policies that apply to all users who receive Copilot seats through them, and these higher-level policies take precedence over individual preferences. Repo-only or IDE-only scopes are not how code referencing is governed in GitHub’s model.
 
 **Tips and Tricks:**  
@@ -725,7 +771,9 @@ D. It removes excluded files from Git history
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Content exclusion** lets admins specify **which repositories, directories, file types, or patterns Copilot is allowed to access as input context**. For excluded content, Copilot will not provide inline suggestions in those files, and that content will not be used to inform suggestions in other files or in Copilot Chat responses. Content exclusion does **not** modify your Git history, disable Copilot entirely in a repo, or automatically censor outputs that merely resemble excluded code; output similarity is governed separately by **code referencing** and suggestions-matching policies.
 
 **Tips and Tricks:**  
@@ -756,7 +804,9 @@ D. Any repository contributor
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Content exclusion** is an **administrative control**. GitHub Docs state that **repository administrators, organization owners, and enterprise owners** can manage content exclusion settings, while users with the **Maintain** role can only view the configuration for a repository and cannot edit it. Outside collaborators and general contributors do not have permission to change content exclusion settings.
 
 **Tips and Tricks:**  
@@ -786,7 +836,9 @@ D. It shows or is blocked based solely on the repository’s license file.
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 When a Copilot suggestion **exactly matches** a long segment of public code (around **150+ characters**), the **duplication-detection / suggestions matching public code** filter can block that suggestion from being shown if blocking is enabled. This safeguard is based on **exactness and length**, not on the license of the public code, and it exists to reduce the risk of emitting large verbatim segments from public repositories. Similar-but-not-exact suggestions are controlled separately via **code referencing** policies.
 
 **Tips and Tricks:**  
@@ -816,7 +868,9 @@ D. Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Enterprise** unlocks **repository-aware Copilot Chat on GitHub.com** for **GitHub Enterprise Cloud** organizations. With repo-aware chat, Copilot can use the repository’s files, documentation, and code structure as context when answering questions directly on GitHub.com. This capability is **not** included in Copilot Free, Individual, or Business plans, which focus on IDE chat and more limited GitHub.com experiences. When a stem mentions **chat on GitHub.com that can reference repo files and docs**, the intended answer is **Copilot Enterprise**.
 
 **Tips and Tricks:**  
@@ -846,7 +900,9 @@ D. Available on Individual Pro/Pro+ only
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 **Copilot Knowledge Bases** are an **Enterprise-only** capability for GitHub Enterprise Cloud organizations using **Copilot Enterprise**. They allow admins to curate **trusted, org-approved sources** (such as internal docs, runbooks, and policies) and use them to **ground Copilot Chat responses** on GitHub.com and in VS Code. This is distinct from generic repo context: you explicitly choose what content to include in the Knowledge Base, giving you tighter control over what Copilot cites and how it answers questions.
 
 **Tips and Tricks:**  
@@ -876,7 +932,9 @@ D. Any organization member
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 For **Copilot Business**, **organization owners** subscribe to the plan for their organization and manage access by assigning seats to members. For **Copilot Enterprise**, **enterprise owners** subscribe at the **enterprise level**, enable Copilot for one or more organizations, and can grant licenses across the enterprise. While org owners typically handle day-to-day seat assignment, enterprise owners control **enterprise-scope purchasing and enablement**, which is what the stem is contrasting for Business vs Enterprise.
 
 **Tips and Tricks:**  
@@ -908,7 +966,9 @@ D. Code referencing
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**  
+</details> 
+
+**Explanation:**  
 The **Copilot coding agent** is the capability that can take a **high-level task**, plan **multi-step changes** across files, run tools or tests, and then **open or update a pull request** for review when it’s done. This is different from **inline suggestions**, which only complete code at the cursor, and from basic **Copilot Edits**, which apply scoped diffs that you approve in the editor. While “Agent mode” in the editor also plans and runs multi-step actions, the PR-centric workflow described in the stem best matches the **Copilot coding agent** behavior.
 
 **Tips and Tricks:**  
