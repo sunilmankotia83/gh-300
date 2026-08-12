@@ -11,7 +11,9 @@ D. GitHub Copilot Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 GitHub states that **verified** **students**, **teachers**, and **open-source maintainers** can get **Copilot Pro** for free. This is documented on the Copilot plans and licensing pages and the “Get free access” how-to. **The no-cost benefit grants Copilot Pro after verification as a student, teacher, or eligible open-source maintainer; activation is done from Account, then Billing.** **Copilot Free** is a separate, limited tier and is **not** the education/maintainer benefit.
 
 **Tips and Tricks:**  
@@ -38,7 +40,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B  
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 The **GitHub Copilot Business** plan targets organizations that need **centralized license management**, **policy control**, and **usage reporting**. It is positioned below **Copilot Enterprise** for teams that do **not** require **enterprise integrations**. **Note:** Copilot **Business includes audit logs** for organizational visibility; “do not need enterprise integrations” refers to features beyond Business, not to the absence of audit logs.
 
 **Tips and Tricks:**  
@@ -65,7 +69,9 @@ D. GitHub Copilot Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** includes **enterprise-grade integrations**, **SSO** via your organization’s or enterprise account’s identity provider, and **advanced policy and compliance controls** across organizations. **Copilot Business** also has **audit logs**, the Enterprise tier adds broader governance and enterprise-level capabilities.
 
 **Tips and Tricks:**  
@@ -94,7 +100,9 @@ D. GitHub Copilot Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Chat** is the conversational interface for **natural-language** Q&A about code, **explanations**, troubleshooting, and task guidance inside **supported IDEs** and on GitHub. It supports prompts such as **“explain this code,” “generate unit tests,” “why is this failing,”** and suggests relevant fixes and examples.
 
 **Tips and Tricks:**  
@@ -121,7 +129,9 @@ D. Coding agent
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Content exclusion** lets administrators define files, repositories, or patterns that Copilot must not use as context during generation, protecting **secrets**, **credentials**, and **proprietary code**. It is available for **Copilot Business** and **Copilot Enterprise**.
 
 **Tips and Tricks:**  
@@ -148,7 +158,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** is designed for organizations requiring enterprise-grade **compliance**, **governance**, and **security**. For **GitHub Enterprise Cloud** organizations with **SSO** configured, Copilot Enterprise **uses your org’s SSO** for access control, and surfaces **Copilot events in audit activity**, while adding **enterprise integrations** and **centralized management**. **Premium Support** with **SLAs** is a **separate, paid** offering for GitHub Enterprise customers, it is **not bundled** with Copilot Enterprise.
 
 **Tips and Tricks:**  
@@ -176,7 +188,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Business** provides **organization-level administration** including **license assignments**, **content exclusion** policies to control what Copilot can use as context, and **usage reporting** for visibility across the org. Relevant **Copilot events appear in the organization audit log**, and Business does **not** include Enterprise-only integrations such as **SSO configuration** (an Enterprise Cloud org capability that Copilot Enterprise uses).
 
 **Tips and Tricks:**  
@@ -203,7 +217,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** adds **enterprise integrations**, **audit/compliance features**, and **organization-wide governance** for GitHub Enterprise Cloud orgs. Note that **GitHub Premium Support with SLAs is a separate, paid offering** that some enterprises purchase alongside Copilot Enterprise; it is **not bundled** with any Copilot plan.
 
 **Tips and Tricks:**  
@@ -230,7 +246,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Enterprise** enables **repo-aware Chat on GitHub.com**, so it can **summarize, explain, and reference** your organization’s repository code and docs beyond IDE-only context.
 
 **Tips and Tricks:**  
@@ -256,7 +274,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** adds **enterprise integrations**, **audit/compliance features**, and **organization-wide governance** for GitHub Enterprise Cloud orgs. Note that **GitHub Premium Support with SLAs** is a **separate, paid** offering for Enterprise customers and is **not bundled** with any Copilot plan.
 
 **Tips and Tricks:**  
@@ -283,7 +303,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Business** offers **usage reporting**, **policy enforcement**, **license management**, and **audit logs** at the organization level, but **does not** include Enterprise-only integrations (for example, GitHub.com **repo-aware** Chat).
 
 **Tips and Tricks:**  
@@ -309,7 +331,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Enterprise** works with a **GitHub Enterprise Cloud** organization’s configured **IdP/SSO** for centralized access control and adds broader enterprise governance features.
 
 **Tips and Tricks:**  
@@ -335,7 +359,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Pro** is the **individual** plan, providing AI-assisted coding (including **Copilot Chat**) for a single user and **no** organization-level features like **policy controls**, **usage reporting**, or **license administration** (these exist in **Business/Enterprise**).
 
 **Tips and Tricks:**  
@@ -361,7 +387,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Usage reporting** is an **organization** capability available with **Copilot Business** and **Copilot Enterprise**. **Pro** and **Free** do not expose org-wide metrics.
 
 **Tips and Tricks:**  
@@ -387,7 +415,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Business** lets admins set **content/context exclusions** (for example, block specific repos or file paths from being used as context) and combines this with **policy** and **usage reporting**—all **without** enterprise-only integrations.
 
 **Tips and Tricks:**  
@@ -413,7 +443,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Business** is available to orgs on **GitHub Team** **and** **Enterprise Cloud**. It provides **license assignment**, **policy enforcement**, **content exclusions**, **usage reporting**, and **audit logs**—without the enterprise-only integrations of **Copilot Enterprise**.
 
 **Tips and Tricks:**  
@@ -439,7 +471,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Content/context exclusion** is available at the **organization/enterprise** tiers—**Copilot Business** and **Copilot Enterprise**—to govern what Copilot can see when generating suggestions.
 
 **Tips and Tricks:**  
@@ -465,7 +499,9 @@ D. Copilot Pro includes SLA-backed support for individuals
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Premium Support with SLAs** is **not bundled** with any Copilot plan; it is a **separate, paid** support tier for GitHub Enterprise customers that can be added alongside Copilot Enterprise.
 
 **Tips and Tricks:**  
@@ -491,7 +527,9 @@ D. Copilot Pro enables SSO for individuals
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **SSO** is configured at the **GitHub Enterprise Cloud organization/enterprise** level. **Copilot Enterprise relies on the org’s existing SSO**, it doesn’t include SSO as a Copilot-specific feature.
 
 **Tips and Tricks:**  
@@ -518,7 +556,9 @@ E. None, Copilot always requires a separate purchase
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 The **GitHub Enterprise Cloud trial includes GitHub Copilot Business** so enterprises can evaluate **org-level controls**, **policies**, and **reporting** during the trial period.
 
 **Tips and Tricks:**  
@@ -545,7 +585,9 @@ E. Outside collaborators
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, B, C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Repository administrators**, **organization owners**, and **enterprise owners** can **configure content exclusion**. **Maintain** can **view** but **not edit**. **Outside collaborators** cannot manage exclusions.
 
 **Tips and Tricks:**  
@@ -570,7 +612,9 @@ D. To auto-attribute licenses in your repository
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 Copilot can **check a suggestion** (including about **~150 surrounding characters**) against **public GitHub code**. You can **block** matching suggestions or **allow with references** that show the **origin repository and license**.
 
 **Tips and Tricks:**  
@@ -595,7 +639,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** is available to **GitHub Enterprise Cloud** organizations and adds **enterprise-grade governance** (for example, **audit visibility**, **enterprise integrations**, and **GitHub.com repository-aware Copilot Chat**). Identity such as **SSO** is configured at the **Enterprise Cloud organization** level; Copilot Enterprise **uses your org’s SSO** rather than bundling SSO in the plan.
 
 **Tips and Tricks:**  
@@ -622,7 +668,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** supports **enterprise network/proxy configurations** and provides **enterprise-grade compliance and audit capabilities** for **GitHub Enterprise Cloud** organizations. If SLA-backed response targets are required, **GitHub Premium Support** can be purchased **separately** (it is **not bundled** with any Copilot plan).
 
 **Tips and Tricks:**  
@@ -649,7 +697,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Business** provides **org-level policy controls** (for example, enabling or disabling features and models, **public code filtering**, and **content/context exclusions**) so administrators can govern how suggestions are generated across the organization. Enterprise Cloud customers can also manage these policies at the **enterprise** scope.
 
 **Tips and Tricks:**  
@@ -675,7 +725,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 Both **Business** and **Enterprise** expose **usage reporting** so admins can monitor **adoption**, **entitlements**, and **usage trends** (including downloadable activity reports) across teams and organizations.
 
 **Tips and Tricks:**  
@@ -701,7 +753,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Enterprise** adds **enterprise-only integrations** and **GitHub.com repo-aware Copilot Chat** for Enterprise Cloud orgs, on top of org admin features (including **audit logs**) available in Business. This combination supports **enterprise governance** and compliance workflows.
 
 **Tips and Tricks:**  
@@ -727,7 +781,9 @@ D. GitHub Copilot Free
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **GitHub Copilot Enterprise** adds **enterprise integrations** and **GitHub.com repository-aware Copilot Chat** for **Enterprise Cloud** orgs, on top of org-level admin features. **SSO** is configured at the **Enterprise Cloud organization** level; Copilot Enterprise **uses your org’s SSO** rather than bundling SSO in the plan.
 
 **Tips and Tricks:**  
@@ -755,7 +811,9 @@ E. GitHub Desktop
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, B, C, D
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Chat** is supported on **GitHub.com** and inside major IDEs including **VS Code**, **Visual Studio**, and **JetBrains IDEs**. **GitHub Desktop** is **not** a supported Copilot Chat surface.
 
 **Tips and Tricks:**  
@@ -782,7 +840,9 @@ E. GitHub Team (non-Copilot plan)
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** B, C
 
-</details> **Explanation:**   
+</details> 
+
+**Explanation:**   
 **Copilot Business** and **Copilot Enterprise** are **organization-managed** plans that allow admins to **assign and manage seats**. **Pro** is an **individual** subscription and **cannot** be centrally managed. **Free** has no org licensing.
 
 **Tips and Tricks:**  
