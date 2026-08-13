@@ -7,7 +7,7 @@ Which instruction most improves **SQL** prompts?
 A. “PostgreSQL 14; given schema (tables/columns below); return top 5 customers by revenue last 30 days; output columns: id, name, revenue.”  
 B. “Given schema (tables/columns below); return top 5 customers by revenue last 30 days; include window fn for rank; output columns: id, name, revenue, rank.”  
 C. “Write a SQL query using the schema below to return the top 5 customers by revenue in the last 30 days; choose any appropriate columns.”  
-D. **“PostgreSQL 14; given schema (tables/columns below); return top 5 customers by revenue last 30 days; include window fn for rank; output columns: id, name, revenue, rank.”**  
+D. “PostgreSQL 14; given schema (tables/columns below); return top 5 customers by revenue last 30 days; include window fn for rank; output columns: id, name, revenue, rank.    
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -39,7 +39,7 @@ Which prompt best directs Copilot to produce **safe code** for secrets?
 **Options:**  
 A. “Use an API key from an environment variable; if it’s missing, fall back to a default test key and log the value for debugging.”  
 B. “Get the API key from a secrets manager or environment variable; if unavailable, continue with limited functionality and log configuration details.”  
-C. **“Read API key from env var; do not hardcode; fail fast if missing; log-safe (no secrets in logs); show minimal example.”**  
+C. “Read API key from env var; do not hardcode; fail fast if missing; log-safe (no secrets in logs); show minimal example.    
 D. “Store the API key in a configuration file checked into the repo; document that it should not be shared publicly.”  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -73,7 +73,7 @@ You want Copilot to **explain** a complex file to a new teammate. Best prompt?
 A. “Explain this file in detail: what it does, how it works, and any important parts.”  
 B. “Summarize this file for engineers: main purpose, data flows, and dependencies.”  
 C. “Create a thorough explanation of this file, including architecture, flows, and risks, with no strict length limit.”  
-D. **“Explain this file for a new backend hire: purpose, key data flows, external dependencies, risks; 5 bullets max.”**  
+D. “Explain this file for a new backend hire: purpose, key data flows, external dependencies, risks; 5 bullets max.    
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -103,7 +103,7 @@ The correct prompt is the only one that simultaneously fixes the audience (“ne
 Which prompt targets a **performance-aware** implementation?
 
 **Options:**  
-A. **“Write a streaming JSON parser in Node.js; O(1) extra space; handle 10MB+ inputs; backpressure with streams; include benchmarks stub.”**  
+A. “Write a streaming JSON parser in Node.js; O(1) extra space; handle 10MB+ inputs; backpressure with streams; include benchmarks stub.    
 B. “Write a streaming JSON parser in Node.js that can handle 10MB+ inputs and include a simple benchmark.”  
 C. “Write a fast JSON parser in Node.js; it should parse 10MB+ inputs and be efficient.”  
 D. “Write a JSON parser in any language; prioritize performance and document how to test its speed.”  
@@ -137,7 +137,7 @@ Which prompt best **constrains the output format** so it can be pasted into CI?
 
 **Options:**  
 A. “List failing tests with their names and error messages in any readable format.”  
-B. **“Output JSON array of failing tests with fields: name, file, line, message no prose.”**  
+B. “Output JSON array of failing tests with fields: name, file, line, message no prose.    
 C. “Return failing tests as JSON with test name and message, plus a short explanation of likely causes.”  
 D. “Output a human-readable report of failing tests, grouped by file, suitable for pasting into chat or email.”  
 
@@ -150,7 +150,7 @@ Specifying a **serialization format**, the **schema** (field names), and **forbi
 
 **Tips and Tricks:**  
 - Name the **format** (JSON/YAML/CSV) and **schema** (exact field names and, if needed, types).  
-- Forbid prose explicitly: **“Return ONLY JSON, no explanations or comments.”**  
+- Forbid prose explicitly: **“Return ONLY JSON, no explanations or comments.    
 - If the schema is subtle, include a **tiny example object** in the prompt to lock field names and structure before generating larger outputs.
 
 > [!IMPORTANT]  
@@ -171,7 +171,7 @@ You need a **migration plan** before code. Best prompt?
 **Options:**  
 A. “Create a short plan to migrate this service from Flask to FastAPI, focusing on the main steps required to complete the migration.”  
 B. “Outline the tasks to move this service from Flask to FastAPI and then implement the new routes in FastAPI.”  
-C. **“Create a 5-step plan to migrate Flask → FastAPI; list risks, roll-back steps, and how to keep routes backward-compatible.”**  
+C. “Create a 5-step plan to migrate Flask → FastAPI; list risks, roll-back steps, and how to keep routes backward-compatible.    
 D. “Provide FastAPI code that replicates the current Flask service’s behavior, assuming breaking changes are acceptable if they simplify the migration.”  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -205,7 +205,7 @@ Which prompt reduces **overbroad refactors** in large files?
 A. “Refactor the `parseHeader` logic to make it clearer and more robust across the parser code.”  
 B. “Update the parser to handle invalid headers better and improve error messages throughout the file.”  
 C. “Tidy up `parseHeader` and related helpers, improving structure and naming wherever it seems useful.”  
-D. **“Modify only function `parseHeader`; keep public behavior; add bounds checks; return detailed errors.”**  
+D. “Modify only function `parseHeader`; keep public behavior; add bounds checks; return detailed errors.    
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -235,7 +235,7 @@ The correct prompt is the only one that constrains edits to a single named funct
 How do you prompt for **secure HTTP handling**?
 
 **Options:**  
-A. **“Use HTTPS; validate TLS certs; set timeouts and retries; redact secrets in logs; handle 429/5xx with backoff.”**  
+A. “Use HTTPS; validate TLS certs; set timeouts and retries; redact secrets in logs; handle 429/5xx with backoff.    
 B. “Call the API over HTTPS and log the full request and response body for debugging if something goes wrong.”  
 C. “Use HTTPS with a reasonable timeout and retry a few times on failure.”  
 D. “Call the API with HTTPS but skip strict certificate validation to avoid connection issues.”  
@@ -271,7 +271,7 @@ Which prompt best avoids **unsupported library calls**?
 A. “Use Redis with a standard client library and configure basic connection settings for your environment.”  
 B. “Initialize Redis in Python using redis-py and show how to set and get a key for caching.”  
 C. “Use Redis for caching in your service and choose any compatible client version that works with your stack.”  
-D. **“Python 3.11; redis-py v5 only; use `Redis.from_url`; no deprecated APIs; include connection timeout and health check.”**  
+D. “Python 3.11; redis-py v5 only; use `Redis.from_url`; no deprecated APIs; include connection timeout and health check.    
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -301,7 +301,7 @@ The correct prompt is the only one that pins the runtime (Python 3.11), locks th
 Best way to ask for a **configurable CLI tool**?
 
 **Options:**  
-A. **“Create a Python CLI with `argparse`; flags: `--input`, `--format (json|csv)`, `--verbose`; validate files; exit codes 0/2; examples.”**  
+A. “Create a Python CLI with `argparse`; flags: `--input`, `--format (json|csv)`, `--verbose`; validate files; exit codes 0/2; examples.    
 B. “Write a Python CLI that accepts some arguments and prints a result based on the input.”  
 C. “Create a CLI script in any language that processes an input file and prints output to the console.”  
 D. “Set up a simple command-line entry point without worrying about validation, exit codes, or detailed help text.”  
@@ -314,7 +314,7 @@ D. “Set up a simple command-line entry point without worrying about validation
 Specifying **language/library** (`argparse`), **flags and types**, **validation rules**, and **exit codes**, plus asking for **usage examples**, turns a vague “write a CLI” request into a concrete UX and behavior spec that Copilot can implement consistently. The prompt locks in **Python + `argparse`**, enumerates flags and allowed values, requires validation, and defines exit codes and examples, matching guidance to treat **CLI UX and behavior as part of the prompt spec**, not something Copilot invents.
 
 **Tips and Tricks:**  
-- Use a template like: **“Create a \<language\> CLI with \<library\>; flags: …; validate …; exit codes …; include usage examples/help text.”**  
+- Use a template like: **“Create a \<language\> CLI with \<library\>; flags: …; validate …; exit codes …; include usage examples/help text.    
 - List **flags**, their **types**, and any **allowed values** (for example, `--format (json|csv)`), and define when to return **exit code 0 vs 2**.  
 - Ask for **help/usage examples** so you can reuse them in `--help` output or documentation.
 
@@ -336,7 +336,7 @@ How to prompt for a **safe database migration**?
 **Options:**  
 A. “Add a new `status` column and update the application to start using it, then remove old fields later if needed.”  
 B. “Update the schema and data to support a `status` field in a way that works for your database engine.”  
-C. **“Add column `status` (ENUM) with default ‘new’; backfill from `state`; online migration (no downtime); include rollback SQL.”**  
+C. “Add column `status` (ENUM) with default ‘new’; backfill from `state`; online migration (no downtime); include rollback SQL.    
 D. “Redesign the schema to better model status and deploy the changes during a low-traffic window, accepting some downtime.”  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -369,7 +369,7 @@ Which prompt best constrains **logging** for privacy?
 **Options:**  
 A. “Add JSON logs with level and message, and include full request and response bodies to simplify debugging.”  
 B. “Add structured logs with level, event, and user details; include tokens in debug mode to help trace issues.”  
-C. **“Add structured JSON logs: level, event, requestId; no PII; redact tokens; include error stack; single line per event.”**  
+C. “Add structured JSON logs: level, event, requestId; no PII; redact tokens; include error stack; single line per event.    
 D. “Enable verbose logging across the service, capturing all available fields by default and filtering sensitive data later if needed.”  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -402,7 +402,7 @@ Which plan offers **enterprise proxy support** and integration with **advanced c
 **Options:**  
 A. Copilot Free, for individuals without governance or compliance controls  
 B. Copilot Individual (Pro/Pro+), with premium personal features only  
-C. **Copilot Enterprise**  
+C. Copilot Enterprise.    
 D. Copilot Business, with org-level license management and policies but not full enterprise compliance integrations  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -434,7 +434,7 @@ Which plan includes **organization-level** controls like **content exclusion** a
 **Options:**  
 A. Copilot Free  
 B. Copilot Individual (Pro/Pro+)  
-C. **Copilot Business**  
+C. Copilot Business.    
 D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -442,7 +442,7 @@ D. Copilot Enterprise
 </details> 
 
 **Explanation:**  
-**Copilot Business** is the first **organization-level** Copilot plan that introduces **admin controls** such as **content exclusion** and **usage visibility/reporting**. Org and enterprise admins on Business can configure content exclusion to prevent Copilot from accessing specific repositories or paths, and they can review activity and usage data for members who have Business seats. **Copilot Enterprise** includes all Copilot Business capabilities (so it also has these controls) but adds extra enterprise-grade features; however, when an exam question asks which plan includes **org-level controls like content exclusion and usage visibility**, the intended “nearest” answer is the **Business** plan, not Free or Individual.  
+**Copilot Business** is the first **organization-level** Copilot plan that introduces **admin controls** such as **content exclusion** and **usage visibility/reporting**. Org and enterprise admins on Business can configure content exclusion to prevent Copilot from accessing specific repositories or paths, and they can review activity and usage data for members who have Business seats. Copilot Enterprise** includes all Copilot Business capabilities (so it also has these controls) but adds extra enterprise-grade features; however, when an exam question asks which plan includes **org-level controls like content exclusion and usage visibility**, the intended “nearest” answer is the **Business** plan, not Free or Individual.  
 
 **Tips and Tricks:**  
 - Treat **“content exclusion + org usage/entitlement visibility + license/seat management”** as a strong signal for **Copilot Business** (and remember that **Enterprise inherits these**).  
@@ -469,7 +469,7 @@ Which plan includes **audit logs** and advanced **compliance** controls?
 A. Copilot Free  
 B. Copilot Individual (Pro/Pro+)  
 C. Copilot Business  
-D. **Copilot Enterprise**
+D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -501,7 +501,7 @@ What’s the practical difference between **Copilot Edits – Edit mode** and **
 
 **Options:**  
 A. Edit auto-merges; Agent requires reviews  
-B. **Edit = user-scoped diffs; Agent = autonomous, multi-step execution that may culminate in a PR**  
+B. Edit = user-scoped diffs; Agent = autonomous, multi-step execution that may culminate in a PR.    
 C. Edit is IDE-only; Agent is GitHub.com only  
 D. Edit reads the repo; Agent can’t  
 
@@ -534,7 +534,7 @@ What is the **minimum length** Copilot’s duplication-detection filter consider
 
 **Options:**  
 A. 50 characters  
-B. **150 characters**  
+B. 150 characters.    
 C. 500 characters  
 D. 1,000 characters  
 
@@ -568,7 +568,7 @@ Which plan provides **organizational license management** and **usage reporting*
 **Options:**  
 A. Copilot Free  
 B. Copilot Individual (Pro/Pro+)  
-C. **Copilot Business**  
+C. Copilot Business.    
 D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -576,7 +576,7 @@ D. Copilot Enterprise
 </details> 
 
 **Explanation:**  
-**Copilot Business** is the first plan that provides **organization-level license management and usage reporting**, along with policy controls such as content exclusion. Organization and enterprise owners on Business can assign Copilot seats, download detailed **activity and usage reports**, and configure policies for their members. **Copilot Enterprise** includes all of these capabilities and adds deeper **enterprise-grade integrations** for identity, compliance, and governance. For exam purposes, when a stem asks for organizational license management and usage reporting **without** the full set of enterprise compliance and identity integrations, **Copilot Business** is the intended answer.
+**Copilot Business** is the first plan that provides **organization-level license management and usage reporting**, along with policy controls such as content exclusion. Organization and enterprise owners on Business can assign Copilot seats, download detailed **activity and usage reports**, and configure policies for their members. Copilot Enterprise** includes all of these capabilities and adds deeper **enterprise-grade integrations** for identity, compliance, and governance. For exam purposes, when a stem asks for organizational license management and usage reporting **without** the full set of enterprise compliance and identity integrations, **Copilot Business** is the intended answer.
 
 **Tips and Tricks:**  
 - Map **“license management + usage/activity reporting + content exclusion”** to **Copilot Business** as the baseline org-governance plan.  
@@ -599,7 +599,7 @@ D. Copilot Enterprise
 Which of the following is an **advanced developer use case** for Copilot?
 
 **Options:**  
-A. **Helping explore unfamiliar APIs and libraries**  
+A. Helping explore unfamiliar APIs and libraries.    
 B. Automating end-to-end payroll and compliance processing for HR teams  
 C. Drafting legally binding corporate contracts without human review  
 D. Managing calendar invites, meeting rooms, and company-wide scheduling  
@@ -633,7 +633,7 @@ Which plan provides features like **license management** and **content exclusion
 
 **Options:**  
 A. Copilot Individual (Pro/Pro+)  
-B. **Copilot Business**  
+B. Copilot Business.    
 C. Copilot Enterprise  
 D. Copilot Free  
 
@@ -642,7 +642,7 @@ D. Copilot Free
 </details> 
 
 **Explanation:**  
-**Copilot Business** is the first **organization-level** Copilot plan that enables **centralized license management**, **usage visibility**, and **content exclusion**. Organization owners can assign Copilot seats, download activity and usage reports, and configure content exclusion rules so Copilot cannot use specific repositories, paths, file types, or patterns as context. **Copilot Enterprise** also includes these capabilities, but adds further enterprise-level identity, compliance, and network controls. For stems that mention **license management and content exclusion for organizations**, **Business** is the closest fit beyond Free or Individual.
+**Copilot Business** is the first **organization-level** Copilot plan that enables **centralized license management**, **usage visibility**, and **content exclusion**. Organization owners can assign Copilot seats, download activity and usage reports, and configure content exclusion rules so Copilot cannot use specific repositories, paths, file types, or patterns as context. Copilot Enterprise** also includes these capabilities, but adds further enterprise-level identity, compliance, and network controls. For stems that mention **license management and content exclusion for organizations**, **Business** is the closest fit beyond Free or Individual.
 
 **Tips and Tricks:**  
 - Associate **“license/seat management + usage visibility + content exclusion”** with **Copilot Business** (and remember **Enterprise inherits** these).  
@@ -650,7 +650,7 @@ D. Copilot Free
 - **Free/Individual** plans are **developer-focused** and don’t expose any org-level admin layer for seat assignment, usage reporting, or content exclusion.  
 
 > [!IMPORTANT]  
-> Think of **Copilot Business** as the **org governance starter pack**: license management, usage visibility, and content exclusion. **Copilot Enterprise** adds **enterprise identity, compliance, and network controls**, but does not replace Business for these basics. If a question mentions **“license management + content exclusion for organizations”** without enterprise-specific requirements, **Copilot Business** is the intended answer.
+> Think of **Copilot Business** as the **org governance starter pack**: license management, usage visibility, and content exclusion. Copilot Enterprise** adds **enterprise identity, compliance, and network controls**, but does not replace Business for these basics. If a question mentions **“license management + content exclusion for organizations”** without enterprise-specific requirements, **Copilot Business** is the intended answer.
 
 **Correct and Wrong:**  
 **Copilot Business** is correct because it is the first plan to give **organization admins** license management, usage visibility, and content exclusion controls. Copilot Enterprise also has these features but is chosen when the stem emphasizes **enterprise identity, compliance, or network controls**, while Individual and Free plans have no org-level governance at all.
@@ -666,7 +666,7 @@ Which setting governs **similar-but-not-exact** suggestions that resemble public
 
 **Options:**  
 A. Content exclusion  
-B. **Code referencing (matching public code)**  
+B. Code referencing (matching public code).    
 C. Duplication-detection filter  
 D. Usage reporting  
 
@@ -699,7 +699,7 @@ When **code referencing** is set to **“Allow + show references”**, what shou
 
 **Options:**  
 A. Copilot blocks all similar suggestions  
-B. **Copilot may show the suggestion with links to public sources**  
+B. Copilot may show the suggestion with links to public sources.    
 C. Duplication filter is disabled  
 D. Content exclusion is ignored  
 
@@ -732,7 +732,7 @@ At what **scopes** can you configure **code referencing** behavior?
 
 **Options:**  
 A. Only repository level  
-B. **Individual account and org/enterprise policies**  
+B. Individual account and org/enterprise policies.    
 C. Only enterprise level  
 D. Only IDE settings  
 
@@ -765,7 +765,7 @@ Which statement about **content exclusion** is accurate?
 
 **Options:**  
 A. It censors outputs that resemble excluded files  
-B. **It prevents excluded repos/paths/types/patterns from being used as input context**  
+B. It prevents excluded repos/paths/types/patterns from being used as input context.    
 C. It disables Copilot in the repository  
 D. It removes excluded files from Git history  
 
@@ -799,7 +799,7 @@ Which roles can **manage** content exclusion policies?
 **Options:**  
 A. Outside collaborators only  
 B. People with Maintain role  
-C. **Repository administrators, organization owners, and enterprise owners**  
+C. Repository administrators, organization owners, and enterprise owners.    
 D. Any repository contributor  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -830,7 +830,7 @@ A suggestion exactly matches ~200 characters from a public repo. What happens?
 
 **Options:**  
 A. It’s allowed as long as the public code uses a permissive license.  
-B. **It is blocked by duplication-detection filters**  
+B. It is blocked by duplication-detection filters.    
 C. It always shows with references instead of being blocked.  
 D. It shows or is blocked based solely on the repository’s license file.  
 
@@ -863,7 +863,7 @@ Which plan enables **repository-aware Copilot Chat on GitHub.com** (chat that ca
 **Options:**  
 A. Copilot Individual (Pro/Pro+)  
 B. Copilot Business  
-C. **Copilot Enterprise**  
+C. Copilot Enterprise.    
 D. Copilot Free  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -895,7 +895,7 @@ Which statement about **Copilot Knowledge Bases** is accurate?
 **Options:**  
 A. Available on all plans  
 B. Available on Business & Enterprise  
-C. **Enterprise-only curated sources for chat grounding (GitHub.com/VS Code)**  
+C. Enterprise-only curated sources for chat grounding (GitHub.com/VS Code).    
 D. Available on Individual Pro/Pro+ only  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -926,7 +926,7 @@ Who manages purchasing and **seat assignment** for **Business vs. Enterprise**?
 
 **Options:**  
 A. Developers in the IDE  
-B. **Org owners (Business); Enterprise owners (Enterprise)**  
+B. Org owners (Business); Enterprise owners (Enterprise).    
 C. Repository admins for both  
 D. Any organization member  
 
@@ -960,7 +960,7 @@ Which capability allows Copilot to perform **multi-step changes** and open a **p
 
 **Options:**  
 A. Inline suggestions  
-B. **Copilot coding agent (Agent mode)**  
+B. Copilot coding agent (Agent mode).    
 C. Content exclusion  
 D. Code referencing  
 
