@@ -5,7 +5,7 @@ On GitHub.com, what do **Copilot code reviews** and **PR summaries** provide?
 
 **Options:**  
 A. Automatically approves and merges pull requests without human review.  
-B. **AI review suggestions and natural-language summaries of changes**  
+B. AI review suggestions and natural-language summaries of changes  
 C. Formal license validation and legal sign-off for all dependencies.  
 D. Only low-level static analysis warnings without any natural-language context.  
 
@@ -39,7 +39,7 @@ How does Copilot handle suggestions that **exactly match** long segments of **pu
 **Options:**  
 A. Blocks any suggestion that resembles public code, regardless of length or settings.  
 B. Shows suggestions that match public code but only adds links to the original repositories, without blocking.  
-C. **Uses duplication-detection filters to block long exact matches**  
+C. Uses duplication-detection filters to block long exact matches  
 D. Relies solely on manual code review to detect and remove duplicated public code.  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -72,7 +72,7 @@ The correct option is the only one that matches the documented behavior: Copilot
 How can Copilot assist with unit testing?
 
 **Options:**  
-A. **By automatically generating test functions from code definitions**  
+A. By automatically generating test functions from code definitions  
 B. By running your unit test suite automatically in your CI/CD pipeline  
 C. By replacing QA engineers and manual testing processes  
 D. By creating and managing isolated test environments in the cloud  
@@ -111,7 +111,7 @@ Which Copilot plan provides **enterprise proxy support** for secure environments
 A. Copilot Free  
 B. Copilot Individual  
 C. Copilot Business  
-D. **Copilot Enterprise**  
+D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -184,7 +184,7 @@ Is GitHub Copilot supported on **GitHub Enterprise Server (GHES)**?
 
 **Options:**  
 A. Yes, Copilot runs entirely on-premises inside your GHES instance.  
-B. **No, Copilot requires the cloud service; GHES is not supported**  
+B. No, Copilot requires the cloud service; GHES is not supported  
 C. Yes, but only Copilot Chat is supported on GHES.  
 D. Yes, with a fully self-hosted Copilot model inside your data center.  
 
@@ -215,7 +215,7 @@ The correct option is the only one that matches the documentation: Copilot is **
 What can **Copilot Chat in the CLI** help you do?
 
 **Options:**  
-A. **Draft and explain shell and Git commands and their flags**  
+A. Draft and explain shell and Git commands and their flags  
 B. Execute terminal commands automatically without your confirmation  
 C. Completely replace the need for shell help and man pages  
 D. Automatically provision and configure cloud environments from the CLI  
@@ -249,7 +249,7 @@ Across environments, what’s the right way to think about **inline suggestions 
 
 **Options:**  
 A. Inline runs only in browsers, while Chat runs only inside IDEs.  
-B. **Inline = cursor-local completions; Chat = multi-turn reasoning with selectable context (files/regions)**  
+B. Inline = cursor-local completions; Chat = multi-turn reasoning with selectable context (files/regions)  
 C. Chat always writes code straight to the repository without user review.  
 D. Inline is deprecated and disabled once Chat is turned on.  
 
@@ -282,7 +282,7 @@ Do **content exclusion** policies apply **across all Copilot surfaces**?
 
 **Options:**  
 A. No, content exclusion only applies when using Copilot in Visual Studio Code.  
-B. **Yes, content exclusion defines the input context boundary for Copilot across supported surfaces**  
+B. Yes, content exclusion defines the input context boundary for Copilot across supported surfaces  
 C. No, it only affects Copilot Chat on GitHub.com, not IDEs.  
 D. No, it only applies in JetBrains IDEs and not on other clients.  
 
@@ -315,7 +315,7 @@ The correct option is the only one that reflects content exclusion as a **servic
 What Copilot plan offers AI-powered code completions for free, but with limited features compared to paid plans?
 
 **Options:**  
-A. **Copilot Free**  
+A. Copilot Free  
 B. Copilot Individual (Pro/Pro+), with full paid features for one developer  
 C. Copilot Business, with org-level governance and reporting  
 D. Copilot Enterprise, with enterprise integrations and network controls  
@@ -349,7 +349,7 @@ Which Copilot plan provides organizational visibility into **usage metrics** but
 
 **Options:**  
 A. Copilot Individual (Pro/Pro+), with no org-wide usage reporting  
-B. **Copilot Business**  
+B. Copilot Business  
 C. Copilot Enterprise, with enterprise-grade compliance integrations  
 D. Copilot Free, with no admin visibility  
 
@@ -383,7 +383,7 @@ Which Copilot plan gives **organizations** control over which repositories and c
 **Options:**  
 A. Copilot Free, with no org-level repository controls  
 B. Copilot Individual (Pro/Pro+), with only personal settings  
-C. **Copilot Business**  
+C. Copilot Business  
 D. Copilot Enterprise, which builds on Business with enterprise integrations  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -417,7 +417,7 @@ Which Copilot plan is most appropriate for developers who want **Copilot Chat** 
 
 **Options:**  
 A. Copilot Free, with limited features and no full Chat experience  
-B. **Copilot Individual (Pro/Pro+)**  
+B. Copilot Individual (Pro/Pro+)  
 C. Copilot Business, which adds org-level management and reporting  
 D. Copilot Enterprise, which adds enterprise identity and compliance  
 
@@ -449,7 +449,7 @@ The correct option is the only one that matches **“Chat + completions, no orga
 Is **Copilot Enterprise** included with GitHub Enterprise Cloud (GHEC) at **no additional cost**?
 
 **Options:**  
-A. **No, Copilot Enterprise is a separate paid subscription available to GHEC orgs**  
+A. No, Copilot Enterprise is a separate paid subscription available to GHEC orgs  
 B. Yes, it’s bundled for free with GHEC  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A  
@@ -479,7 +479,7 @@ The correct option is the only one that reflects Copilot Enterprise as a **separ
 Which Copilot feature is particularly useful for exploring **unfamiliar APIs**?
 
 **Options:**  
-A. **Copilot Chat for natural-language questions**  
+A. Copilot Chat for natural-language questions  
 B. Payroll automation workflows  
 C. GitHub Actions for CI/CD pipelines  
 D. Enterprise proxy configuration for network routing  
@@ -516,7 +516,7 @@ Which Copilot plan integrates with **enterprise authentication and SSO**?
 A. Copilot Free, with no enterprise identity integration  
 B. Copilot Individual (Pro/Pro+), with personal GitHub authentication only  
 C. Copilot Business, with org governance but no dedicated enterprise identity features  
-D. **Copilot Enterprise**  
+D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -548,7 +548,7 @@ Which Copilot plan allows **organization admins** to set **policy** for code sug
 
 **Options:**  
 A. Copilot Individual (Pro/Pro+), where only personal preferences apply  
-B. **Copilot Business**  
+B. Copilot Business  
 C. Copilot Enterprise, which can enforce or delegate policies across organizations  
 D. Copilot Free, with no policy management  
 
@@ -584,7 +584,7 @@ Which Copilot plan offers **enterprise support SLAs**?
 A. Copilot Free, with community-level help only  
 B. Copilot Individual (Pro/Pro+), with standard individual support  
 C. Copilot Business, with org controls but no enterprise support program  
-D. **Copilot Enterprise**  
+D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -615,7 +615,7 @@ Which Copilot plan is intended for teams that need **usage reporting** and **man
 **Options:**  
 A. Copilot Free, with no org reporting or management  
 B. Copilot Individual (Pro/Pro+), for single users only  
-C. **Copilot Business**  
+C. Copilot Business  
 D. Copilot Enterprise, which adds enterprise identity and compliance integrations  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -647,7 +647,7 @@ Which Copilot plan is designed for **individual developers** who do **not** need
 
 **Options:**  
 A. Copilot Free, with limited features and no full Pro experience  
-B. **Copilot Individual (Pro/Pro+)**  
+B. Copilot Individual (Pro/Pro+)  
 C. Copilot Business, for organizations that need governance and reporting  
 D. Copilot Enterprise, for enterprises with identity and compliance requirements  
 
@@ -681,7 +681,7 @@ Which Copilot plan allows organizations to configure **repository-level content 
 **Options:**  
 A. Copilot Free, which has no org-level exclusion controls  
 B. Copilot Individual (Pro/Pro+), which only has personal settings  
-C. **Copilot Business**  
+C. Copilot Business  
 D. Copilot Enterprise, which can also enforce exclusions across organizations  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -716,7 +716,7 @@ Which Copilot plan is ideal for enterprises requiring integration with **enterpr
 A. Copilot Free, with no enterprise identity integration  
 B. Copilot Individual (Pro/Pro+), with only personal sign-in  
 C. Copilot Business, which adds org governance but not enterprise identity providers  
-D. **Copilot Enterprise**  
+D. Copilot Enterprise  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -747,7 +747,7 @@ The correct option is the only one that matches the **enterprise identity + SSO*
 How does Copilot help increase **developer productivity**?
 
 **Options:**  
-A. **By automating repetitive coding tasks and accelerating prototyping**  
+A. By automating repetitive coding tasks and accelerating prototyping  
 B. By managing payroll and HR systems for the organization  
 C. By eliminating the need for IDEs and tooling entirely  
 D. By automatically generating strategic business plans  
@@ -780,7 +780,7 @@ The correct option is the only one aligned with Copilot’s documented value: he
 What can developers use Copilot for when working with **unfamiliar APIs**?
 
 **Options:**  
-A. **Generate example code and speed up learning**  
+A. Generate example code and speed up learning  
 B. Automatically produce complete, authoritative documentation for the entire API  
 C. Remove or uninstall APIs from existing projects  
 D. Handle licensing or contractual agreements for API usage  
@@ -813,7 +813,7 @@ The correct option is the only one that reflects Copilot’s realistic role: **g
 Why is it important to **validate Copilot’s output** for compliance?
 
 **Options:**  
-A. **To ensure code meets organizational and legal requirements**  
+A. To ensure code meets organizational and legal requirements  
 B. Because Copilot guarantees that all generated code is fully compliant by default  
 C. To eliminate the need for testing frameworks and quality checks  
 D. To stop GitHub from training its models on any of your code  
@@ -846,7 +846,7 @@ The correct option is the only one that acknowledges that compliance is an **org
 How can Copilot help developers write repetitive boilerplate code?
 
 **Options:**  
-A. **By automatically generating common patterns and structures**  
+A. By automatically generating common patterns and structures  
 B. By manually copying boilerplate from documentation into the codebase  
 C. By outsourcing repetitive coding tasks to external developers  
 D. By skipping the need to write any repetitive code at all  
@@ -881,7 +881,7 @@ How does Copilot assist with learning new frameworks or languages?
 
 **Options:**  
 A. By providing fully curated tutorials and long-form documentation for every framework  
-B. **By generating code snippets and examples in real time**  
+B. By generating code snippets and examples in real time  
 C. By automatically installing and configuring all required dependencies  
 D. By blocking unsupported frameworks so you cannot use them  
 
@@ -913,7 +913,7 @@ The correct option is the only one that describes Copilot’s real-time **code e
 Which scenario demonstrates Copilot helping with testing?
 
 **Options:**  
-A. **Copilot generates boilerplate unit tests from function definitions or selected code**  
+A. Copilot generates boilerplate unit tests from function definitions or selected code  
 B. Copilot deploys application code straight to production environments  
 C. Copilot replaces manual QA by executing exploratory tests on its own  
 D. Copilot reviews legal contracts for licensing and compliance  
@@ -948,7 +948,7 @@ Which of the following is NOT a Copilot developer use case?
 **Options:**  
 A. Generating code snippets and helper functions in your editor  
 B. Writing inline documentation comments and basic explanations for code  
-C. **Producing marketing slogans and non-technical advertising copy**  
+C. Producing marketing slogans and non-technical advertising copy  
 D. Assisting with unit tests and simple test scaffolds  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -980,7 +980,7 @@ Which of the following is a limitation of using Copilot for testing?
 
 **Options:**  
 A. Copilot cannot generate any unit test or test-related code at all  
-B. **Generated tests may require developer review and validation**  
+B. Generated tests may require developer review and validation  
 C. Copilot always produces perfectly correct tests with complete coverage  
 D. Copilot can only write documentation and is unable to assist with tests  
 
