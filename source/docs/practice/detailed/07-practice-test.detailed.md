@@ -4,7 +4,7 @@
 How does Copilot help in test-driven development (TDD)?
 
 **Options:**  
-A. **By generating test templates and stubs before the implementation code is written**  
+A. By generating test templates and stubs before the implementation code is written  
 B. By eliminating the need to write or run tests altogether  
 C. By deploying unfinished features directly to production environments  
 D. By authoring business documentation instead of tests  
@@ -36,7 +36,7 @@ The correct option is the only one that describes Copilot supporting **tests-fir
 How does Copilot improve developer productivity in testing?
 
 **Options:**  
-A. **By suggesting boilerplate test structures, fixtures, and assertion scaffolds quickly**  
+A. By suggesting boilerplate test structures, fixtures, and assertion scaffolds quickly  
 B. By removing the need to create or run any tests at all  
 C. By guaranteeing that all tests always pass without failures  
 D. By automatically deploying test results and code changes to production  
@@ -68,7 +68,7 @@ The correct option is the only one that describes realistic productivity gains: 
 Which scenario shows Copilot helping developers quickly prototype ideas?
 
 **Options:**  
-A. **Generating quick code drafts for new features or experiments**  
+A. Generating quick code drafts for new features or experiments  
 B. Running payroll operations and financial processing  
 C. Writing business contracts and legal agreements  
 D. Performing manual QA testing in staging environments  
@@ -100,7 +100,7 @@ The correct option is the only one where Copilot is used to **generate quick cod
 Which of the following demonstrates Copilot’s role in boosting developer productivity for testing?
 
 **Options:**  
-A. **Writing unit test templates**  
+A. Writing unit test templates  
 B. Drafting business proposals and product strategy documents  
 C. Running HR payroll and back-office operations  
 D. Designing marketing ads and campaign slogans  
@@ -136,7 +136,7 @@ Which kinds of tests can Copilot generate or scaffold?
 **Options:**  
 A. Only end-to-end tests for full production environments  
 B. Only performance and load tests for benchmarking  
-C. **Unit tests and integration test scaffolding**  
+C. Unit tests and integration test scaffolding  
 D. Legal compliance tests and regulatory assessments  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -169,7 +169,7 @@ What should developers do **after** Copilot generates test cases?
 
 **Options:**  
 A. Deploy the generated tests directly to production without any review  
-B. **Validate and refine the generated tests**  
+B. Validate and refine the generated tests  
 C. Assume that Copilot has achieved 100% functional and edge-case coverage  
 D. Ignore the generated tests entirely and always rewrite them from scratch  
 
@@ -204,7 +204,7 @@ Which of the following is **NOT** a valid way Copilot helps with testing?
 **Options:**  
 A. Generating test templates and boilerplate test methods  
 B. Suggesting assertions and example inputs for tests  
-C. **Running test frameworks automatically and reporting pass/fail status**  
+C. Running test frameworks automatically and reporting pass/fail status  
 D. Assisting in TDD by helping you write tests before implementation  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -237,7 +237,7 @@ How can Copilot help speed up debugging?
 
 **Options:**  
 A. By rewriting entire projects automatically without developer input  
-B. **By suggesting potential fixes or alternative implementations**  
+B. By suggesting potential fixes or alternative implementations  
 C. By replacing QA teams and eliminating the need for testing  
 D. By automatically executing all test suites and deployment pipelines  
 
@@ -270,7 +270,7 @@ What is an example of Copilot supporting secure coding practices?
 
 **Options:**  
 A. Suggesting hard-coded passwords, API keys, or secrets directly in source  
-B. **Generating code that follows best practices like input validation**  
+B. Generating code that follows best practices like input validation  
 C. Writing vague, incomplete, or ambiguous code with no validation  
 D. Bypassing established security libraries and controls  
 
@@ -303,7 +303,7 @@ How can Copilot support productivity in large projects?
 
 **Options:**  
 A. By automatically breaking down all large tasks into perfect sub-tasks with no input  
-B. **By generating code suggestions across multiple files using workspace context**  
+B. By generating code suggestions across multiple files using workspace context  
 C. By running full project deployments and infrastructure changes  
 D. By replacing all human developers on the project  
 
