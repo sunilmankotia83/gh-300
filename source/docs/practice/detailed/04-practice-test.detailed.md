@@ -5,7 +5,7 @@ Where can you find **Copilot/extension logs** and deeper **Electron logs** in **
 
 **Options:**  
 A. Only in GitHub.com → Your profile → Logs  
-B. **Output panel / Extensions logs folder for Copilot; Developer Tools for Electron logs**  
+B. Output panel / Extensions logs folder for Copilot; Developer Tools for Electron logs.  
 C. Git → Show Git Output (only)  
 D. Copilot Chat → /logs command  
 
@@ -35,7 +35,7 @@ How do you run **“GitHub Copilot: Collect Diagnostics”** from the **Command 
 **Options:**  
 A. Ctrl/Cmd+` → type “diagnostics copilot”  
 B. View → Explorer → Diagnostics  
-C. **Ctrl/Cmd+Shift+P → type “Collect Diagnostics” → select “GitHub Copilot: Collect Diagnostics”**  
+C. Ctrl/Cmd+Shift+P → type “Collect Diagnostics” → select “GitHub Copilot: Collect Diagnostics”.  
 D. F1 → “Open Logs” (only)
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -63,7 +63,7 @@ On which **surfaces** is **Copilot Chat** available?
 
 **Options:**  
 A. Only VS Code and Visual Studio  
-B. **GitHub.com, VS Code, Visual Studio, JetBrains IDEs, Eclipse, Xcode, GitHub Mobile, Windows Terminal**  
+B. GitHub.com, VS Code, Visual Studio, JetBrains IDEs, Eclipse, Xcode, GitHub Mobile, Windows Terminal.  
 C. Only GitHub.com  
 D. Only IDEs (no browser or mobile)
 
@@ -92,7 +92,7 @@ What’s the difference between **Copilot Edits – Edit mode** and **Agent mode
 
 **Options:**  
 A. Edit = disables approvals; Agent = requires approvals  
-B. **Edit = user-driven targeted edits; Agent = autonomous multi-step changes (can open a PR)**  
+B. Edit = user-driven targeted edits; Agent = autonomous multi-step changes (can open a PR).  
 C. Edit = chat only; Agent = inline only  
 D. Edit = repository-aware; Agent = IDE-only  
 
@@ -101,7 +101,7 @@ D. Edit = repository-aware; Agent = IDE-only
 </details> 
 
 **Explanation:**   
-**Edit mode** keeps you in control: you pick files, preview diffs, and accept changes incrementally. It is a **user-driven, targeted edit experience** where you select the scope, review suggested diffs, and apply or reject changes. **Agent mode** lets the **Copilot coding agent** decide which files and commands to run and **perform autonomous multi-step work** across files and tools, often **creating or updating pull requests** that you then review and merge.
+**Edit mode** keeps you in control: you pick files, preview diffs, and accept changes incrementally. It is a **user-driven, targeted edit experience** where you select the scope, review suggested diffs, and apply or reject changes. Agent mode** lets the **Copilot coding agent** decide which files and commands to run and **perform autonomous multi-step work** across files and tools, often **creating or updating pull requests** that you then review and merge.
 
 **Tips and Tricks:**  
 - Use **Edit** for precise, well-scoped refactors or localized changes where you want fine-grained control over diffs.  
@@ -121,7 +121,7 @@ What do **Copilot code reviews** and **PR summaries** provide on GitHub.com?
 
 **Options:**  
 A. Auto-merge PRs  
-B. **AI review suggestions and natural-language summaries of changes**  
+B. AI review suggestions and natural-language summaries of changes.  
 C. License scanning  
 D. Static code analysis only  
 
@@ -130,14 +130,14 @@ D. Static code analysis only
 </details> 
 
 **Explanation:**   
-On GitHub.com, Copilot can generate **review suggestions** and **summaries** to accelerate PR understanding. **Copilot code review** can analyze pull requests and offer **inline review comments and suggested changes**, while **Copilot PR summaries** generate **natural-language overviews of the changes** so reviewers can quickly understand scope and intent. These aids do **not** replace mandatory reviews or testing; they help reviewers focus on high-risk areas by condensing diffs and spotting potential issues.
+On GitHub.com, Copilot can generate **review suggestions** and **summaries** to accelerate PR understanding. Copilot code review** can analyze pull requests and offer **inline review comments and suggested changes**, while **Copilot PR summaries** generate **natural-language overviews of the changes** so reviewers can quickly understand scope and intent. These aids do **not** replace mandatory reviews or testing; they help reviewers focus on high-risk areas by condensing diffs and spotting potential issues.
 
 **Tips and Tricks:**  
 - Treat AI suggestions as **review input**, not authoritative truth; maintain normal **approval gates**, tests, and security checks.  
 - Use **PR summaries** to speed up triage and review prioritization, especially in large or noisy repositories with many incoming pull requests.
 
 > [!IMPORTANT]  
-> Copilot enhances but doesn’t **automate approval/merge**. **Branch protection rules**, **required reviewers**, **CI checks**, and **security scans** remain the authoritative gates that must pass before a PR is merged.
+> Copilot enhances but doesn’t **automate approval/merge**. Branch protection rules**, **required reviewers**, **CI checks**, and **security scans** remain the authoritative gates that must pass before a PR is merged.
 
 **Source:**  
 [About GitHub Copilot code review](https://docs.github.com/en/copilot/concepts/agents/code-review) (GitHub Docs)  
@@ -149,7 +149,7 @@ On GitHub.com, Copilot can generate **review suggestions** and **summaries** to 
 For **individuals**, which statements about **access and eligibility** are correct?
 
 **Options:**  
-A. **Copilot Free** is for personal use; **Pro** is paid but may be **free for verified students/teachers/maintainers**  
+A. Copilot Free** is for personal use; **Pro** is paid but may be **free for verified students/teachers/maintainers.  
 B. Pro is only for organizations  
 C. Business is required for single developers  
 D. Enterprise includes Pro seats for free  
@@ -159,14 +159,14 @@ D. Enterprise includes Pro seats for free
 </details> 
 
 **Explanation:**   
-**Copilot Free** targets individuals getting started with a **personal-use, limited-quota** plan. **Copilot Pro** (and **Pro+**) are paid individual subscriptions and **Copilot Pro** can be **free** for **verified students, teachers, and maintainers of popular open-source projects**. You do **not** need **Business** or **Enterprise** plans for a single developer using a personal GitHub account.
+**Copilot Free** targets individuals getting started with a **personal-use, limited-quota** plan. Copilot Pro** (and **Pro+**) are paid individual subscriptions and **Copilot Pro** can be **free** for **verified students, teachers, and maintainers of popular open-source projects**. You do **not** need **Business** or **Enterprise** plans for a single developer using a personal GitHub account.
 
 **Tips and Tricks:**  
 - Education/maintainer benefits unlock **Pro**, not **Free**, and not **Business/Enterprise**.  
 - Remember that eligibility for **free Pro** is **re-evaluated regularly**, so access can change if your student/teacher/maintainer status changes.
 
 > [!IMPORTANT]  
-> **Copilot Free** has **limited completions and premium requests** and is not designed for organization-managed users. **Copilot Pro / Pro+** unlock higher limits and premium models, while **education/maintainer benefits specifically grant Pro**, not Business or Enterprise seats.
+> **Copilot Free** has **limited completions and premium requests** and is not designed for organization-managed users. Copilot Pro / Pro+** unlock higher limits and premium models, while **education/maintainer benefits specifically grant Pro**, not Business or Enterprise seats.
 
 **Source:**  
 [About individual GitHub Copilot plans and benefits](https://docs.github.com/en/copilot/concepts/billing/individual-plans) (GitHub Docs)  
@@ -179,7 +179,7 @@ Who purchases and assigns seats for **Business vs. Enterprise** plans?
 
 **Options:**  
 A. Developers purchase directly in the IDE  
-B. **Org owners purchase/assign Business; Enterprise owners manage Enterprise subscriptions and seat assignment**  
+B. Org owners purchase/assign Business; Enterprise owners manage Enterprise subscriptions and seat assignment.  
 C. Repository admins purchase both  
 D. Students purchase Enterprise  
 
@@ -195,7 +195,7 @@ For **Copilot Business**, **organization owners** subscribe at the **organizatio
 - If a scenario mentions **cross-org seat management, enterprise-wide policies, or enterprise billing**, it points to **enterprise owners**, not org owners.
 
 > [!IMPORTANT]  
-> Seat management is still about assigning **Copilot seats to individual users or teams**. **Organization owners** manage seats for **org-scoped Business plans**, while **enterprise owners** manage or delegate seat assignment for **enterprise-scoped plans**, without bypassing existing organization boundaries and governance.
+> Seat management is still about assigning **Copilot seats to individual users or teams**. Organization owners** manage seats for **org-scoped Business plans**, while **enterprise owners** manage or delegate seat assignment for **enterprise-scoped plans**, without bypassing existing organization boundaries and governance.
 
 **Source:**  
 [GitHub Copilot seat assignment](https://docs.github.com/en/copilot/reference/copilot-billing/seat-assignment) (GitHub Docs)  
@@ -208,7 +208,7 @@ Which answer best captures the **Copilot plan taxonomy** and key highlights?
 
 **Options:**  
 A. Free, Team, Premium  
-B. **Free / Pro (individual), Pro+ (individual), Business (org), Enterprise (org)**  
+B. Free / Pro (individual), Pro+ (individual), Business (org), Enterprise (org).  
 C. Pro, Business, Enterprise only  
 D. Free, Team, Enterprise Server  
 
@@ -236,7 +236,7 @@ GitHub’s current plan taxonomy distinguishes **individual** plans (**Copilot F
 What’s the practical contrast in **how developers invoke** Copilot features?
 
 **Options:**  
-A. **Inline suggestions:** appear near the cursor (accept with **Tab/Enter**). **Chat:** open a chat panel and prompt (supports selections).  
+A. Inline suggestions:** appear near the cursor (accept with **Tab/Enter**). Chat:** open a chat panel and prompt (supports selections).   
 B. Both are automatically applied without user action  
 C. Only chat can generate code; inline cannot  
 D. Inline runs in the browser; chat runs only in IDEs  
@@ -246,7 +246,7 @@ D. Inline runs in the browser; chat runs only in IDEs
 </details> 
 
 **Explanation:**   
-**Inline** is a lightweight completion experience that appears as ghost text near the cursor and is accepted via keys such as **Tab/Enter**. **Chat** is invoked by opening a chat view or inline chat, then typing prompts that can use **selected code or files as context**. Both experiences run in supported IDEs, while **Copilot Chat** is also available on **GitHub.com** and **Windows Terminal**.
+**Inline** is a lightweight completion experience that appears as ghost text near the cursor and is accepted via keys such as **Tab/Enter**. Chat** is invoked by opening a chat view or inline chat, then typing prompts that can use **selected code or files as context**. Both experiences run in supported IDEs, while **Copilot Chat** is also available on **GitHub.com** and **Windows Terminal**.
 
 **Tips and Tricks:**  
 - Think **“type and accept near cursor”** for inline when you want fast completions.  
@@ -266,7 +266,7 @@ Can Copilot help **generate unit tests** in supported IDEs?
 
 **Options:**  
 A. No, only refactors are supported  
-B. **Yes, use Copilot Chat or context prompts to generate tests for selected code**  
+B. Yes, use Copilot Chat or context prompts to generate tests for selected code.  
 C. Only on Enterprise plans  
 D. Only in JetBrains IDEs  
 
@@ -295,7 +295,7 @@ Is **Windows Terminal** a supported surface for **Copilot Chat**?
 
 **Options:**  
 A. No, terminal isn’t supported  
-B. **Yes, Windows Terminal is listed among supported Copilot Chat surfaces**  
+B. Yes, Windows Terminal is listed among supported Copilot Chat surfaces.  
 C. Yes, but only on GHES  
 D. Only if you disable inline suggestions  
 
@@ -324,7 +324,7 @@ How can Copilot help with **documentation tasks** such as docstrings, README sec
 
 **Options:**  
 A. It can only generate code, not docs  
-B. **Use Copilot Chat and selection-based prompts to draft docstrings, comments, and README snippets**  
+B. Use Copilot Chat and selection-based prompts to draft docstrings, comments, and README snippets.  
 C. Docs are generated automatically on every commit  
 D. Only Enterprise plans can generate documentation  
 
@@ -353,7 +353,7 @@ How can Copilot assist with **debugging and fixing errors**?
 
 **Options:**  
 A. It automatically fixes all errors at build time  
-B. **Use Copilot Chat to explain error messages/stack traces and propose fixes or refactors**  
+B. Use Copilot Chat to explain error messages/stack traces and propose fixes or refactors.  
 C. Errors must be fixed manually; Copilot doesn’t help  
 D. Only Enterprise users can use Chat for debugging  
 
@@ -382,7 +382,7 @@ How can Copilot support a **TDD (red→green→refactor)** workflow?
 
 **Options:**  
 A. By auto-approving PRs when tests pass  
-B. **By generating test scaffolds/cases from selections and then helping refactor after tests pass**  
+B. By generating test scaffolds/cases from selections and then helping refactor after tests pass.  
 C. By disabling tests during development  
 D. By replacing the need for assertions  
 
@@ -411,7 +411,7 @@ What actually happens when you **accept an inline suggestion**?
 
 **Options:**  
 A. The code is auto-committed and pushed  
-B. **The suggestion is inserted into your editor; you decide whether to keep, edit, or discard**  
+B. The suggestion is inserted into your editor; you decide whether to keep, edit, or discard.  
 C. The change is merged to main if CI passes  
 D. An audit log entry is always generated  
 
@@ -440,7 +440,7 @@ How can Copilot help you **understand an unfamiliar file or component** in your 
 
 **Options:**  
 A. It can’t, Copilot only writes code  
-B. **Use selection/file prompts in Copilot Chat to summarize purpose, dependencies, and risks**  
+B. Use selection/file prompts in Copilot Chat to summarize purpose, dependencies, and risks.  
 C. Only repository-aware chat in Enterprise can explain files  
 D. You must upload files to a third-party site  
 
@@ -469,7 +469,7 @@ Which is the **best-crafted prompt**?
 
 **Options:**  
 A. Write a function  
-B. **Write a Python function to reverse a string using slicing**  
+B. Write a Python function to reverse a string using slicing.  
 C. Function in code  
 D. Suggest some code  
 
@@ -499,7 +499,7 @@ How do you improve **ambiguous prompts**?
 
 **Options:**  
 A. Use shorter prompts  
-B. **Provide more context and details**  
+B. Provide more context and details.  
 C. Avoid specifying language  
 D. Retry without changes  
 
@@ -529,7 +529,7 @@ Which technique most reliably boosts output quality?
 
 **Options:**  
 A. Use vague prompts  
-B. **Use detailed instructions with examples**  
+B. Use detailed instructions with examples.  
 C. Avoid comments in code  
 D. Skip specifying input or output  
 
@@ -559,7 +559,7 @@ Why does adding **examples** help?
 
 **Options:**  
 A. Examples distract the AI  
-B. **They align output with the desired style/pattern**  
+B. They align output with the desired style/pattern.  
 C. They reduce Copilot’s ability to generate code  
 D. They slow completions  
 
@@ -589,7 +589,7 @@ Why is **context** crucial in prompts?
 
 **Options:**  
 A. It slows responses  
-B. **It helps Copilot generate relevant and accurate suggestions**  
+B. It helps Copilot generate relevant and accurate suggestions.  
 C. It prevents completions  
 D. It reduces security  
 
@@ -606,7 +606,7 @@ Copilot conditions on the **surrounding code, the current file, and your prompt*
 - Build a habit of **selecting the relevant code or opening the right file** before asking a question, especially for complex refactors or bug fixes.
 
 > [!IMPORTANT]  
-> Context is one of the **highest-impact signals**. **Context + constraints** consistently outperform global prompts with no local code. Exam-wise, prefer answers that mention **nearby code, selections, or file context** over those that suggest asking Copilot “from scratch” with no context.
+> Context is one of the **highest-impact signals**. Context + constraints** consistently outperform global prompts with no local code. Exam-wise, prefer answers that mention **nearby code, selections, or file context** over those that suggest asking Copilot “from scratch” with no context.
 
 **Source:**  
 [Code suggestions with GitHub Copilot](https://docs.github.com/en/copilot/concepts/completions/code-suggestions) (GitHub Docs)  
@@ -619,7 +619,7 @@ What should you do if Copilot generates **irrelevant suggestions**?
 
 **Options:**  
 A. Stop using Copilot  
-B. **Refine or rephrase the prompt with more context**  
+B. Refine or rephrase the prompt with more context.  
 C. Use shorter prompts  
 D. Disable duplication detection  
 
@@ -649,7 +649,7 @@ Which practice helps Copilot match **project style**?
 
 **Options:**  
 A. Avoid adding comments  
-B. **Add snippets and style examples**  
+B. Add snippets and style examples.  
 C. Use vague instructions  
 D. Skip output format  
 
@@ -679,7 +679,7 @@ Which statement best describes **what Copilot relies on during inference**?
 
 **Options:**  
 A. Runtime execution of your code  
-B. **Your prompts, file contents, and surrounding code context**  
+B. Your prompts, file contents, and surrounding code context.  
 C. Web searches via Bing  
 D. Pre-stored templates  
 
@@ -709,7 +709,7 @@ What does **content exclusion** let organizations do (and why is it relevant to 
 
 **Options:**  
 A. Speed up Copilot  
-B. **Prevent specified repos/paths/file types/patterns from being used as input context**  
+B. Prevent specified repos/paths/file types/patterns from being used as input context.  
 C. Disable Copilot entirely  
 D. Publish private code  
 
@@ -726,7 +726,7 @@ D. Publish private code
 - Remember that exclusion shapes **what Copilot can read**, not how similar its outputs are to public code; that’s handled by code referencing and related policies.
 
 > [!IMPORTANT]  
-> Think **inputs vs outputs**: **Content exclusion** is an **org/enterprise governance control** that limits the **inputs** Copilot can see, starting at **Business**. **Code referencing** governs **outputs** and their similarity to public code. Exams frequently test this split, so map questions about “what Copilot can see” to **content exclusion** on Business/Enterprise plans.
+> Think **inputs vs outputs**: **Content exclusion** is an **org/enterprise governance control** that limits the **inputs** Copilot can see, starting at **Business**. Code referencing** governs **outputs** and their similarity to public code. Exams frequently test this split, so map questions about “what Copilot can see” to **content exclusion** on Business/Enterprise plans.
 
 **Source:**  
 [Content exclusion for GitHub Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/concepts/context/content-exclusion) (GitHub Docs)  
@@ -739,7 +739,7 @@ Which **Copilot plans** include **content exclusion**?
 
 **Options:**  
 A. Free and Individual  
-B. **Business and Enterprise**  
+B. Business and Enterprise.  
 C. Individual only  
 D. Free only  
 
@@ -769,7 +769,7 @@ Which prompt gives Copilot the **clearest output target**?
 
 **Options:**  
 A. “Summarize this.”  
-B. **“Summarize this function in 3 bullets for junior devs; include inputs, outputs, and one caveat.”**  
+B. “Summarize this function in 3 bullets for junior devs; include inputs, outputs, and one caveat.”.   
 C. “Explain code.”  
 D. “Write notes.”  
 
@@ -799,7 +799,7 @@ When asking Copilot to refactor code, which prompt is best?
 
 **Options:**  
 A. “Improve this.”  
-B. **“Refactor to pure functions; no side effects; keep same public API; add docstrings; return early on invalid input.”**  
+B. “Refactor to pure functions; no side effects; keep same public API; add docstrings; return early on invalid input.”.  
 C. “Make it cleaner.”  
 D. “Rewrite completely.”  
 
@@ -829,7 +829,7 @@ Which prompt best reduces **hallucinations** when generating API code?
 
 **Options:**  
 A. “Use the Foo API.”  
-B. **“Use Foo API v3; only endpoints /users/{id}, /users/search; TypeScript; fetch; no undocumented fields; include error handling for 4xx/5xx.”**  
+B. “Use Foo API v3; only endpoints /users/{id}, /users/search; TypeScript; fetch; no undocumented fields; include error handling for 4xx/5xx.”.  
 C. “Write users code.”  
 D. “Guess the latest endpoints.”  
 
@@ -859,7 +859,7 @@ You want table-driven unit tests. Which prompt is best?
 
 **Options:**  
 A. “Write tests.”  
-B. **“Generate table-driven tests in Go for Parse(), covering empty, invalid, edge lengths; include names and wantErr.”**  
+B. “Generate table-driven tests in Go for Parse(), covering empty, invalid, edge lengths; include names and wantErr.”.  
 C. “Test everything.”  
 D. “Add some asserts.”  
 
