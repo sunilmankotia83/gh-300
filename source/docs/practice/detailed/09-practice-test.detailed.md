@@ -6,7 +6,7 @@ Which task is **most appropriate** to assign to **GitHub Copilot coding agent in
 **Options:**  
 A. Designing a brand-new architecture for a mission-critical payments platform with no existing code, tests, or safety nets  
 B. Handling an active production incident involving PII exposure and complex security tradeoffs  
-C. **Updating a shared UI component library across the repo to use a new button component, running tests in the agent’s environment, and opening a PR with changes**  
+C. Updating a shared UI component library across the repo to use a new button component, running tests in the agent’s environment, and opening a PR with changes  
 D. Rewriting all pricing business logic from scratch based only on a vague one-line description  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -37,7 +37,7 @@ Which statement best describes **where and how** GitHub Copilot coding agent run
 **Options:**  
 A. It compiles and runs everything directly on each developer’s local machine using their local tools  
 B. It runs only in a fixed, shared VM that you manually provision and manage  
-C. **It uses an ephemeral development environment powered by GitHub Actions, where it can explore the repo, make changes, and run tests/linters before opening a PR**  
+C. It uses an ephemeral development environment powered by GitHub Actions, where it can explore the repo, make changes, and run tests/linters before opening a PR  
 D. It can only edit text and cannot run tests or tools at all  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -70,7 +70,7 @@ Which statement about **plan availability** for GitHub Copilot coding agent is c
 **Options:**  
 A. Coding agent is available only on Copilot Enterprise  
 B. Coding agent is available on all Copilot plans, including Copilot Free  
-C. **Coding agent is available with Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise**  
+C. Coding agent is available with Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise  
 D. Coding agent is available only on Copilot Business and Enterprise (not on individual plans)  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -101,7 +101,7 @@ You want Copilot coding agent to **build and test faster and more reliably** whe
 
 **Options:**  
 A. Ask every developer to run `npm install` locally before assigning issues to Copilot  
-B. **Add a `copilot-setup-steps.yml` file that pre-installs your project’s dependencies in the agent’s environment**  
+B. Add a `copilot-setup-steps.yml` file that pre-installs your project’s dependencies in the agent’s environment  
 C. Disable all tests so the agent doesn’t need dependencies  
 D. Create a `.gitignore` entry for `node_modules` so Copilot can infer everything automatically  
 
@@ -135,7 +135,7 @@ Which scenario best reflects **GitHub’s guidance on when *not* to assign a tas
 A. Updating CSS variables across the design system and running existing visual regression tests  
 B. Improving unit test coverage for a well-documented service with clear acceptance criteria  
 C. Refactoring a small helper module to remove duplication, with existing tests in place  
-D. **Investigating and fixing a live incident involving PII leakage and authentication failures in production**  
+D. Investigating and fixing a live incident involving PII leakage and authentication failures in production  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -169,7 +169,7 @@ Which Copilot capability is the **best fit** for this task?
 
 **Options:**  
 A. Use the Copilot coding agent in Agent mode to refactor the entire repository  
-B. **Use Copilot Edits in Edit mode on the two affected files**  
+B. Use Copilot Edits in Edit mode on the two affected files  
 C. Ask Copilot Chat to “fix logging everywhere” without specifying files  
 D. Use repository-aware chat on GitHub.com to auto-merge a PR  
 
@@ -202,7 +202,7 @@ How does **Copilot coding agent** typically operate on a task assigned from GitH
 **Options:**  
 A. It edits files directly and permanently in your local IDE without using branches or pull requests  
 B. It connects to a self-hosted GitHub Enterprise Server (GHES) instance and runs entirely on-premises  
-C. **It initializes a cloud dev environment (GitHub Actions–powered), makes changes in a branch, and drafts a pull request for review**  
+C. It initializes a cloud dev environment (GitHub Actions–powered), makes changes in a branch, and drafts a pull request for review  
 D. It automatically merges its changes to the default branch as soon as tests pass, bypassing normal review rules  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -233,10 +233,10 @@ The correct option is the only one that mentions an **ephemeral cloud environmen
 Which responsibilities remain with **developers/teams** when using Copilot coding agent? *(Choose all that apply.)*  
 
 **Options:**  
-A. **Reviewing and approving the pull request before merge**  
-B. **Ensuring tests, linters, and security scans pass for the changes**  
+A. Reviewing and approving the pull request before merge  
+B. Ensuring tests, linters, and security scans pass for the changes  
 C. Allowing the agent to auto-merge its pull requests directly into production branches as long as tests pass  
-D. **Defining safe, well-scoped tasks and issues for the agent to work on**  
+D. Defining safe, well-scoped tasks and issues for the agent to work on  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** A, B, D  
 
@@ -268,7 +268,7 @@ How do you customize the **environment** that Copilot coding agent uses when wor
 **Options:**  
 A. By editing a personal `.copilot-env.json` file in your local home directory, which the agent automatically syncs and executes in the cloud  
 B. By updating your local dev container configuration and assuming the agent will mirror that environment without any repository-side config  
-C. **By adding a `copilot-setup-steps.yaml` file that declares setup steps (tools, commands, environment) for the agent’s cloud environment**  
+C. By adding a `copilot-setup-steps.yaml` file that declares setup steps (tools, commands, environment) for the agent’s cloud environment  
 D. By setting environment variables only in the GitHub UI and ignoring any workflow files in the repository  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -300,7 +300,7 @@ Which scenario is **most appropriate** for assigning work to **Copilot coding ag
 
 **Options:**  
 A. Directly rotating production database credentials and applying schema changes in a live production environment  
-B. **Implementing a feature from a well-defined issue (with acceptance criteria), where the agent can work in a branch and open a pull request for review**  
+B. Implementing a feature from a well-defined issue (with acceptance criteria), where the agent can work in a branch and open a pull request for review  
 C. Performing manual hotfixes during a live production outage using ad-hoc shell access on production hosts  
 D. Automatically configuring enterprise SSO, audit logging, and other security-sensitive admin settings without human oversight  
 
@@ -333,7 +333,7 @@ Which task is **best suited** for GitHub Copilot **coding agent** rather than be
 **Options:**  
 A. Designing a new cross-team architecture that spans several organizations and requires months of stakeholder alignment  
 B. Leading an incident call to triage an active production outage and manually applying hotfixes in production  
-C. **Implementing a backlog item to add pagination to an existing list view, updating the API, UI, and tests, and opening a PR for review**  
+C. Implementing a backlog item to add pagination to an existing list view, updating the API, UI, and tests, and opening a PR for review  
 D. Running a brown-bag training session to teach new hires how the legacy monolith works in detail  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -366,7 +366,7 @@ How does **GitHub Copilot coding agent** execute builds and tests for a task it�
 **Options:**  
 A. It runs directly in your IDE, reusing your local tools and terminal session, and never uses GitHub Actions  
 B. It runs only on GitHub Enterprise Server (GHES), inside runners that you manage entirely on-premises  
-C. **It uses an ephemeral development environment backed by GitHub Actions runners, where it can clone the repo, make changes, and run tests and linters before updating a PR**  
+C. It uses an ephemeral development environment backed by GitHub Actions runners, where it can clone the repo, make changes, and run tests and linters before updating a PR  
 D. It edits files in your default branch on GitHub.com but cannot run any builds, tests, or other commands  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -400,7 +400,7 @@ Which statement correctly describes **who can use GitHub Copilot coding agent**?
 **Options:**  
 A. Coding agent is available only with Copilot Enterprise; Pro, Pro+, Business, and Free users cannot use it  
 B. Coding agent is available on **all** Copilot plans, including Copilot Free  
-C. **Coding agent is available with Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise**  
+C. Coding agent is available with Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise  
 D. Coding agent is available only with Copilot Business and Enterprise, and not with any individual plans  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -435,7 +435,7 @@ Your team notices that Copilot coding agent spends a lot of time **figuring out 
 **Options:**  
 A. Ask each developer to run all installs locally and push `node_modules` or `vendor` directories into the repo so the agent doesn’t need to install anything  
 B. Put your usual setup commands into a personal shell script in your home directory; the agent will automatically detect and run it  
-C. **Create a `.github/workflows/copilot-setup-steps.yml` workflow that pre-installs required tools and dependencies in the agent’s environment**  
+C. Create a `.github/workflows/copilot-setup-steps.yml` workflow that pre-installs required tools and dependencies in the agent’s environment  
 D. Disable tests in the repository’s CI so Copilot never has to run them and will always “succeed” quickly  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -470,7 +470,7 @@ Which scenario best exemplifies a task that **should not** be delegated to GitHu
 A. Cleaning up duplicated helper functions in a utility module, with good test coverage in place  
 B. Adding accessibility improvements (ARIA attributes) to a few UI components and updating snapshots  
 C. Writing missing unit tests for a well-understood service with clear acceptance criteria  
-D. **Coordinating and implementing fixes for an ongoing production incident involving leaked access tokens and repeated authentication failures**  
+D. Coordinating and implementing fixes for an ongoing production incident involving leaked access tokens and repeated authentication failures  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -507,7 +507,7 @@ You **do not** need Copilot to run tests, call tools, or discover additional fil
 
 **Options:**  
 A. Use Copilot coding agent from GitHub.com to autonomously refactor the entire service and open a PR  
-B. **Use Copilot Edits in Edit mode on just the two relevant files, then review and apply the proposed diff**  
+B. Use Copilot Edits in Edit mode on just the two relevant files, then review and apply the proposed diff  
 C. Use agent mode in your IDE so Copilot can freely edit any file in the workspace and run terminal commands  
 D. Ask Copilot Chat in Ask mode for code snippets and paste them into files manually without any diff view  
 
@@ -552,7 +552,7 @@ Which Copilot capability is designed for this **end-to-end, multi-step workflow*
 **Options:**  
 A. Inline suggestions at the cursor to manually implement the endpoint and tests in one file at a time.  
 B. Copilot Chat in a single IDE conversation to propose patches, then copy and apply them manually.  
-C. **Copilot coding agent (Agent mode) acting from the issue**  
+C. Copilot coding agent (Agent mode) acting from the issue  
 D. Repository-aware chat on GitHub.com to discuss the design without applying any code changes.  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -584,7 +584,7 @@ Which scenario is **most appropriate** for using the **Copilot coding agent**, r
 
 **Options:**  
 A. Asking “Why does this function fail?” and pasting a stack trace for Copilot Chat to explain in your IDE.  
-B. **Implementing a backlog item that requires edits across multiple services, running tests, and opening a PR**  
+B. Implementing a backlog item that requires edits across multiple services, running tests, and opening a PR  
 C. Renaming a local variable in a single file, then manually committing the change.  
 D. Generating a one-off code snippet for a small helper function you’ll paste into a file.  
 
@@ -617,7 +617,7 @@ You want to delegate a task to the **Copilot coding agent**. Which instruction g
 
 **Options:**  
 A. “Fix everything that’s wrong in this repo and refactor as needed until there are no issues left.”  
-B. **“From this issue, implement the `order-cancellation` endpoint end-to-end: update the API spec, add handler + routing, write integration tests, and open a PR when tests pass.”**  
+B. “From this issue, implement the `order-cancellation` endpoint end-to-end: update the API spec, add handler + routing, write integration tests, and open a PR when tests pass.”  
 C. “Refactor as you see fit; you decide what to change and where.”  
 D. “Make the code better and faster in general, using your judgment.”  
 
@@ -650,7 +650,7 @@ After the **Copilot coding agent** completes a task and opens a pull request, wh
 **Options:**  
 A. None, the agent’s PR can be merged without human review, because all tests are implicitly guaranteed to pass.  
 B. Only check that the PR description is formatted nicely before allowing automatic merge rules to apply.  
-C. **Review the changes, run or verify tests, and ensure the PR meets security and quality standards before merging**  
+C. Review the changes, run or verify tests, and ensure the PR meets security and quality standards before merging  
 D. Re-run the agent until it merges the PR on its own without any human approval.  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -682,7 +682,7 @@ Where are Copilot prompts and allowed context processed?
 
 **Options:**  
 A. Only on the local IDE; nothing leaves the machine, and no data is sent to any GitHub or model service.  
-B. **In the Copilot cloud service, which relays requests to the selected AI model per GitHub’s data pipeline**  
+B. In the Copilot cloud service, which relays requests to the selected AI model per GitHub’s data pipeline  
 C. On your company’s GitHub Enterprise Server only, with no Copilot cloud service involved.  
 D. Inside your CI runners, where prompts are stored and processed as part of builds.  
 
@@ -716,7 +716,7 @@ Does GitHub Copilot train on your **private code**?
 **Options:**  
 A. Yes, always your private code is automatically used to train Copilot models in all plans.  
 B. Yes, unless product telemetry is disabled at the enterprise or org level.  
-C. **No, private code is not used to train Copilot models**  
+C. No, private code is not used to train Copilot models  
 D. Only for Enterprise customers, where private code is always used for training unless they opt out.  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -747,7 +747,7 @@ What does **Content exclusion** actually do?
 
 **Options:**  
 A. Censors outputs that are similar to excluded files, but still allows those files to be used as input context.  
-B. **Prevents specified repositories/paths/file types/patterns from being used as input context**  
+B. Prevents specified repositories/paths/file types/patterns from being used as input context  
 C. Disables Copilot completely for the repository or organization.  
 D. Removes excluded files from Git history so Copilot cannot see prior versions.  
 
@@ -781,7 +781,7 @@ How does Copilot handle suggestions that **exactly match** long segments of publ
 **Options:**  
 A. Always allows long exact matches from public code, but adds a warning about possible licensing issues.  
 B. Allows or blocks long exact matches purely based on the original repository’s license.  
-C. **Uses duplication-detection filters to block long exact matches (≈150+ characters)**  
+C. Uses duplication-detection filters to block long exact matches (≈150+ characters)  
 D. Publishes any long exact matches it generates directly back to public GitHub repositories.  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -814,7 +814,7 @@ Which statement best describes **Copilot usage telemetry/metrics**?
 
 **Options:**  
 A. Copilot collects no usage data  
-B. **Telemetry aggregates activity and feature usage (e.g., suggestions, chat, agents), not a dump of your source code**  
+B. Telemetry aggregates activity and feature usage (e.g., suggestions, chat, agents), not a dump of your source code  
 C. Telemetry always includes raw file contents  
 D. Telemetry is only available to Enterprise customers  
 
@@ -849,7 +849,7 @@ Do **content exclusion** rules apply across all supported Copilot **surfaces** (
 A. No, only in VS Code  
 B. Only on GitHub.com  
 C. Only in JetBrains IDEs  
-D. **Yes, exclusion defines the input context boundary for Copilot regardless of surface**  
+D. Yes, exclusion defines the input context boundary for Copilot regardless of surface  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** D  
 
@@ -880,7 +880,7 @@ At which **scopes** can you configure **code referencing / matching public code*
 **Options:**  
 A. Only at the repo level  
 B. Only at the enterprise level  
-C. **At the individual account level and via org/enterprise policies**  
+C. At the individual account level and via org/enterprise policies  
 D. Only in IDE settings  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -912,7 +912,7 @@ Is GitHub Copilot supported on **GitHub Enterprise Server (GHES)**?
 **Options:**  
 A. Yes, Copilot runs entirely on-prem  
 B. Yes, but only chat  
-C. **No, Copilot requires the cloud service; GHES is not supported**  
+C. No, Copilot requires the cloud service; GHES is not supported  
 D. Yes, with a self-hosted model  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -944,7 +944,7 @@ Which statement about **repository-aware Copilot Chat on GitHub.com** is accurat
 **Options:**  
 A. Available to all plans by default  
 B. Requires GHES  
-C. **It’s an Enterprise capability that lets chat reference repository files/docs on GitHub.com**  
+C. It’s an Enterprise capability that lets chat reference repository files/docs on GitHub.com  
 D. It runs offline in the IDE only  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
@@ -976,7 +976,7 @@ If an **enterprise policy** enforces “Block matching public code,” can an or
 **Options:**  
 A. Yes, at the org level an organization owner can always change “Block matching public code” to “Allow” even if the enterprise enforces it.  
 B. Yes, at the repo level repo admins can override an enforced enterprise policy for their specific repositories.  
-C. **No, enterprise-enforced policies take precedence**  
+C. No, enterprise-enforced policies take precedence  
 D. Only for public repositories orgs can override enforcement for private repos but not public ones.  
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C  
