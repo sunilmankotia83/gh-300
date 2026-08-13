@@ -121,7 +121,7 @@ Prompts (plus any **allowed context**) are sent to the **GitHub Copilot service*
 **Options:**  
 A. Yes, always  
 B. Yes, unless you disable telemetry  
-C. **No, private code, prompts, and completions are not used to train Copilot models**  
+C. No, private code, prompts, and completions are not used to train Copilot models**  
 D. Only for Enterprise organizations
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -231,7 +231,7 @@ Which is a **common developer use case** for GitHub Copilot?
 
 **Options:**  
 A. Replacing your SCM server  
-B. **Explaining code or generating unit tests** inside your IDE  
+B. Explaining code or generating unit tests** inside your IDE  
 C. Running your CI pipelines  
 D. Hosting container registries
 
@@ -260,7 +260,7 @@ Which GitHub Copilot plan is **included by default** with **GitHub Enterprise Cl
 **Options:**  
 A. Copilot Enterprise  
 B. Copilot Business  
-C. **None, Copilot plans are separate add-ons**  
+C. None, Copilot plans are separate add-ons**  
 D. Copilot Pro
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -288,7 +288,7 @@ Who benefits most from **GitHub Copilot Free**?
 
 **Options:**  
 A. Enterprises that need audit logs and policy controls  
-B. **Individuals getting started** with Copilot for **personal use**  
+B. Individuals getting started** with Copilot for **personal use**  
 C. Organization admins who need usage reporting  
 D. Students or teachers who need Copilot **Pro** at no cost
 
@@ -345,7 +345,7 @@ Does GitHub Copilot **guarantee** that generated code is always correct and secu
 **Options:**  
 A. Yes, Copilot guarantees security  
 B. Yes, Copilot guarantees correctness  
-C. **No, developers must review and test suggestions**  
+C. No, developers must review and test suggestions**  
 D. No, but Copilot automatically fixes insecure code
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -401,7 +401,7 @@ In **VS Code**, which built-in action helps you gather logs and diagnostics for 
 **Options:**  
 A. GitHub Copilot: Export Telemetry  
 B. Developer: Open Runtime Console  
-C. **GitHub Copilot: Collect Diagnostics**  
+C. GitHub Copilot: Collect Diagnostics**  
 D. GitHub Copilot: Reset Extension Cache
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -428,7 +428,7 @@ Which of the following is **not** a valid, current **Copilot plan name**?
 **Options:**  
 A. Copilot Free  
 B. Copilot Pro+  
-C. **Copilot Premium**  
+C. Copilot Premium**  
 D. Copilot Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -456,7 +456,7 @@ Where is GitHub Copilot **not available**?
 **Options:**  
 A. GitHub Enterprise Cloud  
 B. GitHub.com  
-C. **GitHub Enterprise Server (GHES)**  
+C. GitHub Enterprise Server (GHES)**  
 D. Visual Studio Code
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -483,7 +483,7 @@ Which Copilot **admin control** limits what content the models can access as **i
 
 **Options:**  
 A. Code referencing  
-B. **Content exclusion**  
+B. Content exclusion**  
 C. Prompt engineering  
 D. Telemetry retention
 
@@ -511,7 +511,7 @@ When **matching public code** controls are enabled, about how much surrounding c
 
 **Options:**  
 A. ~50 characters  
-B. **~150 characters**  
+B. ~150 characters**  
 C. ~300 characters  
 D. The entire file
 
@@ -540,7 +540,7 @@ When an **enterprise policy** enforces a Copilot setting (for example, “block 
 **Options:**  
 A. Override it at the organization level  
 B. Override it at the repository level  
-C. **Not override it, enterprise-enforced policies take precedence**  
+C. Not override it, enterprise-enforced policies take precedence**  
 D. Override it for public repos only
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -568,7 +568,7 @@ Is **GitHub Copilot available in the command line**, and what does it help with?
 
 **Options:**  
 A. No, Copilot is IDE-only  
-B. **Yes, via Copilot in the CLI for drafting/explaining commands**  
+B. Yes, via Copilot in the CLI for drafting/explaining commands**  
 C. Yes, only for Enterprise plans  
 D. Yes, if GHES is enabled
 
@@ -596,7 +596,7 @@ How does **Content exclusion** differ from a **.gitignore** file?
 
 **Options:**  
 A. Both prevent files from being pushed to GitHub  
-B. **Content exclusion limits what Copilot can use as input context; .gitignore controls what Git tracks**  
+B. Content exclusion limits what Copilot can use as input context; .gitignore controls what Git tracks**  
 C. Content exclusion blocks outputs similar to excluded files  
 D. .gitignore disables Copilot on ignored files
 
@@ -624,7 +624,7 @@ At which **scopes** can **code referencing / “Suggestions matching public code
 
 **Options:**  
 A. Only at the IDE level  
-B. **At the individual account level and via organization/enterprise policies**  
+B. At the individual account level and via organization/enterprise policies**  
 C. Only at the repository level  
 D. Only at the enterprise level
 
@@ -653,7 +653,7 @@ If an **enterprise policy** restricts Copilot to a specific **set of AI models/s
 
 **Options:**  
 A. Choose any model/surface regardless of enterprise policy  
-B. **Configure org settings only within the enterprise-allowed set**  
+B. Configure org settings only within the enterprise-allowed set**  
 C. Override enterprise policy at the repo level  
 D. Disable enterprise policy from the org settings page
 
@@ -681,7 +681,7 @@ Which GitHub Copilot capability can **autonomously make multi-step code changes*
 
 **Options:**  
 A. Copilot Chat inline replies  
-B. **Copilot coding agent**  
+B. Copilot coding agent**  
 C. Content exclusion  
 D. Code referencing / matching public code
 
@@ -711,7 +711,7 @@ Which statement about **Copilot Knowledge Bases** is accurate?
 **Options:**  
 A. Available on all Copilot plans  
 B. Available on Business and Enterprise  
-C. **Enterprise-only: use curated docs as chat context on GitHub.com/VS Code**  
+C. Enterprise-only: use curated docs as chat context on GitHub.com/VS Code**  
 D. Available on Pro+ and Enterprise
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -738,7 +738,7 @@ At which **scopes** can **code referencing / “Suggestions matching public code
 
 **Options:**  
 A. Only in IDE settings  
-B. **At the individual account level and via organization/enterprise policies**  
+B. At the individual account level and via organization/enterprise policies**  
 C. Only at the repository level  
 D. Only at the enterprise level
 
@@ -768,7 +768,7 @@ Which **targets** can be specified in **Content exclusion** rules?
 **Options:**  
 A. Only repositories  
 B. Repositories and branches  
-C. **Repositories, paths/directories, file types, and pattern-based rules**  
+C. Repositories, paths/directories, file types, and pattern-based rules**  
 D. Only file extensions
 
 <details> <summary><strong>Show Answer</strong></summary> **Correct Answer(s):** C
@@ -795,7 +795,7 @@ Which statement best describes **repository-aware Copilot Chat on GitHub.com**?
 
 **Options:**  
 A. It is available to all plans by default  
-B. **It’s an Enterprise capability that lets chat reference repository files/docs on GitHub.com**  
+B. It’s an Enterprise capability that lets chat reference repository files/docs on GitHub.com**  
 C. It runs offline using the IDE only  
 D. It requires GHES
 
@@ -824,7 +824,7 @@ In **VS Code**, where do you enable or disable **Copilot inline suggestions** gl
 
 **Options:**  
 A. File → Preferences → Keyboard Shortcuts → GitHub  
-B. **Settings → Extensions → GitHub Copilot (Inline Suggest: Enable / Enable for [Language])**  
+B. Settings → Extensions → GitHub Copilot (Inline Suggest: Enable / Enable for [Language])**  
 C. Source Control → Git → Copilot  
 D. Terminal → Integrated → Copilot
 
